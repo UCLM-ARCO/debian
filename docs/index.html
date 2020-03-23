@@ -1,10 +1,54 @@
 <html>
   <head>
-    <title>ARCO Debian repository</title>
+    <style type="text/css">
+      .console {
+          font-size: 90%;
+          padding: 20px;
+          margin: 1em 0px;
+          background-color: #ddd;
+          display: block;
+          font-family: monospace;
+          clear: left;
+          overflow: auto;
+      }
+      .hide {
+          font-size: 60%;
+          position:absolute;
+          right:8px;
+          bottom:8px;
+          color: #ddd;
+          text-decoration: none;
+               }
+    </style>
   </head>
-  <body>
-    <h1>ARCO Debian repository</h1>
 
-    testingg
+  <body style="margin: 30px 20%; font-size: large; font-family: Helvetica, Sans-Serif">
+    <h1>ARCO Debian package repository</h1>
+
+    To use this package repository, execute the commands bellow:
+
+    <pre class="console">
+      $ sudo su
+      # echo "deb http://pike.esi.uclm.es/arco sid main" > /etc/apt/sources.list.d/pike.list
+      # apt-get update
+      # apt-get install arco-archive-keyring </pre>
+
+    or just:
+
+    <pre class="console">
+      $ wget -qO- http://pike.esi.uclm.es/add-pike-repo.sh | sudo sh </pre>
+
+    To import apt key only:
+
+    <pre class="console">
+      $ sudo apt-key adv --fetch-keys http://pike.esi.uclm.es/arco/key.asc </pre>
+
+    or
+
+    <pre class="console">
+      $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D917ABDD28380433 </pre>
+
+
+    <a class="hide" href="http://pike.esi.uclm.es:8000/services.html">A</a>
   </body>
 </html>
