@@ -1,0 +1,230 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: update apt
+      apt: update_cache=yes
+
+    - name: install depends
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - reprepro
+        - gnupg
+
+    - name: dir /vagrant/shared
+      file:
+        path: /vagrant/shared
+        state: directory
+        mode: '0777'
+
+    - name: dir /vagrant/shared/conf
+      file:
+        path: /vagrant/shared/conf
+        state: directory
+        owner: vagrant
+
+    - name: conf/distributions
+      copy:
+        dest: /vagrant/shared/conf/distributions
+        content: |
+          Origin: ARCO Research Group
+          Label: ARCO
+          Suite: stable
+          Codename: stable
+          Architectures: i386 amd64 armhf source
+          Components: main non-free
+          Description: ARCO repository
+          SignWith: arco.uclm@gmail.com
+          Pull: stable-pull
+
+          Origin: ARCO Research Group
+          Label: ARCO
+          Suite: unstable
+          Codename: sid
+          Architectures: i386 amd64 armhf source
+          Components: main non-free
+          Description: ARCO repository
+          SignWith: arco.uclm@gmail.com
+          Uploaders: uploaders
+
+          Origin: ARCO Research Group
+          Label: ARCO
+          Suite: experimental
+          Codename: experimental
+          Architectures: i386 amd64 armhf source
+          Components: main non-free
+          Description: ARCO repository
+          SignWith: arco.uclm@gmail.com
+
+          Origin: ARCO Research Group
+          Label: ARCO
+          Suite: archive
+          Codename: archive
+          Architectures: i386 amd64
+          Components: main
+          Description: ARCO repository for static packages
+
+    - name: conf/incoming
+      copy:
+        dest: /vagrant/shared/conf/incoming
+        content: |
+          Name: sid-process
+          IncomingDir: incoming
+          TempDir: /tmp
+          Default: sid
+          Allow: unstable>sid UNRELEASED>sid experimental>experimental
+          Cleanup: on_deny on_error unused_files
+          Permit: unused_files
+
+    - name: conf/pulls
+      copy:
+        dest: /vagrant/shared/conf/pulls
+        content: |
+          Name: stable-pull
+          From: sid
+          Components: main
+          Architectures: amd64 i386 armhf source
+          FilterList: purge ../packages.old
+
+    - name: conf/uploaders
+      copy:
+        dest: /vagrant/shared/conf/uploaders
+        content: |
+          # david.villa
+          allow * by key 201B8868
+          allow * by key C7343A71
+
+          # oscar.acena
+          allow * by key 18F46E9A
+          allow * by key FE6EF5B9
+
+          # felix.villanueva
+          allow * by key 98EE8D0B
+
+          # ana.rubio
+          allow * by key 11622BED
+
+          # cristian.trapero
+          allow * by key 11BF041F
+
+          # jose.mota
+          allow * by key DCF71E29
+
+          # end
+      register: uploaders
+
+    - name: dir /vagrant/shared/incoming
+      file:
+        path: /vagrant/shared/incoming
+        state: directory
+        owner: vagrant
+
+    - name: dir /vagrant/shared/db
+      file:
+        path: /vagrant/shared/db
+        state: directory
+        owner: vagrant
+
+    - name: dir /vagrant/shared/pool
+      file:
+        path: /vagrant/shared/pool
+        state: directory
+        owner: vagrant
+
+    - name: dir /vagrant/shared/dists
+      file:
+        path: /vagrant/shared/dists
+        state: directory
+        owner: vagrant
+
+    - name: .gnupg
+      file:
+        path: /home/vagrant/.gnupg
+        state: directory
+        mode: 0700
+        owner: vagrant
+        group: vagrant
+
+    - name: .gnupg/gpg.conf
+      copy:
+        dest: /home/vagrant/.gnupg/gpg.conf
+        mode: 0600
+        owner: vagrant
+        content: |
+          keyserver hkp://keys.gnupg.net
+          personal-digest-preferences SHA256
+          cert-digest-algo SHA256
+          digest-algo SHA256
+          default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+    - name: .gnupg/trustdb.gpg
+      copy:
+        src: trustdb.gpg
+        dest: /home/vagrant/.gnupg/trustdb.gpg
+        owner: vagrant
+        mode: 0600
+
+    - name: .gnupg/secring.gpg
+      copy:
+        src: secring.gpg
+        dest: /home/vagrant/.gnupg/secring.gpg
+        owner: vagrant
+        mode: 0600
+
+    - name: .gnupg/puring.gpg
+      copy:
+        src: pubring.gpg
+        dest: /home/vagrant/.gnupg/puring.gpg
+        owner: vagrant
+        mode: 0600
+
+    - name: creates key.asc
+      shell:
+        cmd: gpg --armor --export arco.uclm@gmail.com > /vagrant/shared/key.asc
+        creates: /vagrant/shared/key.asc
+      become: yes
+      become_user: vagrant
+
+    - name: process.sh
+      copy:
+        dest: /home/vagrant/process.sh
+        mode: 0755
+        owner: vagrant
+        content: |
+          #!/bin/bash
+          cd /vagrant/shared  && reprepro -V processincoming sid-process
+
+    - name: uploaders keys
+      shell: |
+        for key in $(grep key /vagrant/shared/conf/uploaders | awk '{print $5}'); do
+            gpg --keyserver pgp.key-server.io --recv $key
+        done
+      become: yes
+      become_user: vagrant
+      when: uploaders.changed
+
+    # - name: stable-pull.py
+    #   copy:
+    #     dest: /vagrant/shared/stable-pull.py
+    #     content: |
+    #       import os, time, glob
+
+    #       now = time.time()
+
+    #       delay     = 7*24*60*60 # a week
+    #       threshold = 1
+
+    #       packages = []
+    #       for p in glob.glob('/vagrant/shared/pool/*/*/*/*.deb'):
+    #           f = file(p,'r')
+    #           diff = now - os.fstat(f.fileno())[-1]
+    #           if int(diff/delay) >= threshold:
+    #             packages.append(os.path.basename(p.split('_')[0]))
+
+    #           f.close()
+
+    #       f = file('/vagrant/shared/packages.old', 'w')
+    #       for p in packages:
+    #           f.write('%s\t\tinstall\n' % p)
