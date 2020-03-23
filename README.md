@@ -42,4 +42,4 @@ export DEBSIGN_KEYID=<your gpg key-id>
 export DEBREPO_URL=vagrant@debrepo/shared
 ```
 
-* New `ian` generates a `dupload.conf` file to upload the package to the vm.
+* Using that, `ian` generates a `dupload.conf` to upload the package to the vm.

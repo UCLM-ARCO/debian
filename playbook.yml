@@ -113,7 +113,6 @@
           allow * by key DCF71E29
 
           # end
-      register: uploaders
 
     - name: dir /shared/incoming
       file:
@@ -202,15 +201,15 @@
         owner: vagrant
         mode: 0755
         content: |
+          #!/bin/bash --
           for key in $(grep key /shared/conf/uploaders | awk '{print $5}'); do
               gpg --keyserver pgp.key-server.io --recv $key
           done
 
     - name: exec uploaders keys script
-      command: /home/vagrant/get-uploaders-keys
+      command: /home/vagrant/get-uploaders-keys.sh
       become: yes
       become_user: vagrant
-      when: uploaders.changed
 
 
     # - name: stable-pull.py
