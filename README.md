@@ -7,11 +7,11 @@ Debian packages are at: <https://uclm-arco.github.io/debian/>
 
 * To upload debian packages clone this repository:
 
-    $ git clone git@github.com:UCLM-ARCO/debian.git
+    john@laptop:~/repos$ git clone git@github.com:UCLM-ARCO/debian.git arco-debian
 
 * Start the vagrant box included:
 
-    $ vagrant up
+    john@laptop:~/repos/arco-debian$ vagrant up
 
 * Configure your ~/.ssh/config like this:
 
