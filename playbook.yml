@@ -196,14 +196,22 @@
           #!/bin/bash
           cd /shared  && reprepro -V processincoming sid-process
 
-    - name: uploaders keys
-      shell: |
-        for key in $(grep key /shared/conf/uploaders | awk '{print $5}'); do
-            gpg --keyserver pgp.key-server.io --recv $key
-        done
+    - name: get uploaders keys script
+      copy:
+        dest: /home/vagrant/get-uploaders-keys.sh
+        owner: vagrant
+        mode: 0755
+        content: |
+          for key in $(grep key /shared/conf/uploaders | awk '{print $5}'); do
+              gpg --keyserver pgp.key-server.io --recv $key
+          done
+
+    - name: exec uploaders keys script
+      command: /home/vagrant/get-uploaders-keys
       become: yes
       become_user: vagrant
       when: uploaders.changed
+
 
     # - name: stable-pull.py
     #   copy:
