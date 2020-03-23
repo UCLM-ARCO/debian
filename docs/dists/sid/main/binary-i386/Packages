@@ -1,5 +1,5 @@
 Package: ian
-Version: 0.20200323.11-1
+Version: 0.20200323.13-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 83
@@ -10,11 +10,11 @@ Replaces: arco-devel (<< 0.20141029-1)
 Homepage: https://bitbucket.org/DavidVilla/ian
 Priority: optional
 Section: shells
-Filename: pool/main/i/ian/ian_0.20200323.11-1_all.deb
-Size: 19840
-SHA256: bad19f1d7221c2c900396476926a59e979e9d825ec73ba918a692ef3a7ee08a9
-SHA1: 4df7a617bbc57938f330795ae6f0418ef10067f4
-MD5sum: f891bcfafccd34ef58576072cd210647
+Filename: pool/main/i/ian/ian_0.20200323.13-1_all.deb
+Size: 19856
+SHA256: 219f235dbcbfe790fdbacd70cd9ecc8675cb15bc49622bc289acd7325887604f
+SHA1: 23e73682d9a310523e08106eefcf47589ca95f8b
+MD5sum: 416ab47056697fd42bc6b054cdf48869
 Description: command line helper to maintain Debian packages
  ian is a helper to simplify and assist to the maintainer in the using
  of Debian packaging  tools. It can create or get orig tarball, install

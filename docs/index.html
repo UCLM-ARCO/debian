@@ -29,26 +29,9 @@
 
     <pre class="console">
       $ sudo su
-      # echo "deb http://pike.esi.uclm.es/arco sid main" > /etc/apt/sources.list.d/pike.list
-      # apt-get update
-      # apt-get install arco-archive-keyring </pre>
+      # apt-key adv --fetch-keys https://uclm-arco.github.io/debian/key.asc
+      # echo "deb https://uclm-arco.github.io/debian/ sid main" > /etc/apt/sources.list.d/arco.list
+      # apt-get update </pre>
 
-    or just:
-
-    <pre class="console">
-      $ wget -qO- http://pike.esi.uclm.es/add-pike-repo.sh | sudo sh </pre>
-
-    To import apt key only:
-
-    <pre class="console">
-      $ sudo apt-key adv --fetch-keys http://pike.esi.uclm.es/arco/key.asc </pre>
-
-    or
-
-    <pre class="console">
-      $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D917ABDD28380433 </pre>
-
-
-    <a class="hide" href="http://pike.esi.uclm.es:8000/services.html">A</a>
   </body>
 </html>
