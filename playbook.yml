@@ -13,21 +13,21 @@
         - reprepro
         - gnupg
 
-    - name: dir /vagrant/shared
+    - name: link for shared
       file:
-        path: /vagrant/shared
-        state: directory
-        mode: '0777'
+        src: /vagrant/docs
+        dest: /shared
+        state: link
 
-    - name: dir /vagrant/shared/conf
+    - name: dir /shared/conf
       file:
-        path: /vagrant/shared/conf
+        path: /shared/conf
         state: directory
         owner: vagrant
 
     - name: conf/distributions
       copy:
-        dest: /vagrant/shared/conf/distributions
+        dest: /shared/conf/distributions
         content: |
           Origin: ARCO Research Group
           Label: ARCO
@@ -68,7 +68,7 @@
 
     - name: conf/incoming
       copy:
-        dest: /vagrant/shared/conf/incoming
+        dest: /shared/conf/incoming
         content: |
           Name: sid-process
           IncomingDir: incoming
@@ -80,7 +80,7 @@
 
     - name: conf/pulls
       copy:
-        dest: /vagrant/shared/conf/pulls
+        dest: /shared/conf/pulls
         content: |
           Name: stable-pull
           From: sid
@@ -90,7 +90,7 @@
 
     - name: conf/uploaders
       copy:
-        dest: /vagrant/shared/conf/uploaders
+        dest: /shared/conf/uploaders
         content: |
           # david.villa
           allow * by key 201B8868
@@ -115,27 +115,27 @@
           # end
       register: uploaders
 
-    - name: dir /vagrant/shared/incoming
+    - name: dir /shared/incoming
       file:
-        path: /vagrant/shared/incoming
+        path: /shared/incoming
         state: directory
         owner: vagrant
 
-    - name: dir /vagrant/shared/db
+    - name: dir /shared/db
       file:
-        path: /vagrant/shared/db
+        path: /shared/db
         state: directory
         owner: vagrant
 
-    - name: dir /vagrant/shared/pool
+    - name: dir /shared/pool
       file:
-        path: /vagrant/shared/pool
+        path: /shared/pool
         state: directory
         owner: vagrant
 
-    - name: dir /vagrant/shared/dists
+    - name: dir /shared/dists
       file:
-        path: /vagrant/shared/dists
+        path: /shared/dists
         state: directory
         owner: vagrant
 
@@ -182,8 +182,8 @@
 
     - name: creates key.asc
       shell:
-        cmd: gpg --armor --export arco.uclm@gmail.com > /vagrant/shared/key.asc
-        creates: /vagrant/shared/key.asc
+        cmd: gpg --armor --export arco.uclm@gmail.com > /shared/key.asc
+        creates: /shared/key.asc
       become: yes
       become_user: vagrant
 
@@ -194,11 +194,11 @@
         owner: vagrant
         content: |
           #!/bin/bash
-          cd /vagrant/shared  && reprepro -V processincoming sid-process
+          cd /shared  && reprepro -V processincoming sid-process
 
     - name: uploaders keys
       shell: |
-        for key in $(grep key /vagrant/shared/conf/uploaders | awk '{print $5}'); do
+        for key in $(grep key /shared/conf/uploaders | awk '{print $5}'); do
             gpg --keyserver pgp.key-server.io --recv $key
         done
       become: yes
@@ -207,7 +207,7 @@
 
     # - name: stable-pull.py
     #   copy:
-    #     dest: /vagrant/shared/stable-pull.py
+    #     dest: /shared/stable-pull.py
     #     content: |
     #       import os, time, glob
 
@@ -217,7 +217,7 @@
     #       threshold = 1
 
     #       packages = []
-    #       for p in glob.glob('/vagrant/shared/pool/*/*/*/*.deb'):
+    #       for p in glob.glob('/shared/pool/*/*/*/*.deb'):
     #           f = file(p,'r')
     #           diff = now - os.fstat(f.fileno())[-1]
     #           if int(diff/delay) >= threshold:
@@ -225,6 +225,6 @@
 
     #           f.close()
 
-    #       f = file('/vagrant/shared/packages.old', 'w')
+    #       f = file('/shared/packages.old', 'w')
     #       for p in packages:
     #           f.write('%s\t\tinstall\n' % p)
