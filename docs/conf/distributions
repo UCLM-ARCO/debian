@@ -1,0 +1,36 @@
+Origin: ARCO Research Group
+Label: ARCO
+Suite: stable
+Codename: stable
+Architectures: i386 amd64 armhf source
+Components: main non-free
+Description: ARCO repository
+SignWith: arco.uclm@gmail.com
+Pull: stable-pull
+
+Origin: ARCO Research Group
+Label: ARCO
+Suite: unstable
+Codename: sid
+Architectures: i386 amd64 armhf source
+Components: main non-free
+Description: ARCO repository
+SignWith: arco.uclm@gmail.com
+Uploaders: uploaders
+
+Origin: ARCO Research Group
+Label: ARCO
+Suite: experimental
+Codename: experimental
+Architectures: i386 amd64 armhf source
+Components: main non-free
+Description: ARCO repository
+SignWith: arco.uclm@gmail.com
+
+Origin: ARCO Research Group
+Label: ARCO
+Suite: archive
+Codename: archive
+Architectures: i386 amd64
+Components: main
+Description: ARCO repository for static packages

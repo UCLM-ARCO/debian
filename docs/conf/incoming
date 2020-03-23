@@ -1,0 +1,7 @@
+Name: sid-process
+IncomingDir: incoming
+TempDir: /tmp
+Default: sid
+Allow: unstable>sid UNRELEASED>sid experimental>experimental
+Cleanup: on_deny on_error unused_files
+Permit: unused_files

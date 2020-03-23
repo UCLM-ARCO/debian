@@ -1,0 +1,22 @@
+Package: ian
+Version: 0.20190618-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 82
+Depends: quilt, gnupg, dupload, build-essential, sudo, devscripts, equivs, libwww-perl, bc, unzip, xz-utils, openssh-client, expect, python
+Suggests: vagrant, virtualbox, ansible
+Breaks: arco-devel (<< 0.20141029-1)
+Replaces: arco-devel (<< 0.20141029-1)
+Homepage: https://bitbucket.org/DavidVilla/ian
+Priority: optional
+Section: shells
+Filename: pool/main/i/ian/ian_0.20190618-1_all.deb
+Size: 19320
+SHA256: 26b1382f845522d613de59eaf35bd14544e3d36413780a5cc74a4e97e06c9008
+SHA1: 5465178f0106a88628e04aedcccb9fa7f16f7742
+MD5sum: 0e84c85fbfba8aef5ce30f9f7aa1b751
+Description: command line helper to maintain Debian packages
+ ian is a helper to simplify and assist to the maintainer in the using
+ of Debian packaging  tools. It can create or get orig tarball, install
+ build dependencies and many others.
+

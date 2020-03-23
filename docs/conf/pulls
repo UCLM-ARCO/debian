@@ -1,0 +1,5 @@
+Name: stable-pull
+From: sid
+Components: main
+Architectures: amd64 i386 armhf source
+FilterList: purge ../packages.old
