@@ -25,11 +25,20 @@
   <body style="margin: 30px 20%; font-size: large; font-family: Helvetica, Sans-Serif">
     <h1>ARCO Debian package repository</h1>
 
-    To use this package repository, execute the commands bellow:
+    To use this package repository, get repo key:
+
+    <pre class="console">
+      $ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/key.asc</pre>
+
+    Or:
+
+    <pre class="console">
+      $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D917ABDD28380433 </pre>
+
+    And add the repository:
 
     <pre class="console">
       $ sudo su
-      # apt-key adv --fetch-keys https://uclm-arco.github.io/debian/key.asc
       # echo "deb https://uclm-arco.github.io/debian/ sid main" > /etc/apt/sources.list.d/arco.list
       # apt-get update </pre>
 

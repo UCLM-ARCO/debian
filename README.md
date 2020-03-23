@@ -33,7 +33,7 @@ john@laptop:~/repos/arco-debian$ git push
 
 ## Support on ian
 
-* Install latest `ian` package version.
+* Install latest `ian` package version (>= 0.20200323.15-1)
 * Configure your `.config/ian/config` like this:
 ```
 export DEBFULLNAME="John Doe"
