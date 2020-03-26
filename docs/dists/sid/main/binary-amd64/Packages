@@ -1,3 +1,19 @@
+Package: graf
+Version: 0.20190626-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 33
+Depends: python:any, python-commodity, python-libxml2, python-libxslt1, arco-authors (>= 0.20180611)
+Priority: extra
+Section: utils
+Filename: pool/main/g/graf/graf_0.20190626-1_all.deb
+Size: 6272
+SHA256: 9b9ac8db554b26241283ff2c9e4ea5af9b57162b2ce1ebde29ad7656a844fc63
+SHA1: 09deb14e2da13e620d7898442ec72bfc085b0423
+MD5sum: 87cb0fa1d75719a8bb62fb4b4c24e295
+Description: Graf XML to LaTeX/PDF compiler
+ Graf XML to LaTeX/PDF compiler
+
 Package: ian
 Version: 0.20200323.16-1
 Architecture: all
