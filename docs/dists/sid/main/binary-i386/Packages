@@ -1,5 +1,5 @@
 Package: arco-authors
-Version: 0.20190716-1
+Version: 0.20200403-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
 Installed-Size: 652
@@ -8,11 +8,11 @@ Recommends: unoconv
 Homepage: https://bitbucket.org/arco_group/arco-authors
 Priority: extra
 Section: shells
-Filename: pool/main/a/arco-authors/arco-authors_0.20190716-1_all.deb
-Size: 176060
-SHA256: f71695bd7de850c3dca36214eb58bf92ca932ebcc1e26e0e0b5158bbfee91630
-SHA1: 0c25d7a2cce3dad7f7dc409319c116a01c61b83c
-MD5sum: 6677b9b23de8946bb718ed1399ea8f11
+Filename: pool/main/a/arco-authors/arco-authors_0.20200403-1_all.deb
+Size: 176072
+SHA256: eac5f0122f0e291f15491606de489500366ab7518e885878134de001f25a23b1
+SHA1: ba6ec5a2ad74c4d23ead84e91f39ff0f2317c238
+MD5sum: 1c476e9df86d126667551af9ecc9ca71
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
