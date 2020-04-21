@@ -1,18 +1,18 @@
 Package: arco-authors
-Version: 0.20200420.1-1
+Version: 0.20200422-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
-Installed-Size: 1156
-Depends: texlive-binaries, texlive-lang-spanish, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-fonts-extra, texlive-fonts-recommended, texlive-bibtex-extra, cm-super, inkscape, netpbm, aspell-en
-Recommends: unoconv, noweb, dblatex, dia
+Installed-Size: 1563
+Depends: texlive-binaries, texlive-lang-spanish, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-fonts-extra, texlive-fonts-recommended, texlive-bibtex-extra, cm-super, inkscape, netpbm, aspell-en, dblatex, dia
+Recommends: unoconv, noweb
 Homepage: https://bitbucket.org/arco_group/arco-authors
 Priority: extra
 Section: shells
-Filename: pool/main/a/arco-authors/arco-authors_0.20200420.1-1_all.deb
-Size: 693116
-SHA256: 2c571a555bc4665beb35c43c53b0639fcfbcabf06eeb082f64a30877b316965f
-SHA1: c1a4b15655ac4cd3522cfff8a40b319400cf6ae4
-MD5sum: c7a826ef0051ffecbc46700f61b59103
+Filename: pool/main/a/arco-authors/arco-authors_0.20200422-1_all.deb
+Size: 1109340
+SHA256: 667e65fdb5df5711c238730e52d30129cbea0fc41ded37613656f8599d51dead
+SHA1: feb241fbe825a65bb385f462867b6a551f9a0809
+MD5sum: 88413e5eb90257384f2098507571f892
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
