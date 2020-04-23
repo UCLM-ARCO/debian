@@ -47,13 +47,13 @@ export DEBREPO_URL=vagrant@debrepo/shared
 You can use `ian` hooks to automate the whole process:
 ```
 function ian-upload-start-hook() {
-	# mount here your encrypted pen drive
-	VAGRANT_CWD=$HOME/repos/arco-debian vagrant up
+    # mount here your encrypted pen drive
+    VAGRANT_CWD=$HOME/repos/arco-debian vagrant up
 }
 
 function ian-upload-end-hook() {
-	echo "upload"
-	gnome-terminal -- ~/bin/arco-debian-push.sh
+    echo "upload"
+    gnome-terminal -- ~/bin/arco-debian-push.sh
 }
 ```
 
