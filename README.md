@@ -1,6 +1,6 @@
 # ARCO Debian repository
 
-Debian packages are at: <https://uclm-arco.github.io/debian/>
+Debian repository is at: <https://uclm-arco.github.io/debian/>
 
 
 ## Upload new packages
