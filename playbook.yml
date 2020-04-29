@@ -203,7 +203,7 @@
         content: |
           #!/bin/bash --
           for key in $(grep key /shared/conf/uploaders | awk '{print $5}'); do
-              gpg --keyserver pgp.key-server.io --recv $key
+              gpg --keyserver keys.gnupg.net --recv $key
           done
 
     - name: exec uploaders keys script
