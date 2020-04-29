@@ -25,95 +25,6 @@
         state: directory
         owner: vagrant
 
-    - name: conf/distributions
-      copy:
-        dest: /shared/conf/distributions
-        content: |
-          Origin: ARCO Research Group
-          Label: ARCO
-          Suite: stable
-          Codename: stable
-          Architectures: i386 amd64 armhf source
-          Components: main non-free
-          Description: ARCO repository
-          SignWith: arco.uclm@gmail.com
-          Pull: stable-pull
-
-          Origin: ARCO Research Group
-          Label: ARCO
-          Suite: unstable
-          Codename: sid
-          Architectures: i386 amd64 armhf source
-          Components: main non-free
-          Description: ARCO repository
-          SignWith: arco.uclm@gmail.com
-          Uploaders: uploaders
-
-          Origin: ARCO Research Group
-          Label: ARCO
-          Suite: experimental
-          Codename: experimental
-          Architectures: i386 amd64 armhf source
-          Components: main non-free
-          Description: ARCO repository
-          SignWith: arco.uclm@gmail.com
-
-          Origin: ARCO Research Group
-          Label: ARCO
-          Suite: archive
-          Codename: archive
-          Architectures: i386 amd64
-          Components: main
-          Description: ARCO repository for static packages
-
-    - name: conf/incoming
-      copy:
-        dest: /shared/conf/incoming
-        content: |
-          Name: sid-process
-          IncomingDir: incoming
-          TempDir: /tmp
-          Default: sid
-          Allow: unstable>sid UNRELEASED>sid experimental>experimental
-          Cleanup: on_deny on_error unused_files
-          Permit: unused_files
-
-    - name: conf/pulls
-      copy:
-        dest: /shared/conf/pulls
-        content: |
-          Name: stable-pull
-          From: sid
-          Components: main
-          Architectures: amd64 i386 armhf source
-          FilterList: purge ../packages.old
-
-    - name: conf/uploaders
-      copy:
-        dest: /shared/conf/uploaders
-        content: |
-          # david.villa
-          allow * by key 201B8868
-          allow * by key C7343A71
-
-          # oscar.acena
-          allow * by key 18F46E9A
-          allow * by key FE6EF5B9
-
-          # felix.villanueva
-          allow * by key 98EE8D0B
-
-          # ana.rubio
-          allow * by key 11622BED
-
-          # cristian.trapero
-          allow * by key 11BF041F
-
-          # jose.mota
-          allow * by key DCF71E29
-
-          # end
-
     - name: dir /shared/incoming
       file:
         path: /shared/incoming
@@ -148,34 +59,29 @@
 
     - name: .gnupg/gpg.conf
       copy:
+        src: gnupg/gpg.conf
         dest: /home/vagrant/.gnupg/gpg.conf
         mode: 0600
         owner: vagrant
-        content: |
-          keyserver hkp://keys.gnupg.net
-          personal-digest-preferences SHA256
-          cert-digest-algo SHA256
-          digest-algo SHA256
-          default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
     - name: .gnupg/trustdb.gpg
       copy:
-        src: trustdb.gpg
+        src: gnupg/trustdb.gpg
         dest: /home/vagrant/.gnupg/trustdb.gpg
         owner: vagrant
         mode: 0600
 
     - name: .gnupg/secring.gpg
       copy:
-        src: secring.gpg
+        src: gnupg/secring.gpg
         dest: /home/vagrant/.gnupg/secring.gpg
         owner: vagrant
         mode: 0600
 
-    - name: .gnupg/puring.gpg
+    - name: .gnupg/pubring.gpg
       copy:
-        src: pubring.gpg
-        dest: /home/vagrant/.gnupg/puring.gpg
+        src: gnupg/pubring.gpg
+        dest: /home/vagrant/.gnupg/pubring.gpg
         owner: vagrant
         mode: 0600
 
