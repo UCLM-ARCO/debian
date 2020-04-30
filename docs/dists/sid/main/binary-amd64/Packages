@@ -1,5 +1,5 @@
 Package: arco-authors
-Version: 0.20200422.2-1
+Version: 0.20200429-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
 Installed-Size: 652
@@ -8,11 +8,11 @@ Recommends: unoconv, noweb
 Homepage: https://bitbucket.org/arco_group/arco-authors
 Priority: extra
 Section: shells
-Filename: pool/main/a/arco-authors/arco-authors_0.20200422.2-1_all.deb
-Size: 176156
-SHA256: 804c382b42c5a24629bba9bc8a3b94466e2458c520bea605e131a05ac24cefbb
-SHA1: c93b4826caae42c39d3660992e164252cb932dc0
-MD5sum: 4010c5ff259c1c63d60c624b24404a07
+Filename: pool/main/a/arco-authors/arco-authors_0.20200429-1_all.deb
+Size: 176160
+SHA256: 65298d3d12fb3ded320ac60d30266a8c7c8d34251c5cd0cdb36fb49fb09f17fd
+SHA1: a20459a1f96a34daf3b2e1a816f77aa7b92278ce
+MD5sum: f2acdf359017a6b5a3a750d342441060
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
@@ -59,22 +59,22 @@ Description: Graf XML to LaTeX/PDF compiler
  Graf XML to LaTeX/PDF compiler
 
 Package: ian
-Version: 0.20200323.16-1
+Version: 0.20200430-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 83
 Depends: quilt, gnupg, dupload, build-essential, sudo, devscripts, equivs, libwww-perl, bc, unzip, xz-utils, openssh-client, expect, python
-Suggests: vagrant, virtualbox, ansible
+Suggests: vagrant, virtualbox, ansible, reprepro
 Breaks: arco-devel (<< 0.20141029-1)
 Replaces: arco-devel (<< 0.20141029-1)
 Homepage: https://bitbucket.org/DavidVilla/ian
 Priority: optional
 Section: shells
-Filename: pool/main/i/ian/ian_0.20200323.16-1_all.deb
-Size: 19892
-SHA256: 598d29b7237b6cb343ddca6574e3c8b290d189d190218909f9811fce47131954
-SHA1: 1551b50499b770b5392df1bddbb600639fdcdcf4
-MD5sum: 769de5be81b21ef1ba1a6fbee5be0928
+Filename: pool/main/i/ian/ian_0.20200430-1_all.deb
+Size: 20036
+SHA256: b7d0000b7a4f5e813f04daaa053263bc3d1701e7832922a2e7e728eab917a517
+SHA1: 5617c0e5cf0c285d5bf7435d4a323d6abe344425
+MD5sum: 7bb895da0ccdc676e958be58fb04bb28
 Description: command line helper to maintain Debian packages
  ian is a helper to simplify and assist to the maintainer in the using
  of Debian packaging  tools. It can create or get orig tarball, install
