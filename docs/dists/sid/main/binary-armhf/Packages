@@ -178,3 +178,19 @@ Description: test doubles framework for Python 3
  superclasses. This provides replacements for the original instances even for
  code performing explicit type checking.
 
+Package: ripio
+Version: 0.20200501.6-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 46
+Depends: python3:any
+Priority: optional
+Section: utils
+Filename: pool/main/r/ripio/ripio_0.20200501.6-1_all.deb
+Size: 10288
+SHA256: 81a8aa535d9911cebda493c24429257dca7b918eeea625ca407e7eac7aa2f224
+SHA1: 7ad6c9ca41ea571b8c8856751e788893c6fd3bf1
+MD5sum: 5f56412d9ee2820c2ddce06a55269091
+Description: Manage hosted git repositories
+ Managet git repositories hosted at bitbucket.org
+
