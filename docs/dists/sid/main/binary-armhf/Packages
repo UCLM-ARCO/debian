@@ -59,7 +59,7 @@ Description: Graf XML to LaTeX/PDF compiler
  Graf XML to LaTeX/PDF compiler
 
 Package: ian
-Version: 0.20200430-1
+Version: 0.20200505-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 83
@@ -70,11 +70,11 @@ Replaces: arco-devel (<< 0.20141029-1)
 Homepage: https://bitbucket.org/DavidVilla/ian
 Priority: optional
 Section: shells
-Filename: pool/main/i/ian/ian_0.20200430-1_all.deb
-Size: 20036
-SHA256: b7d0000b7a4f5e813f04daaa053263bc3d1701e7832922a2e7e728eab917a517
-SHA1: 5617c0e5cf0c285d5bf7435d4a323d6abe344425
-MD5sum: 7bb895da0ccdc676e958be58fb04bb28
+Filename: pool/main/i/ian/ian_0.20200505-1_all.deb
+Size: 20080
+SHA256: 1e022b5556759aab523fcac3f23e320cab79b89fd2634e94f1c6a1eceb8a7fd8
+SHA1: ea5f74cf49241c06483b494058d0d0ba0db5c26b
+MD5sum: 9aa51aeb7847f042c00f83e6b0ad0bb3
 Description: command line helper to maintain Debian packages
  ian is a helper to simplify and assist to the maintainer in the using
  of Debian packaging  tools. It can create or get orig tarball, install
