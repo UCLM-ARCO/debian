@@ -17,19 +17,19 @@ Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
 Package: go2
-Version: 2.20181225.1-1
+Version: 2.20181225.6-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 66
+Installed-Size: 69
 Depends: python3:any, tree, python3-gi
 Homepage: https://bitbucket.org/DavidVilla/go2
 Priority: optional
 Section: utils
-Filename: pool/main/g/go2/go2_2.20181225.1-1_all.deb
-Size: 16272
-SHA256: a02d35abecf8bc95572377c9a9be85991a96bb6e0018baf38d827001e2608f9d
-SHA1: eac3eda8872087810329f0958a66cbe71ccf6997
-MD5sum: f99d93cc62e58b16c0f5ded224e2ba5d
+Filename: pool/main/g/go2/go2_2.20181225.6-1_all.deb
+Size: 16460
+SHA256: 54d1ac48061213f01cfb310856f93a27d80d3ea9d818698a2b061c72c4d310ea
+SHA1: db21c78ae2892371f3319dce29323e6651a68364
+MD5sum: 8f3e8526b69afa98e0447eff26fec418
 Description: fast directory finder
  This package provides a mechanism for quickly changing directory on
  the commandline, in the style of the old Norton Change Directory for
