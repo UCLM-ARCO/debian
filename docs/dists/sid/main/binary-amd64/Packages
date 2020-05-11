@@ -81,19 +81,19 @@ Description: command line helper to maintain Debian packages
  build dependencies and many others.
 
 Package: python-commodity
-Version: 0.20200323-1
+Version: 0.20200511-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 89
-Depends: python:any (<< 2.8), python:any (>= 2.7~), python-setuptools, python-hamcrest, python-configobj
+Depends: python:any (<< 2.8), python:any (>= 2.7~), python-hamcrest, python-configobj
 Homepage: https://bitbucket.org/arco_group/python-commodity
 Priority: optional
 Section: python
-Filename: pool/main/p/python-commodity/python-commodity_0.20200323-1_all.deb
-Size: 20652
-SHA256: da1c3104e992e4d19d8fb60e94bf319ae0ca35192f2fa73042f1564628cd31cf
-SHA1: 5f002153cdad002f1fc566618e35543eec0e8256
-MD5sum: cbfb1ddb52447ebc9994b1e0af22188b
+Filename: pool/main/p/python-commodity/python-commodity_0.20200511-1_all.deb
+Size: 20696
+SHA256: 131dad50f9b7b6cbd14bc94923a5a60878872598f0d06f318e9c6f025d2816ba
+SHA1: 065e5dffd024343f6a3eec4200e4fde62e654b4c
+MD5sum: dffe05db555af1b7c6efa235ad3a730f
 Description: Useful utilities library for Python 2 programmers
  python-commodity is a set of general purpose classes, functions and
  utilities (commodities) for Python 2 programming.
@@ -132,19 +132,19 @@ Description: test doubles framework for Python 2
 
 Package: python3-commodity
 Source: python-commodity
-Version: 0.20200323-1
+Version: 0.20200511-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 89
-Depends: python3:any, python3-setuptools, python3-hamcrest, python3-configobj
+Depends: python3:any, python3-hamcrest, python3-configobj
 Homepage: https://bitbucket.org/arco_group/python-commodity
 Priority: optional
 Section: python
-Filename: pool/main/p/python-commodity/python3-commodity_0.20200323-1_all.deb
-Size: 20732
-SHA256: 4d2f0ccbe69e8632e67642824ecffd8cf4f803790f642a6a3ad90ea927925fce
-SHA1: 11e3b2955b1737eb894323e391f50523658eedd4
-MD5sum: 2bf53d87127a4caec353b2eee32d78b0
+Filename: pool/main/p/python-commodity/python3-commodity_0.20200511-1_all.deb
+Size: 20784
+SHA256: 78996dac84c7d6b39aa47d9fb17da79d3947fef8ad27021182dacb3f7f2d210d
+SHA1: 98d78aafab7efcdc72143b48cf049f9ac34355ba
+MD5sum: bce052462c8df383c0ba684d592e0fb5
 Description: Useful utilities library for Python 3 programmers
  python-commodity is a set of general purpose classes, functions and
  utilities (commodities) for Python 3 programming.
