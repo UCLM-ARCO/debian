@@ -17,7 +17,7 @@ Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
 Package: emacs-pills
-Version: 0.20200622-1
+Version: 0.20200622.1-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
 Installed-Size: 191
@@ -28,11 +28,11 @@ Replaces: arco-devel (<< 0.20120213), arco-emacs
 Homepage: https://bitbucket.org/DavidVilla/emacs-pills
 Priority: optional
 Section: shells
-Filename: pool/main/e/emacs-pills/emacs-pills_0.20200622-1_all.deb
-Size: 35148
-SHA256: 8aae6f62150b46d1d4082dca96330f4f9184e4c8eab93fd0e981ed2476696eff
-SHA1: c5a38f498fb63ac43edc471b7753a2e757a9e4f3
-MD5sum: 466f4a0ae9677300accaa5216e3b2323
+Filename: pool/main/e/emacs-pills/emacs-pills_0.20200622.1-1_all.deb
+Size: 35168
+SHA256: 0eb2fe7024bea0e4ffab45da26fa1edc8674eb1aba68fc26c67880994fa0dd37
+SHA1: e3ebf6b93e45e44ad452ac710ef73a1e3dc192bf
+MD5sum: e818b048ebab5297dc2e61c088ddbfea
 Description: Modular emacs configuration
  emacs configuration files and utilities for everybody. It is a
  colection of configuration files ready to use and that may be used
@@ -40,7 +40,7 @@ Description: Modular emacs configuration
 
 Package: emacs-pills-python
 Source: emacs-pills
-Version: 0.20200622-1
+Version: 0.20200622.1-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
 Installed-Size: 33
@@ -49,11 +49,11 @@ Replaces: arco-emacs-python
 Homepage: https://bitbucket.org/DavidVilla/emacs-pills
 Priority: optional
 Section: shells
-Filename: pool/main/e/emacs-pills/emacs-pills-python_0.20200622-1_all.deb
-Size: 8436
-SHA256: 907362721d2950d81560c154f9bf6c49f74e314203f71a7f34aaa5874f38e901
-SHA1: 751e122433a56024b6a23a57e66e7700e7241ad1
-MD5sum: fc828d564d512fa7156a7a6978bc88bb
+Filename: pool/main/e/emacs-pills/emacs-pills-python_0.20200622.1-1_all.deb
+Size: 8444
+SHA256: a208622d38d395724c6f74896c0c6d86d9894f5a08799e741e4bdf3462799e62
+SHA1: d4863b313029afb6bc364f88f164101e1c97ecb7
+MD5sum: 0ffe0e4bb8e720666a8be8845c89c4c2
 Description: Python emacs support
  emacs configuration files and utilities for Python programmers. It is
  a colection of configuration files ready to use and that may be used
