@@ -38,6 +38,63 @@ MD5sum: 8951e6e298ffde784acf01d54dc4bf87
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
+Package: arco-devel
+Source: arco-tools
+Version: 0.20200707-1
+Architecture: all
+Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
+Installed-Size: 44
+Depends: less, emacs-pills, devscripts-el, libimage-exiftool-perl, g++
+Homepage: https://bitbucket.org/arco_group/arco-tools
+Priority: extra
+Section: shells
+Filename: pool/main/a/arco-tools/arco-devel_0.20200707-1_all.deb
+Size: 11184
+SHA256: ded159f9ceaa2121fd46602b2269842653e8ac0a96d7c83ca2b95bb3b41c5e16
+SHA1: 69c5e9badf4f1bb046b6773a80c6186497bd5eda
+MD5sum: d24b8805e2d7f178fb85dfad6964ebe3
+Description: Arco devel tools
+ Development tools for Arco group staff. It include GNU Make templates
+ for projects and dependency checking.
+
+Package: arco-tools
+Version: 0.20200707-1
+Architecture: all
+Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
+Installed-Size: 14
+Depends: arco-devel (= 0.20200707-1), arco-user (= 0.20200707-1)
+Suggests: ian
+Homepage: https://bitbucket.org/arco_group/arco-tools
+Priority: extra
+Section: shells
+Filename: pool/main/a/arco-tools/arco-tools_0.20200707-1_all.deb
+Size: 6492
+SHA256: c647db9463594e5ccffdf52231399a5040241ec8ff48983965ad05686e3b01e9
+SHA1: f1e2945e5768f594c45420482597766a7fea00e4
+MD5sum: 4f035cb85cde0cffe58ae4a79b94b530
+Description: metapackage for arco related packages
+ Metapackage for development, documenting and administrative tools for Arco
+ members, and others.
+
+Package: arco-user
+Source: arco-tools
+Version: 0.20200707-1
+Architecture: all
+Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
+Installed-Size: 28
+Depends: libimage-exiftool-perl
+Suggests: cadaver
+Homepage: https://bitbucket.org/arco_group/arco-tools
+Priority: extra
+Section: shells
+Filename: pool/main/a/arco-tools/arco-user_0.20200707-1_all.deb
+Size: 10636
+SHA256: c257bb20ba052c29d076048b445e57825a4eb575ad14f4bb5335113eaf34b3a3
+SHA1: ed1818a42a941dd2b5dd5110ea9678548864f25f
+MD5sum: b513a3cefd46091d6f29c6fcf81a1c5d
+Description: Arco user and staff tools
+ Tools for Arco user and staff. Utilities for remote authentication.
+
 Package: emacs-pills
 Version: 0.20200622.1-1
 Architecture: all
