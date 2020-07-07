@@ -1,3 +1,25 @@
+Package: aexec
+Version: 0.20160524-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 50
+Depends: python (<< 2.8), python (>= 2.7), python:any, python-pyinotify, python-loggingx, python-gi, gir1.2-notify-0.7
+Homepage: http://arco.esi.uclm.es/~david.villa/aexec.html
+Priority: optional
+Section: utils
+Filename: pool/main/a/aexec/aexec_0.20160524-1_all.deb
+Size: 9424
+SHA256: 673ce70658f83d6865586476f2de892cdc422a36d2307f37803d217a23de74c3
+SHA1: df9a2d2753745e811ec25fec09709cfe7e6647fa
+MD5sum: fbaaedb33319e307b5de1c528442101f
+Description: It executes a program when the given files change
+ This program uses the Linux inotify mechanism to detect file changes and
+ execute given command when that happens. Additionally, it checks and shows
+ the command return value to user. Optionally, it provides desktop
+ notifications.
+ .
+ An 'amake' script is also provided to auto-build with 'make'.
+
 Package: arco-authors
 Version: 0.20200617-1
 Architecture: all
