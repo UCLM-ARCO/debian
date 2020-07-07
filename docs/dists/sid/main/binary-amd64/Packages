@@ -222,18 +222,18 @@ Description: test doubles framework for Python 3
  code performing explicit type checking.
 
 Package: ripio
-Version: 0.20200503.1-1
+Version: 0.20200707-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 52
+Installed-Size: 73
 Depends: python3:any, python3-git, python3-toml
 Priority: optional
 Section: utils
-Filename: pool/main/r/ripio/ripio_0.20200503.1-1_all.deb
-Size: 6040
-SHA256: 3179390bdd1adfb198033675dfe406921f1f23a213d34e88d1679d9fe4056f2d
-SHA1: 71624c1519d861d309763bde953d8ab37e698645
-MD5sum: f0e3976590a08616a87f1e6f7688a2f5
+Filename: pool/main/r/ripio/ripio_0.20200707-1_all.deb
+Size: 7956
+SHA256: 80771af97a27910d74c897dae89cbe933296f137d1444ae0eb46e8340e21cf60
+SHA1: 61891ee0b2f9062c60b7914619c0c08706ae026d
+MD5sum: 759d09cf272bd74e2685524b1f756d09
 Description: Manage hosted git repositories
  Managet git repositories hosted at bitbucket.org
 
