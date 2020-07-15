@@ -20,6 +20,41 @@ Description: It executes a program when the given files change
  .
  An 'amake' script is also provided to auto-build with 'make'.
 
+Package: amazfit2-dynamic-core
+Version: 0.20200123-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 25
+Depends: python3, python3-gattlib, python3-bluez
+Priority: optional
+Section: python
+Filename: pool/main/a/amazfit2-dynamic-core/amazfit2-dynamic-core_0.20200123-1_all.deb
+Size: 4824
+SHA256: 84b9b84fdc908e5bf60e189f4b6ba966fec07513250475e00c052307e1f063b6
+SHA1: 114756d0e71f4967967e083ee1bf55516bb8917b
+MD5sum: ad488e478da3fa645c2e8c1d14e49a11
+Description: Library to access the Amazfit 2 sensor
+ This library provides access to the Amazfit 2 Dyanamic Core chip. It uses
+ Bluetooth LE (and GATT) to read the devices characteristics, and also to
+ receive notifications on steps or IMU readings.
+
+Package: arco-archive-keyring
+Version: 0.20160524.1-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 10
+Depends: gnupg, wget
+Homepage: https://bitbucket.org/arco_group/arco-archive-keyring
+Priority: extra
+Section: shells
+Filename: pool/main/a/arco-archive-keyring/arco-archive-keyring_0.20160524.1-1_all.deb
+Size: 2250
+SHA256: b3b55ac236a5bf456b8eaa97e0139d30487364a6a29f5c37b1c973d641f4fba6
+SHA1: a57bf9b404816fb8f84f5879a2a185f5bb9d5c0e
+MD5sum: 95ddb2706df2c7b22437628daa997889
+Description: the ARCO debian repository gpg key
+  the ARCO debian repository GPG key
+
 Package: arco-authors
 Version: 0.20200617-1
 Architecture: all
@@ -95,6 +130,361 @@ MD5sum: b513a3cefd46091d6f29c6fcf81a1c5d
 Description: Arco user and staff tools
  Tools for Arco user and staff. Utilities for remote authentication.
 
+Package: authenticator
+Version: 0.20190827-1
+Architecture: all
+Maintainer: Cristian Trapero Mora <cristian.trapero@uclm.es>
+Installed-Size: 24
+Depends: python3, python3-zeroc-ice, citisim-slice, libcitisim
+Homepage: https://bitbucket.org/arco_group/cerberus
+Priority: extra
+Section: utils
+Filename: pool/main/a/authenticator/authenticator_0.20190827-1_all.deb
+Size: 3450
+SHA256: 21b14fa490cf284d21b95264f7013eaa8817409afecdd3cb92873e221fe6594c
+SHA1: 635efcfb3e529b522408059caafa40e2b40a12cb
+MD5sum: e519db8e94adb57a966a952462cd75c4
+Description: Cerberus Authenticator Service
+ This service is responsible for checking if the identification of the person is authorized to execute a command.
+
+Package: citisim-actuator-wirer
+Version: 0.20191121-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 12
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-actuator-wirer/citisim-actuator-wirer_0.20191121-1_all.deb
+Size: 2212
+SHA256: dbd0bf64bbc61ebc5c1e4329eca314bd0e70dde3ce6f2470a7cede4aaaf2b513
+SHA1: fb428d43f6f295dd594a1599abdc620cc8e57be7
+MD5sum: 5f2e5a77624f07c22104c9843a3adc60
+Description: Citisim service to wire actuators
+ This service subscribes actuator proxies to their corresponding topics, using
+ the provided configuration in the property service.
+
+Package: citisim-dashboard-icegrid-dc
+Version: 0.20180717-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 26
+Depends: python3, citisim-dashboard-webapp-ds
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-dashboard-icegrid-dc/citisim-dashboard-icegrid-dc_0.20180717-1_all.deb
+Size: 4694
+SHA256: 45d9c37636a60c9b589747575f2e074bf1813e9f02bc089ebab02bf984b0c13a
+SHA1: c5303e9f3fb36a74db848d2c7d8a46a8d424cce4
+MD5sum: 715adf88934310e305d3297426b71d55
+Description: Citisim dashboard IceGrid data collector
+ IceGrid Data Collector, retrieves information about services and
+ nodes from an IceGrid registry, and pushes them to the dashboard data
+ sink.
+
+Package: citisim-dashboard-icestorm-dc
+Version: 0.20190315-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 29
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-dashboard-icestorm-dc/citisim-dashboard-icestorm-dc_0.20190315-1_all.deb
+Size: 5688
+SHA256: 54905ec71e45c54926b121168ce434c738caf764a50dc7b3cb34370e0b77c6fe
+SHA1: 12fdd5b9c0e094e8a5a8c439d3abf6bb8fbb5c51
+MD5sum: 83ae568e9d884f06fbae47af4ab8d9aa
+Description: Citisim Dashboard IceStorm data collector
+ IceStorm Data Collector, retrieves data about events and sensors from
+ an IceStorm instance, and pushes them to the dashboard data sink.
+
+Package: citisim-dashboard-webapp
+Version: 0.20190527-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 5022
+Depends: lsb-base (>= 3.0-6), python3, python3-django (>= 1.10)
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-dashboard-webapp/citisim-dashboard-webapp_0.20190527-1_all.deb
+Size: 1736924
+SHA256: 99c0ca41cdd6430c5532a1772eb76e4338e0dd028b896b850ef07f6117835fd7
+SHA1: a50d90e34fcdd58a936bd4dba6c467e0cff4c04b
+MD5sum: 54ea8ebd6cf11534d86469fcbea18b9e
+Description: Service Dashboard for Citisim project
+ This package provides a web application as a dashboard for the
+ Citisim core services. It will display node list and status, service
+ state, events, and so on.
+
+Package: citisim-dashboard-webapp-ds
+Version: 0.20180717.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 21
+Depends: python3, citisim-dashboard-webapp
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-dashboard-webapp-ds/citisim-dashboard-webapp-ds_0.20180717.1-1_all.deb
+Size: 3298
+SHA256: 638e46d8a5e8be01e4bc08d0e354ff326b4c6328c91ce735f590f42814300253
+SHA1: 0e3516eecb4c652958dc0381983be5d149959a72
+MD5sum: 40abc72a0a5e0a586534b0486c8046f7
+Description: Citisim dashboard data sink
+ Dashboard data sink, listens for incoming invocations from data
+ collectors, and updates the dashboard database.
+
+Package: citisim-dummies
+Version: 0.20191022-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 27
+Depends: python3, citisim-slice
+Priority: optional
+Section: python
+Filename: pool/main/c/citisim-dummies/citisim-dummies_0.20191022-1_all.deb
+Size: 4644
+SHA256: 79866ef2882909a62e2837dd85c6d695891aae94c8e8da1b8da82fdf66e32933
+SHA1: 36329f7cdbf6aa8c29f40a4dcd35fe02d344b972
+MD5sum: 3a825e0da8f3d8f289326265cad2b452
+Description: Dummies for citisim slices
+ This package provides some handy tools, like dummies, clients and
+ observers, for Citisim slices.
+
+Package: citisim-emergency-server
+Version: 0.20191017-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 14
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-emergency-server/citisim-emergency-server_0.20191017-1_all.deb
+Size: 3080
+SHA256: c6ba08166a344a2c0285910ab1e4e01f03a559e797b20a3791c98bc4dbfa982e
+SHA1: 9eac51378dedfc73e50d3f8d5761fdf1b7974270
+MD5sum: 1465a06c6209816bb5a01028b66cbe4d
+Description: Service to handle emergency situations
+ This services listen on the Alarm topic, and upon receiving a message,
+ it retrieves the places where may be people, and then configure and publish
+ an evacuation route.
+
+Package: citisim-energy-accounting-server
+Version: 0.20190930.1-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 18
+Priority: extra
+Section: utils
+Filename: pool/main/c/citisim-energy-accounting-server/citisim-energy-accounting-server_0.20190930.1-1_all.deb
+Size: 4152
+SHA256: 6ed01a7a6f1251fd5408cfaeb75ff01887545c3d0c719b324e5c93c10d756511
+SHA1: bcf74d38586877f00cb3d6bf59558fd6ba253f52
+MD5sum: d7cc904db74346244a2ef66d74ff8ee6
+Description: Citisim energy accounting server
+ energy accounting server listen for power readings and create virtual sensor
+ that publish de corresponding stimated energy comsuption.
+
+Package: citisim-energymodel
+Version: 0.20190624-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 25
+Depends: python3, python3-numpy, python3-sklearn, python3-zeroc-ice | python3-zeroc-ice36
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-energymodel/citisim-energymodel_0.20190624-1_all.deb
+Size: 5324
+SHA256: 4ea4020a7319dbc2cdc099bebf34b1d85fb960fa55f909ac1eb454f7864e1c71
+SHA1: 43274f466ebeb45119a33f36339a7d29a8a78eb1
+MD5sum: 8393a91e5ea0e7743ed55b873b241f1e
+Description: Citisim Service for energy consumption forecasting
+ This energy consumption forecasting service uses pre-trained machine learning
+ models in order to obtain realistic predictions of energy consumption metrics.
+
+Package: citisim-energymodel-slice
+Source: citisim-energymodel
+Version: 0.20190624-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 11
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-energymodel/citisim-energymodel-slice_0.20190624-1_all.deb
+Size: 1944
+SHA256: 436804c682474fd4e21ab3e29976b0ede54efd68cd6efdd5b16322b9b4b76894
+SHA1: bc5ec5c6642ff1a6cd0f18a68ddb0763d333a40d
+MD5sum: e99358541e23c3238eef7f1ebf653b36
+Description: Citisim Service for energy consumption forecasting, slice files
+ This energy consumption forecasting service uses pre-trained machine learning
+ models in order to obtain realistic predictions of energy consumption metrics.
+ .
+ This package contains the slice files.
+
+Package: citisim-http2ice
+Version: 0.20191125-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 12
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-http2ice/citisim-http2ice_0.20191125-1_all.deb
+Size: 2704
+SHA256: de4d7d2ca95be9556a65cae8976e02f83926eca6f1684b52acd583afc9bfa9d5
+SHA1: f13457ebe15db1eb363907e603f16a79db67f80f
+MD5sum: 3ee3e15061d0f3ee2d97ec44f1e57127
+Description: HTTP to ZeroC Ice forwarder for Citisim
+ This server provides a HTTP interface. When the index page is loaded (with
+ proper arguments), it will forward an invocation to the configured ZeroC Ice
+ destination proxy.
+
+Package: citisim-ice2http
+Version: 0.20191211-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 11
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-ice2http/citisim-ice2http_0.20191211-1_all.deb
+Size: 2296
+SHA256: cb96135c0d19fab5ffd21709539b82bd2d810bbd46d67957b440979a7e33b5b6
+SHA1: 645a9f6d96c056c28b65bd5c8d15d8424b677971
+MD5sum: 6ed0c0d3bf99aeb4a4bcdf91ac8d71b2
+Description: ZeroC Ice to HTTP cache for Citisim
+ This server provides a HTTP interface. When the index page is loaded (with
+ proper arguments), it will return the state of the last event received on the
+ configured topic.
+
+Package: citisim-keep-alive
+Version: 0.20191211-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 12
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-keep-alive/citisim-keep-alive_0.20191211-1_all.deb
+Size: 2208
+SHA256: 9da5a90d57547a42444c16130f29caee1768f598baaa92563e8350e071eba779
+SHA1: d57fd2bb6c2935b96da83f12c2b2a863302db3a9
+MD5sum: c22db5b9dfa9bca51cb6df228269dcdc
+Description: Citisim service to ping nodes
+ This service keeps nodes alive using ping.
+
+Package: citisim-location-server
+Version: 0.20190927.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 15
+Depends: libcitisim, python3
+Replaces: citisim-location-service
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-location-server/citisim-location-server_0.20190927.1-1_all.deb
+Size: 3124
+SHA256: 42e29002b06b29cd0db0180b3781bb7d0c9a7d45876d65e6bed7d70ebb8ddffc
+SHA1: af6318a411320266ff3c2a5ac62c55aa6a3d4c65
+MD5sum: 37fbafbc7cb8c74f547e11846e8d9270
+Description: Location service for Citisim
+ This services provides an interface to retrieve the list of transducers given
+ an specific place identifier and (optionally) a transducer type. It could also
+ be used to set/get the place meeting point.
+
+Package: citisim-location-service
+Version: 0.20190924-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 15
+Depends: libcitisim, python3
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-location-service/citisim-location-service_0.20190924-1_all.deb
+Size: 2936
+SHA256: 80885e4065112e4d79388eba6fdaf0d4237b404fbc00a70a5b060015d6bcd20c
+SHA1: 7b9551df11c9600585cfe0aebc100e966b2b46af
+MD5sum: 744984b4f25f1d90cfce8f121866e6ac
+Description: Location service for Citisim
+ This services provides an interface to retrieve the list of transducers given
+ an specific place identifier and (optionally) a transducer type. It could also
+ be used to set/get the place meeting point.
+
+Package: citisim-occupancy-monitor
+Version: 0.20190926-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 11
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-occupancy-monitor/citisim-occupancy-monitor_0.20190926-1_all.deb
+Size: 2024
+SHA256: 51a331ca340356e3821cbc7d549eb1b7555a7e50f81bc2e209eb3e91ccfa0557
+SHA1: 9fbc642706248afb4c5fa06d59c2356c27ac0fb2
+MD5sum: 23cc08033e944d674f6c877fcaac4171
+Description: Service to monitor occupancy changes
+ This service listens in the OccupancyChanges topic and stores information about
+ whatever event it arrives. It is used as a Cache, providing the method
+ getOccupiedPlaces.
+
+Package: citisim-occupancy-server
+Version: 0.20190930-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 16
+Depends: python3, python3-zeroc-ice, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-occupancy-server/citisim-occupancy-server_0.20190930-1_all.deb
+Size: 3460
+SHA256: 0bba9e57c61687283b247ee53a5179b450b76c48479593d805f4887fdbfb9952
+SHA1: 160c912995a8592196a959944d317f741513744f
+MD5sum: 21e87f2e5ce3af44e7f383f75709b88e
+Description: Estimates the occupation of an area
+ Service that estimates the occupation of a certain area of a building. As a
+ result, different events announcing changes in the occupation of a specific
+ room, as well as the movements of people between rooms, will be published on
+ channels.
+
+Package: citisim-persistence-service
+Version: 0.20180713.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 73
+Depends: lsb-base (>= 3.0-6), python3, python3-django (>= 1.10.7), libcitisim, python3-zeroc-ice, python3-chartkick
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-persistence-service/citisim-persistence-service_0.20180713.1-1_all.deb
+Size: 17976
+SHA256: cf0f2d093115f16962b8c2886c8eccd3733d09780541893f2896d4fe2199360c
+SHA1: 42efe66c66b21d59d0a26080a3e9729ef2b92b94
+MD5sum: be442a4c940ce263fcd43a6921a433f2
+Description: Implementation of Persistence Service for Citisim
+ Persistence Service is a service to receive and store events from
+ IceStorm topics, in order to be able to treat them later. It listens
+ on a list of topics (given by its names), and uses a common database
+ to store the event itself and some more meta-information related to
+ the event (like the receive timestamp).
+
+Package: citisim-signaling-server
+Version: 0.20191121-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 14
+Depends: python3, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-signaling-server/citisim-signaling-server_0.20191121-1_all.deb
+Size: 2960
+SHA256: 3288217fd42b37f6b5ce6541611cbe45ec75d017ac09be192fd6b1e6f6e504b0
+SHA1: 73dd33e3fc2beafb6f6eac9edaae68f9152046f7
+MD5sum: f1741214948c0d11677001f102653c55
+Description: Citisim signaling service
+ This service listens for incoming events on EvacuationRoute topic, and upon
+ receiving a message, it configures the environment to show different signalign
+ messages (visual and auditive) to aid on the evacuation.
+
 Package: citisim-slice
 Version: 0.20191007-1
 Architecture: all
@@ -111,6 +501,202 @@ MD5sum: dc61419f13316ca045d3cfe7e6487e43
 Description: Citisim slices
  Contains the defined interfaces for Citisim project: for IoT and
  Smart Services, using SmartObject module
+
+Package: citisim-speaker-service
+Version: 0.20191211-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 2161
+Depends: python3, python3-pygame, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-speaker-service/citisim-speaker-service_0.20191211-1_all.deb
+Size: 1498516
+SHA256: 61100df14a627de942452ea632233c3cd011331330d8a5448479b2edf81c36dc
+SHA1: d69fd6b9d046337296fd6be044aad7698c051e87
+MD5sum: 127cba61e82c53bc7a1f878e070fb13c
+Description: Citisim service to control a speaker
+ This service provides a SmartServices.MessageRender interface for listening
+ to incoming events and play the specified message
+
+Package: citisim-welcome-server
+Version: 0.20190924-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 15
+Depends: python3, citisim-slice
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-welcome-server/citisim-welcome-server_0.20190924-1_all.deb
+Size: 3420
+SHA256: 9fbf9d81a5ccaed797156b8938a0ae4249210d31ee514144963d127063a5606c
+SHA1: 16780a8214cc57fa5e4c07091984880dca47036f
+MD5sum: 386d4bb05a590c7384b92b19425b0d84
+Description: Service to handle transducers setup procedure
+ The Welcome service will get/create the private-channel for the
+ transducer and then invoke the setObserver method on the transducer
+ with the channel's publisher.
+
+Package: citisim-wiring-server
+Version: 0.20190521-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 44
+Depends: python3, python3-zeroc-ice, citisim-slice, property-service-simple, citisim-wiring-slice
+Conflicts: citisim-wiring-service
+Replaces: citisim-wiring-service
+Priority: extra
+Section: python
+Filename: pool/main/c/citisim-wiring-server/citisim-wiring-server_0.20190521-1_all.deb
+Size: 5776
+SHA256: fd27b3052e4c39b6fa1ece64f90bc3281369d7ca8b1455ca2ffbf9adbf7edb07
+SHA1: aa74ef74b20224e44a0e20862c40762a4ba2c5fc
+MD5sum: 3611ffa96a597beffa356436af8166e2
+Description: Automatically manages object wiring and intermediate topics.
+ Wiring Service provides the mechanisms necessary for doing automatic
+ wiring with Citsim observers. It will allow single and multiple
+ observer setups.
+
+Package: citisim-wiring-slice
+Source: citisim-wiring-server
+Version: 0.20190521-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 11
+Conflicts: citisim-wiring-service
+Replaces: citisim-wiring-service
+Priority: extra
+Section: python
+Filename: pool/main/c/citisim-wiring-server/citisim-wiring-slice_0.20190521-1_all.deb
+Size: 1900
+SHA256: 0d389d57dc673a3d07cba9dca17f0cbb0bad9d87a1099ae2cb7c565fec96daf0
+SHA1: 9a3d95e033c45cd116332434bbd55cf6239c4e46
+MD5sum: 0de50b79626ff1c445a984450c9a408c
+Description: Slice file for citisim-wiring-server.
+ This package contains just the wiring.ice file.
+
+Package: citisim-xio-demo-init
+Version: 0.20190918.3-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 12
+Depends: python3, python3-zeroc-ice, libcitisim, mijia-smart-home
+Priority: optional
+Section: utils
+Filename: pool/main/c/citisim-xio-demo-init/citisim-xio-demo-init_0.20190918.3-1_all.deb
+Size: 2380
+SHA256: 574480702ebaafc3c3b04dfc3f9d33759ae1e079b218386bdd811382c9d50325
+SHA1: 6407b926325fbf7698c70e5c2119070c4bf68fd2
+MD5sum: 016b7463c08e167e9bd4780eb57efab4
+Description: Citisim demo initiator
+ This application uses the Mijia Smart Home kit (a switch sensor and
+ a smart cube) to publish alarm events on Citisim.
+
+Package: cittavr
+Version: 0.20180301-1
+Architecture: all
+Maintainer: Ana Rubio Ruiz <ana.rubio.ruiz@gmail.com>
+Installed-Size: 4034
+Depends: python3, wget, python3-commodity, idm, python3-qrcode, citisim-slice
+Priority: extra
+Section: utils
+Filename: pool/main/c/cittavr/cittavr_0.20180301-1_all.deb
+Size: 353508
+SHA256: 7fb37316a1409538ec6010004af82fe13c211274cfe9350df5fbeb0bdf60b582
+SHA1: 3e6c38069729440d98552f7e355fb3f68910c61d
+MD5sum: 0b6ba149c684b359033aa94ae0d30d29
+Description: Citisim visualizer
+ This package provides the needed tools to use the Citisim visualizer,
+ monitor and emulator, known as CittaVR.
+
+Package: cittavr-unity
+Version: 0.20200212-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 23
+Depends: python3
+Replaces: cittavr
+Priority: optional
+Section: utils
+Filename: pool/main/c/cittavr-unity/cittavr-unity_0.20200212-1_all.deb
+Size: 3940
+SHA256: b01d4b9d385f1c53a2d50f2ea318e195a01412698edab1770c5fd194c243ded0
+SHA1: 6532bb3c7b88620fb3807882e8c9798f33d74c3d
+MD5sum: 81b2aac202a1b35a96924eab8619c652
+Description: CittaVR tools and libraries
+ This package provide the command line tools and libraries needed to
+ use CittaVR directly over the console, or using Python scripts.
+
+Package: clip-service
+Version: 0.20190826-1
+Architecture: all
+Maintainer: Cristian Trapero Mora <cristian.trapero@uclm.es>
+Installed-Size: 21
+Depends: python3, python3-zeroc-ice, citisim-slice, libcitisim, python3-scipy, python3-numpy, libatlas-base-dev
+Homepage: https://bitbucket.org/arco_group/cerberus
+Priority: extra
+Section: utils
+Filename: pool/main/c/clip-service/clip-service_0.20190826-1_all.deb
+Size: 3258
+SHA256: a0525fd7fd9ccb73531904a6557c4b735a89769b4a5682061ac8620c2f1e37cd
+SHA1: 5182203ca1beebb8a5899d8eb8f5c3b05e50decb
+MD5sum: a8c9dc830d7d0e1212a03867a0a0bbe6
+Description: Cerberus Clip Service
+ This service records an audio file (.wav) with a specific duration.
+
+Package: dharma
+Version: 0.20161114-1
+Architecture: all
+Maintainer: María José Santofimia Romero <mjsantof@Byron.uclm.es>
+Installed-Size: 12
+Depends: property-service-simple
+Homepage: https://bitbucket.org/arco_group/dharma
+Priority: optional
+Section: devel
+Filename: pool/main/d/dharma/dharma_0.20161114-1_all.deb
+Size: 2626
+SHA256: a1af7d1e0c64d2bbb62b7e9f4e6565960148f2390ef96443f475737b8e44a9a0
+SHA1: 78868a645fd493c3db1379280715079e3bd5d809
+MD5sum: b4bad918ed286c3ac1ac9d0d003c0118
+Description: Slices and libraries supporting the Dharma project
+ Semantic stuff
+
+Package: duo
+Version: 0.20161212-1
+Architecture: all
+Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
+Installed-Size: 109
+Depends: python (>= 2.7), python (<< 2.8)
+Replaces: duo-slice, hesperia-slice
+Homepage: http://arco.esi.uclm.es
+Priority: extra
+Section: devel
+Filename: pool/main/d/duo/duo_0.20161212-1_all.deb
+Size: 20034
+SHA256: cdccbb144ddfc1a5355123eb8a49bde0acf43c0a8ee31e61ade247319f81f3c1
+SHA1: 82e49ee27ad10a01e02ede9088e3aa4313235eb5
+MD5sum: b396455272f61010691fae7f26991bcd
+Description: Arco DUO interfaces: slices, dummies, clients, tools, etc.
+ This package contains the DUO slices, developed by ARCO
+ Research Group, and a set of dummies and tools to help on
+ development.
+
+Package: duo-wiring-service
+Version: 0.20161116-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 21
+Depends: python3, python3-zeroc-ice, duo, idm, idm-nat, property-service-simple
+Priority: extra
+Section: python
+Filename: pool/main/d/duo-wiring-service/duo-wiring-service_0.20161116-1_all.deb
+Size: 3924
+SHA256: cb4971398abd07d3f9400c8fd86fbea3ec17e218f6ead2cb0fddab6b3ea26869
+SHA1: 47520d2c8490fd49d01dd5e9fab02f52b8ebcc0e
+MD5sum: 5c5c3fd0a303a7baa69c9bf50a840ee6
+Description: Will handle the automatic wiring for you
+ Wiring Service provides the mechanisms necessary for doing automatic
+ wiring for DUO. It will allow single and multiple observer setups.
 
 Package: emacs-pills
 Version: 0.20200622.1-1
@@ -155,6 +741,42 @@ Description: Python emacs support
  a colection of configuration files ready to use and that may be used
  together without issues.
 
+Package: energy-accounting-server
+Version: 0.20190430-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 18
+Priority: extra
+Section: utils
+Filename: pool/main/e/energy-accounting-server/energy-accounting-server_0.20190430-1_all.deb
+Size: 3848
+SHA256: 8817fb9ed66e82f9e6e30f8dcba67cd5e92dec5d213570593c62a923b9d9db24
+SHA1: 9c61cdcb938549431e03596fd856c2465512a10d
+MD5sum: 059ab949fdfd198952cf1f19b123a821
+Description: Citisim energy accounting server
+ energy accounting server listen for power readings and create virtual sensor
+ that publish de corresponding stimated energy comsuption.
+
+Package: esi-tfg
+Version: 0.20190820-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 110
+Depends: arco-authors (>= 0.20151112-1), texlive-latex-extra, texlive-lang-spanish, texlive-latex-recommended, texlive-fonts-extra, cm-super
+Homepage: https://bitbucket.org/esi_atc/esi-tfg
+Priority: optional
+Section: shells
+Filename: pool/main/e/esi-tfg/esi-tfg_0.20190820-1_all.deb
+Size: 63088
+SHA256: 5241bb6834434077c27ea099bf676969cffc208782209dad7a5dbc9a4dabed13
+SHA1: 7627f5111278552787824924571dde339df3a927
+MD5sum: 79e6039817a3148232534d490c1cc82d
+Description: Clases LaTeX y utilidades para escribir las memorías de TFG y TFM
+ Este paquete proporciona clases LaTeX especialmente creadas para simplificar
+ la edición y  tipografiado de las memorias del TFG y TFM de acuerdo con las
+ normas de formato  especificadas por la the Escuela Superior de Informátcia
+ de Ciudad Real
+
 Package: go2
 Version: 2.20181225.6-1
 Architecture: all
@@ -197,6 +819,21 @@ MD5sum: e77615aa4a00bb7532f4cdfb84db9a23
 Description: Graf XML to LaTeX/PDF compiler
  Graf XML to LaTeX/PDF compiler
 
+Package: horaimon
+Version: 0.20180905-1
+Architecture: all
+Maintainer: Jose Ignacio Mota Ortiz <joseignacio.mota@uclm.es>
+Installed-Size: 1452
+Depends: python3-all, python3-dev, python3-all-dev, python3-pip, mosquitto, mosquitto-clients, ntp
+Priority: extra
+Section: utils
+Filename: pool/main/h/horaimon/horaimon_0.20180905-1_all.deb
+Size: 518220
+SHA256: 28951a9d2c7a4c122ca1f0ec0b6691a2302fd4c15e58a271cd2562c9db1904ae
+SHA1: 195465415f14459c249807fa39979c25b658e836
+MD5sum: 7015cc4ca03d4db4053afdc0cf3ffbd5
+Description: Aplicacion web que muestra historicos de temperatura y humedad en la ESI de Ciudad Real
+
 Package: ian
 Version: 0.20200625-1
 Architecture: all
@@ -218,6 +855,470 @@ Description: command line helper to maintain Debian packages
  ian is a helper to simplify and assist to the maintainer in the using
  of Debian packaging  tools. It can create or get orig tarball, install
  build dependencies and many others.
+
+Package: ice-nrf24
+Version: 0.20170719-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 127
+Depends: python3, ice-pyendpoint, python3-serial
+Priority: extra
+Section: devel
+Filename: pool/main/i/ice-nrf24/ice-nrf24_0.20170719-1_all.deb
+Size: 17056
+SHA256: d3780e391d522390ac90fc164ddb1969b5fd619b5cb6eccc7d9f2aabe13e19bd
+SHA1: 988e868c4abdf07716e5be91c6573c2c5c833448
+MD5sum: 27414d47ea4846b7093858ccedc1e03f
+Description: Endpoint for ZeroC-ICE using nRF24
+ This ZeroC Ice endpoint uses an Arduino bridge (which sketch is
+ included in this package) connected to a nRF24 transceiver. Although
+ witten in Python, it could be used in applications made in other
+ languages (as C++, Java, etc.).
+
+Package: ice-pyendpoint
+Version: 0.20170315-1
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 220
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2), libzeroc-ice3.6, python3
+Homepage: https://bitbucket.org/arco_group/ice-pyendpoint
+Priority: extra
+Section: devel
+Filename: pool/main/i/ice-pyendpoint/ice-pyendpoint_0.20170315-1_armhf.deb
+Size: 40394
+SHA256: c288eaf532ce322c538ab6baed52ac5f8366c0bd4c6256ce83d4a92da27350d3
+SHA1: 01e23545b54b656b90aed60020230885873495a5
+MD5sum: 6ee079fa7158eca316a436912528f604
+Description: Plugin for ZeroC-Ice
+ It allows building new endpoints using Python, and use it on other
+ languages. Provides a plugin, and a base class to implement new
+ Python endpoints.
+
+Package: ice-remoteio
+Version: 0.20170316.2-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 45
+Depends: python3, ice-pyendpoint
+Priority: extra
+Section: utils
+Filename: pool/main/i/ice-remoteio/ice-remoteio_0.20170316.2-1_all.deb
+Size: 9158
+SHA256: 134d3b44818ce0735fffc95374701e7c68789de49723f92b8905a60485160782
+SHA1: 8991afd84fdbbc821755178236f0544c42fc57f6
+MD5sum: 7df7d59fee8d105ddc8226ba8c4dc561
+Description: RemoteIO interface and endpoint
+ Provides the RemoteIO interface to access hardware serial devices
+ using an Ice interface (called RemoteIO), and provides a Zeroc Ice
+ endpoint (using PyEndpoint).
+
+Package: ice-serial
+Version: 0.20180927-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 53
+Depends: python3, python3-serial, ice-pyendpoint
+Homepage: https://bitbucket.org/arco_group/ice.serial-endpoint
+Priority: optional
+Section: python
+Filename: pool/main/i/ice-serial/ice-serial_0.20180927-1_all.deb
+Size: 8650
+SHA256: 91bbdc9449b1f5c79e86c4c4bceacfa69d363aac1bb4fc4157a34fc7f8ac0f57
+SHA1: 500988dc0c0fd8ac1426a00a383c2a48e9da3036
+MD5sum: 1e0fcb6650a48ec302661ba69158d658
+Description: Serial endpoint for ZeroC Ice
+ Endpoint which uses the serial port (usually /dev/ttyUSB0). The
+ endpoint type is serial, and it has a single parameter, -d, which is
+ the path of the device.
+
+Package: icec
+Version: 20191003-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 591
+Depends: python, sliceparser, python-commodity
+Homepage: https://bitbucket.org/arco_group/icec
+Priority: optional
+Section: net
+Filename: pool/main/i/icec/icec_20191003-1_all.deb
+Size: 62828
+SHA256: 3f70d3ad8359e58c0f346de61646c12a2e755071ab2ac1402bff154c8e7f54a3
+SHA1: 39e66c313e165a67faec255175c634331a0eddcb
+MD5sum: 855eac80a4568338d2ac9cf3e6914e3f
+Description: C implementation of ZeroC Ice
+ C implementation of the middleware from ZeroC, called Ice. This
+ implementations is expected to be highly portable for embedded
+ systems, with many restrictions. It does not use dynamic memory
+
+Package: icec-serial
+Version: 0.20180927-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 46
+Priority: extra
+Section: utils
+Filename: pool/main/i/icec-serial/icec-serial_0.20180927-1_all.deb
+Size: 5850
+SHA256: b28253e3310ef79be388ce8b572b5935a7d4682fc9d8e0c447c4eb1c7c399fe3
+SHA1: 39466f4dc9d4b3bf518b3b46706f52639592ea2a
+MD5sum: d1ac10c6823ba54cbec1eae949d5ee18
+Description: IceC endpoint for serial device
+ This is an endpoint for IceC using the hardware serial port available
+ on most Arduinos. An stringfied proxy should look like the following:
+ .
+    Light -e 1.0 -d:serial
+
+Package: icecloud
+Version: 0.20190529-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 20
+Depends: python3-all, python3, python3-zeroc-ice
+Priority: optional
+Section: utils
+Filename: pool/main/i/icecloud/icecloud_0.20190529-1_all.deb
+Size: 3432
+SHA256: 1fbdab26dbf7a1c83961662704dcd3a560e674658c992c9265ffadb0b6605e0d
+SHA1: d501ee594516641283b8835253ea712597d1fe0b
+MD5sum: 5c7ade1d903f41275b995c0223a62fb2
+Description: Generic IceGrid Server Template instantiator
+ a generic IceGrid Server Template factory to instantiate servers on demand
+ from script or third-party services.
+
+Package: icestormgui
+Version: 0.20180220-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 3033
+Depends: nginx
+Priority: optional
+Section: utils
+Filename: pool/main/i/icestormgui/icestormgui_0.20180220-1_all.deb
+Size: 614696
+SHA256: f56f7ca074eb6da64327a950f4f203f990a30aec4441f74f21febc6174113983
+SHA1: 2c3e530cc0d79f7ea64d080844fc564ba695728b
+MD5sum: aae97383745cf80611696d2e525c55bf
+Description: Graphical User Interface for IceStorm
+ IceStorm is an event distribution service. This package provides a
+ Graphical User Interface (GUI) to manage the list of topics, create
+ and destroy topics, and also to get the topic statistics and
+ subscribers information.
+
+Package: idm
+Version: 0.20200207-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 43
+Depends: python3, duo
+Replaces: idm, idm-embedded, idm-py3
+Priority: optional
+Section: net
+Filename: pool/main/i/idm/idm_0.20200207-1_all.deb
+Size: 9060
+SHA256: a189f939171a5f175ae85cf570f19add062629f9d9dde3bb30cec1e054670bae
+SHA1: 550ad9e6299891a41596a5dd58d8dadb065c3a1b
+MD5sum: 28e2ee1a00c0091b4e3fbf33c28012f3
+Description: Inter Domain Messaging
+ IDM is a protocol for communicating devices across different
+ technologies. This package provides the router and some example
+ files.
+
+Package: idm-controller
+Version: 0.20200218-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 4141
+Depends: python3, python3-flask, idm
+Priority: optional
+Section: utils
+Filename: pool/main/i/idm-controller/idm-controller_0.20200218-1_all.deb
+Size: 1030300
+SHA256: 56d49f21d3f6753a5ded57e177bc092710b3b486513fe406692a513f2ad31e9c
+SHA1: 63948da4acf39d4fc30655a2796c8594e5c317ce
+MD5sum: 24ed09175a9f79ad0d6f5ca72cbc6160
+Description: Implementation of IDM controller
+ This is the implementation of a IDM Controller. It provides a user
+ interface to setup the flows of all managed routers.
+
+Package: idm-nat
+Version: 0.20160617-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 18
+Depends: idm, python3
+Priority: extra
+Section: utils
+Filename: pool/main/i/idm-nat/idm-nat_0.20160617-1_all.deb
+Size: 3440
+SHA256: 7b977a0148a819106e9ae0bcb153650d3c21f0d2850a4ebc7d6152cf067ba177
+SHA1: 2b5c1bca6bfb2a56116e459a3998b5c5df0b5609
+MD5sum: ad2935bd49849e71279240352638fef3
+Description: Simple wrapper to access non-IDM objects.
+ IDM-nat is a Simple wrapper to access non-IDM objects (like a standard
+ IceStorm publisher object) using IDM address.
+ .
+ The IDM nat service creates a new object, part of an IDM network, and
+ forwards each invocation to the non-IDM object.
+
+Package: idm-ps-sync
+Version: 0.20200219.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 12
+Depends: python3, python3-zeroc-ice, property-service-slice, idm
+Priority: optional
+Section: utils
+Filename: pool/main/i/idm-ps-sync/idm-ps-sync_0.20200219.1-1_all.deb
+Size: 2456
+SHA256: 05eebae02be9d35b2958118392ed2b6b35a2085c778588870851a2de5ab3a4d0
+SHA1: e38544a2c866430aa93f7359c5ec0f92f7873ee7
+MD5sum: 78fb42906c7f7dc48e22deaf2258f644
+Description: Sync service between PS and IDM
+ This service performs an ADV operation on the specified IDM router for each
+ proxy found (with a valid ID) on the specified property service.
+
+Package: idm-py3
+Source: idm
+Version: 0.20170309-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 38
+Depends: python3, duo
+Replaces: idm, idm-embedded
+Priority: extra
+Section: net
+Filename: pool/main/i/idm/idm-py3_0.20170309-1_all.deb
+Size: 7752
+SHA256: ed9d82e708ab4b943b73b821f261ceee2ed755acdb348426fc8faa23599abb99
+SHA1: 09f532e12882de633965121fdab1228766a77ce8
+MD5sum: 7f3ff214eea2c8966fb0b20ee25cad8c
+Description: Inter Domain Messaging
+ IDM is a protocol for communicating devices across different
+ technologies. This package provides the router and some example
+ files.
+
+Package: iot-node
+Version: 0.20171109-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 16
+Depends: python
+Priority: extra
+Section: python
+Filename: pool/main/i/iot-node/iot-node_0.20171109-1_all.deb
+Size: 2780
+SHA256: 0daf7061c59c3dd79c93e966104c60d5d404c866034a46adf1a6ebc06bedd4db
+SHA1: 7a432c71803508d8671cef192a156fb26bbf7934
+MD5sum: 85ad83a4ec2ca0114662510e6dff95ec
+Description: IDL and tools for managing nodes.
+ Provides an interface for managing IoT nodes. This package provides
+ the slice definition, and some basic tools to handle it.
+
+Package: iot-node-controller
+Version: 0.20180208.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 1620
+Depends: python3, python3-flask, python3-zeroc-ice, property-service-simple, iot-node, citisim-slice
+Priority: optional
+Section: utils
+Filename: pool/main/i/iot-node-controller/iot-node-controller_0.20180208.1-1_all.deb
+Size: 621946
+SHA256: dd99317d6c0f4ebd2e0e6759bff0810cc1cd7bcd257dccda5587061e109595da
+SHA1: 8898916d61383024323f88de61e98d72f18319bc
+MD5sum: 5a3b581542bb2390cb9ee23c36fe1a6c
+Description: Web interface to control nodes
+ Intended for iot-node, this package provides a web interface and a
+ server to comunicate with nodes, change its settings and so on.
+
+Package: libcitisim
+Version: 1.20191121-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 90
+Depends: python, python3, citisim-slice, property-service-slice, citisim-energymodel-slice
+Suggests: python3-zeroc-ice
+Priority: optional
+Section: utils
+Filename: pool/main/libc/libcitisim/libcitisim_1.20191121-1_all.deb
+Size: 11080
+SHA256: 2787e50cbe15e726fd67a95effcf7367b71148cd6840f6d574088fd44f3c2d92
+SHA1: b5ad92e72a5afe81cf41c262491327311181af6b
+MD5sum: de1df462fc1048e281bee1ce664850e2
+Description: Citisim library to easy usage
+ This library provide access so some utilities to create MetaData,
+ subscribe to Citisim channels, publish events, and so on. It provides
+ implementations on the used languages for citisim.
+
+Package: lifelike
+Version: 0.20190305-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 14
+Depends: python3, python3-zeroc-ice
+Priority: optional
+Section: utils
+Filename: pool/main/l/lifelike/lifelike_0.20190305-1_all.deb
+Size: 2216
+SHA256: fd7fe2298b661bc93c9438f9511e74843e231ddbcd7842af3af38192e26edc12
+SHA1: 9d27f0c2c93dd0cb9faa725ee8090646e931b237
+MD5sum: 5231c3733535713a84263ae298eedfb6
+Description: Smart home and automatization made easy
+ This package provides a set of tools and interfaces to build applications for
+ the smart home environment. It tries to be simple, and easy.
+
+Package: mijia-smart-home
+Version: 0.20190924-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 67
+Depends: python3, python3-crypto
+Priority: optional
+Section: python
+Filename: pool/main/m/mijia-smart-home/mijia-smart-home_0.20190924-1_all.deb
+Size: 12284
+SHA256: d515c6e8668e9a61c7c5b7f00dce257dd8a911cf69e329f1be402725f164ab89
+SHA1: 7c5d4797644ecfdf1c0dea635896774355f2513b
+MD5sum: ebc0c4d1e7041a8036dcc4191d23632c
+Description: Python library for Mijia Smart Home
+ It provides a Python 3 library for reading and controlling devices
+ attached to a Lumi Gateway, usually the Smart Home environment provided
+ by Mijia (a partner of Xiaomi).
+
+Package: motion-sensor
+Version: 0.20190821.2-1
+Architecture: all
+Maintainer: Cristian Trapero Mora <cristian.trapero@uclm.es>
+Installed-Size: 21
+Depends: python3, python3-zeroc-ice, citisim-slice, libcitisim, python3-watchdog
+Homepage: https://bitbucket.org/arco_group/cerberus
+Priority: extra
+Section: utils
+Filename: pool/main/m/motion-sensor/motion-sensor_0.20190821.2-1_all.deb
+Size: 3254
+SHA256: f178a2908bb6a1e3f639094a127f03242b383f3123f2c334d1d4fef8f9fad96c
+SHA1: ab718cca6e283810cf96ed6ba67b8e5f672387ef
+MD5sum: e2622d56d49646fff2bc2161d7fd86ce
+Description: Cerberus Motion Sensor
+ This service monitor the changes in a directory in order to detect the .png and .jpg images creation in that.
+
+Package: nets2-ginkana
+Version: 0.20170622-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 77
+Depends: python
+Priority: extra
+Section: utils
+Filename: pool/main/n/nets2-ginkana/nets2-ginkana_0.20170622-1_all.deb
+Size: 23732
+SHA256: bd7c4579b3e3f2bdbf17685d9e0b9ed868e562cdca0525b647ab970db64c7892
+SHA1: 8bda6bb66f56dac60076019fa2ac30a8e8528f73
+MD5sum: 87900b636a11423918e86140a03c9b18
+Description: FIXME: Short description of the nets2-ginkana package
+ FIXME: long description about the basic features of the nets2-ginkana package
+
+Package: person-recognizer
+Version: 0.20190821.1-1
+Architecture: all
+Maintainer: Cristian Trapero Mora <cristian.trapero@uclm.es>
+Installed-Size: 27
+Depends: python3, python3-zeroc-ice, citisim-slice, libcitisim, python3-numpy, libdlib-data
+Homepage: https://bitbucket.org/arco_group/cerberus
+Priority: extra
+Section: utils
+Filename: pool/main/p/person-recognizer/person-recognizer_0.20190821.1-1_all.deb
+Size: 4672
+SHA256: 5fd65728275b153145ca6b12618f6d335fbac168a192e7474e02fbafb600455e
+SHA1: e829b545b3cf62316f79b9d56c2434200787cb53
+MD5sum: 0eafe711a8655fe9597af9350e74e6a0
+Description: Cerberus Person Recognizer
+ This service recognize a face person usign the Openface Library.
+
+Package: platino-dashboard
+Version: 0.20190603-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 31
+Depends: python3, python3-protobuf, python3-influxdb
+Priority: optional
+Section: utils
+Filename: pool/main/p/platino-dashboard/platino-dashboard_0.20190603-1_all.deb
+Size: 4792
+SHA256: 7bbb56f6f3b6018be109733e18b42d90c8e547034592795cf7da2b3c43644fe9
+SHA1: 60000da7373905e979df0ffc312e99ce2cc866e6
+MD5sum: 6c95eae595095f6c8aa68672ca6e52b6
+Description: Dashboard and DB Injector for Platino project
+ This package provides the needed config files to setup a InfluxDB + Grafana
+ dashboard, along with a Platino injector to store events
+
+Package: platino-proto
+Version: 0.20190603-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 11
+Priority: optional
+Section: utils
+Filename: pool/main/p/platino-proto/platino-proto_0.20190603-1_all.deb
+Size: 1532
+SHA256: a882bfe7f69a3ea24e3f211c1cd6be80cb7d3cb8020fcac3511057dc46308be0
+SHA1: 2fb07c9141019978d697db08207e3d815489fa85
+MD5sum: 9b1bdb6b22109e5b2584f05ddba6502b
+Description: IDL (protobuffers) for Platino project
+ This package contains the IDL definition of PlatinoEvent, using Google Protocol
+ Buffers, for Platino project
+
+Package: property-service-simple
+Version: 0.20191002-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 25
+Depends: python3:any, python3-all, python3-commodity, python3-wrapt, property-service-slice (>= 0.20191002)
+Homepage: https://bitbucket.org/ice.property-service-simple
+Priority: optional
+Section: python
+Filename: pool/main/p/property-service-simple/property-service-simple_0.20191002-1_all.deb
+Size: 5880
+SHA256: 050c995b12e53e2ff101802dc61172e933975f0c46da12825146fec79106698b
+SHA1: 86fee37c36ba3f986682f2c883111c8f1c8b7e84
+MD5sum: bfe0afe18802bddff7eca27c9a128578
+Description: Property Service for ZeroC Ice
+ Simplied version of the OMG Property Service based on a dictionary
+ interface.
+
+Package: property-service-slice
+Source: property-service-simple
+Version: 0.20191002-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 19
+Homepage: https://bitbucket.org/ice.property-service-simple
+Priority: optional
+Section: python
+Filename: pool/main/p/property-service-simple/property-service-slice_0.20191002-1_all.deb
+Size: 3404
+SHA256: 4d89114d892b2a35693d4d1da356c53b699796012cc8bfde09f60b46520dc9aa
+SHA1: 9ddab5cb6840f98e556f07559b4037a4378775af
+MD5sum: 1f99fdd274e7a81e4bd8730c158064c3
+Description: Property Service Simple Slice file
+ Slice file for the Property Service Simple.
+
+Package: propertygui
+Version: 0.20190716-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 4444
+Depends: python3, python3-flask, python3-zeroc-ice, property-service-slice
+Priority: optional
+Section: utils
+Filename: pool/main/p/propertygui/propertygui_0.20190716-1_all.deb
+Size: 1179076
+SHA256: ed0440c4ad0f6eb582195c3141b25e589426b2fb71bf4f21e6402d60e3d959f2
+SHA1: dcf8c8dc99e8356f37aa5f51661aca7185dc9167
+MD5sum: e51a1124f30f5058ed92d92ee9ff93fa
+Description: Graphical User Interface for PropertyService
+ This package provides a Graphical User Interface (through a web application)
+ to view the properties defined in a Property Server instance.
 
 Package: python-commodity
 Version: 0.20200511-1
@@ -269,6 +1370,78 @@ Description: test doubles framework for Python 2
  .
  doublex supersedes pyDoubles and it provides its legacy API as a wrapper.
 
+Package: python-gamepadpy
+Version: 0.20150310-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 19
+Depends: python (<< 2.8), python (>= 2.7), python:any (>= 2.6.6-7~)
+Priority: extra
+Section: python
+Filename: pool/main/p/python-gamepadpy/python-gamepadpy_0.20150310-1_all.deb
+Size: 2952
+SHA256: cf6d889c7081a23a64d7e052ebb14a89f4bddda185c6f564dc4e9a1211328542
+SHA1: e4263f660080b48075fe1db8dfd2ccfbae957a23
+MD5sum: 69b47fcdc7a99b372b3d13c8945e3e51
+Description: Read keystrokes from a gamepad
+ Read strokes from a gamepad and sents to a observer class.
+
+Package: python-ice-thing
+Source: ice-thing
+Version: 0.20160713-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 26
+Depends: python, python-wrapt, slice-thing
+Homepage: https://bitbucket.org/arco_group/ice-thing
+Priority: extra
+Section: python
+Filename: pool/main/i/ice-thing/python-ice-thing_0.20160713-1_all.deb
+Size: 4494
+SHA256: 037aa11166ee5ccb2d1691a88fd8a3358c7a8dbb8b482f52a4e66dba22bb6306
+SHA1: 376105c80624fe402730d52f5d3e8be18aa8b610
+MD5sum: 711ce4acdfef39d3c48a9b7a59020610
+Description: Python 2 module to manage "things"
+ It includes a Python 3 module to manage Property "things" at clients.
+
+Package: python-prego
+Source: prego
+Version: 0.20181024-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 130
+Depends: psmisc, python (<< 2.8), python (>= 2.7), python-blessings, python-commodity (>= 0.20150306), python-configobj, python-hamcrest, python-nose (>= 1.3), python:any (>= 2.6.6-7~)
+Homepage: https://bitbucket.org/arco_group/prego
+Priority: optional
+Section: python
+Filename: pool/main/p/prego/python-prego_0.20181024-1_all.deb
+Size: 24712
+SHA256: e16fba91e756de5594d7789623de6b6159f4441b5092e4f9acdba860bc2588e7
+SHA1: 547663ea985ea25e16516d12da58abfa9e79a08d
+MD5sum: fa9bc54c7a41eec2001600e7a8408f20
+Description: system test framework based on Python2 test cases
+ Prego is a python2 library consisting on a set of classes and hamcrest matchers
+ useful  to specify shell command interactions through files, environment
+ variables, network ports. It provides support to run shell commands on
+ background, send  signal to processes, set assertions on command stdout or
+ stderr, etc.
+
+Package: python-scone-client
+Source: scone-client
+Version: 0.20161025.1-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 17
+Priority: optional
+Section: python
+Filename: pool/main/s/scone-client/python-scone-client_0.20161025.1-1_all.deb
+Size: 2060
+SHA256: af4a158acc156be69967fba072b3eb94919620f8390efd9e74bb6fa890455796
+SHA1: 55607504ed74c59b1bb1c1ad682cfb68b958bbd0
+MD5sum: 73ec6dfbdff00602cd9d8a7d61661488
+Description: Python3 module to interact a scone-server.
+ Python3 module to interact a running scone-server.
+
 Package: python3-commodity
 Source: python-commodity
 Version: 0.20200511-1
@@ -290,6 +1463,45 @@ Description: Useful utilities library for Python 3 programmers
  It is divided in different packages for multiples purposes: terminal
  and console formatting, network programming, file system helpers, high
  level threading structures, useful data structures, etc.
+
+Package: python3-cxg
+Source: python-cxg
+Version: 0.20180109-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 37
+Depends: python3, python3-pandas, python3-scone-client
+Priority: extra
+Section: utils
+Filename: pool/main/p/python-cxg/python3-cxg_0.20180109-1_all.deb
+Size: 7124
+SHA256: 03de9d5acb481ff0d5ea66cf7edfbe86f79b9a8307df773fc68a69f6cccf85c8
+SHA1: 75848019148feff2e2e945aa4e530d7eb1321ad5
+MD5sum: 0f89942c46dee8c8b572ec4b047745eb
+Description: Python module to create and run construction grammars
+ create and run construction grammars and may interact with scone through
+ scone-client.
+
+Package: python3-django-elasticsearch-dsl
+Source: django-elasticsearch-dsl
+Version: 7.1.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 54
+Depends: python3, python3-elasticsearch-dsl, python3-django
+Priority: optional
+Section: python
+Filename: pool/main/d/django-elasticsearch-dsl/python3-django-elasticsearch-dsl_7.1.1-1_all.deb
+Size: 9888
+SHA256: fc92266120543cd3344dc3293ca02eb5c5f43f773ea56b98fc3250ddcf0761ed
+SHA1: 429f4be85088bce626282d52f705c695bb9efe19
+MD5sum: d858c51b2553b7a8ad0c5c670996c309
+Description: Wrapper around elasticsearch-dsl-py for django models
+ Django Elasticsearch DSL is a package that allows indexing of django models in
+ elasticsearch. It is built as a thin wrapper around elasticsearch-dsl-py so you
+ can use all the features developed by the elasticsearch-dsl-py team.
+ .
+ You can view the full documentation at the project homepage.
 
 Package: python3-doublex
 Source: doublex
@@ -317,6 +1529,127 @@ Description: test doubles framework for Python 3
  superclasses. This provides replacements for the original instances even for
  code performing explicit type checking.
 
+Package: python3-elasticsearch-dsl
+Source: elasticsearch-dsl
+Version: 7.1.0-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 179
+Depends: python3, python3-elasticsearch, python3-dateutil, python3-six, python3-urllib3
+Priority: optional
+Section: python
+Filename: pool/main/e/elasticsearch-dsl/python3-elasticsearch-dsl_7.1.0-1_all.deb
+Size: 33088
+SHA256: de621680e7c09fb9d06a6a9ab069781960a749db2726614ee01ac53e23de8d7f
+SHA1: 31f7e01e7527190157b4f61568d6d39f634f76d8
+MD5sum: 889b27898ce05be840c9844293411640
+Description: Python client for Elasticsearch
+ Elasticsearch DSL is a high-level library whose aim is to help with writing and
+ running queries against Elasticsearch. It is built on top of the official
+ low-level client (elasticsearch-py).
+ .
+ It provides a more convenient and idiomatic way to write and manipulate
+ queries. It stays close to the Elasticsearch JSON DSL, mirroring its
+ terminology and structure. It exposes the whole range of the DSL from Python
+ either directly using defined classes or a queryset-like expressions.
+ .
+ It also provides an optional wrapper for working with documents as Python
+ objects: defining mappings, retrieving and saving documents, wrapping the
+ document data in user-defined classes.
+ .
+ To use the other Elasticsearch APIs (eg. cluster health) just use the
+ underlying client.
+
+Package: python3-elasticsearch2
+Version: 2.5.0-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 512
+Depends: python3, python3-urllib3
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-elasticsearch2/python3-elasticsearch2_2.5.0-1_all.deb
+Size: 42118
+SHA256: 7d22c22deff9c1bbbc32ffca99425f4623c9cd9653c7b9c9847181b34ad1bc3f
+SHA1: b842b55e251a47ace4bbdcdf29456915dc653748
+MD5sum: 0217484e5cce9742e3ab9a41ae190e52
+Description: Official low-level client for Elasticsearch
+ Its goal is to provide common ground for all Elasticsearch-related
+ code in Python; because of this it tries to be opinion-free and very
+ extendable.
+
+Package: python3-gamepadpy
+Version: 0.20170823-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 19
+Depends: python3:any (>= 3.3.2-2~)
+Priority: extra
+Section: python
+Filename: pool/main/p/python3-gamepadpy/python3-gamepadpy_0.20170823-1_all.deb
+Size: 3108
+SHA256: 103a4b561ea496476186236038f5f10d995767daa4b8757d40b90291356e551b
+SHA1: 76d6014bc104b1419d17726c8d0db5a0c2fa90a3
+MD5sum: 5f2b29490db07f9fece4379284109400
+Description: Read keystrokes from a gamepad
+ Read strokes from a gamepad and sents to a observer class.
+
+Package: python3-ice-thing
+Source: ice-thing
+Version: 0.20160713-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 25
+Depends: python3, python3-wrapt, slice-thing
+Homepage: https://bitbucket.org/arco_group/ice-thing
+Priority: extra
+Section: python
+Filename: pool/main/i/ice-thing/python3-ice-thing_0.20160713-1_all.deb
+Size: 4472
+SHA256: d94c7f6ce19c57bb195d9a6ccf0c681245f14b7b4456cea12fd6cda7e9d62289
+SHA1: a7dfc24c7df36bd251f72153192abfdc73c4e0df
+MD5sum: afc42b9ffa580f8032d5e925940b25ec
+Description: Python 3 module to manage "things"
+ It includes a Python 3 module to manage Property "things" at clients.
+
+Package: python3-prego
+Source: prego3
+Version: 0.20181031-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 95
+Depends: psmisc, python3-blessings, python3-commodity (>= 0.20181024), python3-configobj, python3-hamcrest, python3-nose (>= 1.3), python3:any
+Homepage: https://bitbucket.org/arco_group/prego
+Priority: optional
+Section: python
+Filename: pool/main/p/prego3/python3-prego_0.20181031-1_all.deb
+Size: 20016
+SHA256: 31375839ec472cb11ddb015f436f0bd5481896789f74d0232d4f12f821f945ad
+SHA1: 7cfc7a30b9be4f6c7e9bc7aebbb7d9dd67a732ad
+MD5sum: 9af0135acae2622ef1539cacd3f8a0b7
+Description: system test framework based on Python3 test cases
+ Prego is a python2 library consisting on a set of classes and hamcrest matchers
+ useful  to specify shell command interactions through files, environment
+ variables, network ports. It provides support to run shell commands on
+ background, send  signal to processes, set assertions on command stdout or
+ stderr, etc.
+
+Package: python3-scone-client
+Source: scone-client
+Version: 0.20161117.2-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 33
+Priority: optional
+Section: python
+Filename: pool/main/s/scone-client/python3-scone-client_0.20161117.2-1_all.deb
+Size: 3552
+SHA256: 8066b4c009e887c08cfafffbf7db0de215670964a9763988e2ef4b79cbe3117e
+SHA1: 2ad64c7fa6f4eabaf74a6511a9e425b96ef9acde
+MD5sum: a368ab4e6d1a0076f9a363800bf88de3
+Description: Python3 module to interact a scone-server.
+ Python3 module to interact a running scone-server.
+
 Package: ripio
 Version: 0.20200708-1
 Architecture: all
@@ -332,4 +1665,411 @@ SHA1: d5f2b348a9d81d9d7636995f04909210347e0ffa
 MD5sum: 241e80c52bc0c1d8cbd15c8510aa785e
 Description: Manage hosted git repositories
  Managet git repositories hosted at bitbucket.org
+
+Package: rrp
+Version: 0.20170316.1-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 40
+Depends: python, ice-remoteio
+Priority: extra
+Section: utils
+Filename: pool/main/r/rrp/rrp_0.20170316.1-1_all.deb
+Size: 9572
+SHA256: 020424b74f84a126d61365c77ef1528ea46c7f000bf8b803605a8303bc1fa46c
+SHA1: 706766a0f71b8dc6315fbaca969b6f79451f83ef
+MD5sum: 23560f8547bf5bd0d2fa70f17e33a6a2
+Description: Round Robin Protocol
+ RRP is a Round Robin protocol for RS-485 devices. It gives a quantum
+ of time to each device to be able to send or receive data. It
+ includes a Python version of the arbiter, and a library for Arduino.
+
+Package: scone
+Version: 1.0.0-2
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 15035
+Depends: sbcl, slime
+Priority: extra
+Section: utils
+Filename: pool/main/s/scone/scone_1.0.0-2_all.deb
+Size: 2345082
+SHA256: c3adc595d2eb356a9a2afa293d7ac169e92815e141832b0b916ce0247163a2e7
+SHA1: 7abb764988adfa504463e7bd501291c5b481a140
+MD5sum: 26f80415fdfae39a78e1461bba50cc71
+Description: knowledge base system
+ is a open-source knowledge base (KB) that support for representing symbolic
+ knowledge. It supports the "common sense" reasoning approach and provides rare
+ features like hypothetic situations, episodic memory, actions, events, mental
+ states, etc.
+
+Package: scone-server
+Version: 0.20170727-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 3198
+Depends: scone
+Priority: extra
+Section: utils
+Filename: pool/main/s/scone-server/scone-server_0.20170727-1_all.deb
+Size: 601224
+SHA256: 69827ee69a66984fee31d5bbadd3cc5a570d1d0051211b18ec839e5e1f2a1a18
+SHA1: 7d4ff99db0cf9badf82d41defca2896e32d82f5d
+MD5sum: e2566f2690dc1028046e9173a869aaea
+Description: FIXME: Short description of the scone-server package
+ FIXME: long description about the basic features of the scone-server package
+
+Package: scone-wrapper
+Version: 0.20171003-1
+Architecture: all
+Maintainer: María José Santofimia Romero <MariaJose.Santofimia@uclm.es>
+Installed-Size: 25
+Depends: python3-commodity (>= 0.20161112), scone-server (>= 0.20161115.2), dharma (>= 0.20161114), python3-zeroc-ice (>= 3.6), python3-scone-client (>= 0.20161115)
+Homepage: https://bitbucket.org/arco_group/scone.wrapper
+Priority: optional
+Section: devel
+Filename: pool/main/s/scone-wrapper/scone-wrapper_0.20171003-1_all.deb
+Size: 4492
+SHA256: 2d50f9a43cfc520f0b759d974b79ada0c814f378bf5f98e71366208e38b4bdea
+SHA1: 8be50b59bef086d1d37b63c241b4cf40bdd936a9
+MD5sum: 0d6fe1f49cfdb15b098f617df68deff0
+Description: scone-server Ice wrapper
+ Ice service wrapper for the scone-server
+
+Package: service-temperature-publisher
+Version: 0.20180413-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 12
+Depends: python3, python3-requests, citisim-slice
+Replaces: wunderground-temp-publisher
+Priority: optional
+Section: python
+Filename: pool/main/s/service-temperature-publisher/service-temperature-publisher_0.20180413-1_all.deb
+Size: 2580
+SHA256: b6011a2ba73abd783e73a7f1f5c2cec75f6e14734da167051c540cc8100833ba
+SHA1: bf5d026b97832f1f8418e0501a0c1d396a92eb2c
+MD5sum: af3aaf6b469e1ddb9e43731d64e28dd1
+Description: Citisim SmartObject publisher (temperature)
+ Provides a service to publish some location's temperature, using
+ any available forecast service. It uses SmartObject.AnalogSink
+ interface, provided by Citisim.
+
+Package: slice-thing
+Source: ice-thing
+Version: 0.20160713-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 11
+Homepage: https://bitbucket.org/arco_group/ice-thing
+Priority: extra
+Section: python
+Filename: pool/main/i/ice-thing/slice-thing_0.20160713-1_all.deb
+Size: 1856
+SHA256: c1ca22f6653638c599c994b33b55e1c9a584c45aa348ea2ee6fc8732b9484a7d
+SHA1: 32d8cd1aedab556fea7bb04a5aa5550f0a29ce89
+MD5sum: b86896d4e98e6b0e13d902e1e5945a69
+Description: Slice for the "thing" data type
+ only includes the slice definitions for the "thing" data type encapsulation.
+
+Package: smart-transducer
+Version: 0.20200217-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 21
+Depends: python3, python3-zeroc-ice
+Replaces: lifelike
+Priority: optional
+Section: utils
+Filename: pool/main/s/smart-transducer/smart-transducer_0.20200217-1_all.deb
+Size: 3120
+SHA256: 785f142fab0f16e16e4a16da90d081d2dd97664103d937ee299470adf8e83460
+SHA1: 50f0997708fd95048802125ec26b06f2151a658c
+MD5sum: 0edb971236b1c602da298430dae3445f
+Description: Smart home and automatization made easy
+ This package provides a set of tools and interfaces to build applications for
+ the smart home environment. It tries to be simple, and easy.
+
+Package: snapshot-service
+Version: 0.20190821.1-1
+Architecture: all
+Maintainer: Cristian Trapero Mora <cristian.trapero@uclm.es>
+Installed-Size: 22
+Depends: python3, python3-zeroc-ice, citisim-slice, libcitisim
+Homepage: https://bitbucket.org/arco_group/cerberus
+Priority: extra
+Section: utils
+Filename: pool/main/s/snapshot-service/snapshot-service_0.20190821.1-1_all.deb
+Size: 3176
+SHA256: a2db9f8d14e9af48023c3c6d2e42d4914d2162e16faa7c8ccf081dce7e98a058
+SHA1: 0dc90a4436d3d9e74c054639ecf4a72e41739f75
+MD5sum: e3f899d1575215557af85a8300d448b6
+Description: Cerberus Snapshot Service
+ Service that captures a snapshot from a IP Foscam camera.
+
+Package: speech-to-text
+Version: 0.20190821.1-1
+Architecture: all
+Maintainer: Cristian Trapero Mora <cristian.trapero@uclm.es>
+Installed-Size: 21
+Depends: python3, python3-zeroc-ice, citisim-slice, libcitisim, python3-numpy, python3-scipy, python3-watson-developer-cloud
+Homepage: https://bitbucket.org/arco_group/cerberus
+Priority: extra
+Section: utils
+Filename: pool/main/s/speech-to-text/speech-to-text_0.20190821.1-1_all.deb
+Size: 3270
+SHA256: 75da29902281fafaa72e50b58da6ec2bf5e71cd50dc9de358d51347ce9c9942f
+SHA1: c9b4d15e4d717113d527f7248b1257ca52e3992f
+MD5sum: d3c70d32a2487761ead8b26c004d4c3c
+Description: Cerberus Speech to Text Service
+ This service transcribe an audio file to text using IBM Watson Service.
+
+Package: st-wirer-server
+Source: st-wirer
+Version: 0.20190612-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 17
+Depends: python3, st-wirer-slice
+Priority: optional
+Section: utils
+Filename: pool/main/s/st-wirer/st-wirer-server_0.20190612-1_all.deb
+Size: 3508
+SHA256: a11fb020816f6d12848610cef1dbc38d396dde5d2d3893636922b91eb4ca60ef
+SHA1: 05c954ebcf83826f76080934ac7454659d6bebde
+MD5sum: b24e1150d1eb3a671c508f323d8b5ebb
+Description: Automatically manages object wiring and intermediate topics for ST
+ Wirer provides the mechanisms necessary for doing automatic
+ wiring ST (smart transducer) observers. It will allow single and multiple
+ observer setups.
+
+Package: st-wirer-slice
+Source: st-wirer
+Version: 0.20190612-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 12
+Priority: optional
+Section: utils
+Filename: pool/main/s/st-wirer/st-wirer-slice_0.20190612-1_all.deb
+Size: 1620
+SHA256: 08d397b64436ea18d4cc8562dadcecfd33ca07d4e0b3b6249827197b553ba905
+SHA1: c2794a6043a12d258f4b9ca62829e554b153539e
+MD5sum: 80db7034242f77f9f5f4d0847633e657
+Description: Slice file for the SmartStuff::Wirer service
+ This package contains just the wiring.ice file.
+
+Package: twilight-sensor
+Version: 0.20190404-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 13
+Depends: python3, libcitisim, python3-ephem
+Priority: optional
+Section: utils
+Filename: pool/main/t/twilight-sensor/twilight-sensor_0.20190404-1_all.deb
+Size: 2940
+SHA256: e577a4872a9490c8b6e3aef8a8cf246048c41e2557aa878704fc4a7588ac7ef2
+SHA1: 43c1407e3aa1da26694bc15a1d0a42e618a0108b
+MD5sum: f0c449c5479b49df65f49779b4e7e002
+Description: Twilight sensor for citisim
+ It provides a sensor which publishes the configured location
+ day-night status. It publishes on Twilight channel, from night to day
+ (True) and from day to night (False), using SmartObject.DigitalSink
+ interface.
+
+Package: upload-errors
+Version: 0.20161103-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 8
+Priority: extra
+Section: utils
+Filename: pool/main/u/upload-errors/upload-errors_0.20161103-1_all.deb
+Size: 1206
+SHA256: e3a56ace8007b7c1b7f9cd16a8eb7821514a4d81f4beee0c436f2f5ec327ea3f
+SHA1: a2dd2eb709a33064600e0c346ded5c92a9d8f389
+MD5sum: 3e3ffdbd71cb3eefbf821b37415d3921
+Description: FIXME: Short description of the upload-errors package
+ FIXME: long description about the basic features of the upload-errors package
+
+Package: urban-model-server
+Version: 0.20191125-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 67
+Depends: python3, python3-networkx, python3-shapely, python3-lxml, python3-matplotlib, libcitisim
+Priority: optional
+Section: utils
+Filename: pool/main/u/urban-model-server/urban-model-server_0.20191125-1_all.deb
+Size: 13680
+SHA256: b10b28bb5e4e88011cc0ee23f592acbf9fa2b9d0be24de4c09efdafd789bcfe0
+SHA1: 386ebc56becaf708bcff0acc2e468da0a15bb829
+MD5sum: 687906b9e7faebebc4b6fca6055aafa9
+Description: Services that allow queries about a model based on the IndoorGML standard
+ This package provides various services. On the one hand there is the one in
+ charge of serving the IndoorGML model indicated to the server through the
+ "IgmlLayer" interface. On the other hand there is the service in charge of
+ calculating routes between two points of the model and implements the
+ interface "RoutingService" of the "SmartServices" module of the libcitisim
+ package.
+
+Package: wibeee-energy-publisher
+Version: 0.20191010-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 18
+Depends: python3
+Priority: optional
+Section: utils
+Filename: pool/main/w/wibeee-energy-publisher/wibeee-energy-publisher_0.20191010-1_all.deb
+Size: 3340
+SHA256: 2483c4b20f5fd747874dbcc47ebd2cf45a98d36a1768f57236e4e1f8c19def95
+SHA1: 724e9f0458c3ffadd6f29bf36dcca3dc6f9fa347
+MD5sum: 835b7a69ada843098a9edb289b9cee32
+Description: Energy publisher for wibeee devices
+ This service reads measurements from a wibeee device and publish them in an
+ IceStorm topic.
+
+Package: wunderground-temp-publisher
+Version: 0.20170720-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 13
+Depends: python3, python3-requests, citisim-slice
+Priority: extra
+Section: python
+Filename: pool/main/w/wunderground-temp-publisher/wunderground-temp-publisher_0.20170720-1_all.deb
+Size: 2728
+SHA256: 8bc1dfcc5fa387071ea20de3c24c47e4c58e16732814fd71303af9ccb071f3a5
+SHA1: b0a04c82c946e025f993a6efa128bd5ff3c94149
+MD5sum: 1c99f57caf041ad57210c70a2dc61836
+Description: Citisim SmartObject publisher (temperature)
+ Provides a service to publish some location's temperature, using
+ Wunderground forecast service. It uses SmartObject.AnalogSink
+ interface, provided by Citisim.
+
+Package: xio-sensor-publisher
+Version: 0.20191022-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fdezbermejo@gmail.com>
+Installed-Size: 15
+Depends: python3
+Priority: optional
+Section: utils
+Filename: pool/main/x/xio-sensor-publisher/xio-sensor-publisher_0.20191022-1_all.deb
+Size: 2696
+SHA256: ea9956a23879ac43f373aee1322bc60c976b3fc847eaced32725af7d83dde5fb
+SHA1: fc7b6159208408acda0eed81a9e648a6ef70736e
+MD5sum: 3bf4a43d33dc7bb49633b32ae1909b0c
+Description: Publisher for xiaomi sensors
+ This service reads the measures of a set of xiaomi sensors and
+ then publish them in a IceStorm topic
+
+Package: zeroc-ice36
+Version: 3.6.3-8
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 18
+Depends: zeroc-ice36-essential, zeroc-ice36-services, libzeroc-freeze3.6, libzeroc-ice3.6-java
+Priority: extra
+Section: utils
+Filename: pool/main/z/zeroc-ice36/zeroc-ice36_3.6.3-8_all.deb
+Size: 1936
+SHA256: ca1d2319d2af2817fe7871abf2861b0d7d31192123f81d465cd610f045bd3574
+SHA1: 3b1fcfb9092c7e76c08788fcd2c80b02aa000dc8
+MD5sum: 10c36571cd767e58c3bb4163628e84db
+Description: Virtual package to install ZeroC Ice 3.6.3
+ virtual package that install Debian packages provided by ZeroC.
+ PHP bindings are dropped.
+
+Package: zeroc-ice36-essential
+Source: zeroc-ice36
+Version: 3.6.3-8
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 8
+Depends: dpkg-dev, libzeroc-ice3.6, zeroc-ice-slice, zeroc-ice-utils, python3-zeroc-ice, libzeroc-ice-dev, zeroc-ice-compilers
+Priority: extra
+Section: utils
+Filename: pool/main/z/zeroc-ice36/zeroc-ice36-essential_3.6.3-8_all.deb
+Size: 1494
+SHA256: bc23bb3004bfae7d75a0c6d3a7203b070058571186f24f02eacb881bfb7eeeda
+SHA1: 5f73e53f8342e5efc8b2ca3df0e921ea05d6d33b
+MD5sum: f1d2afc3c3ae0d1a6aeca556bd5e41bd
+Description: Virtual package to install ZeroC Ice 3.6.3
+ virtual package that install Debian packages provided by ZeroC.
+ Core libraries + Python bindings.
+
+Package: zeroc-ice36-services
+Source: zeroc-ice36
+Version: 3.6.3-8
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 10
+Depends: zeroc-ice36-essential, libzeroc-icestorm3.6, zeroc-glacier2, zeroc-icebox, zeroc-icegrid, zeroc-icepatch2, zeroc-icegridgui, libjgoodies-forms-java, libjgoodies-looks-java
+Priority: extra
+Section: utils
+Filename: pool/main/z/zeroc-ice36/zeroc-ice36-services_3.6.3-8_all.deb
+Size: 1544
+SHA256: ac16ddd7f867c524854834801cb985f2be565c44500616ce5c883cb7db440d34
+SHA1: f6f364a19ede2ac52fe4c5c1634652b9c9161c0b
+MD5sum: 51b5079ca892cf3c33ed32fa404ca8a6
+Description: Virtual package to install ZeroC Ice 3.6.3
+ virtual package that install Debian packages provided by ZeroC.
+ Ice core services.
+
+Package: zeroc-ice37
+Version: 3.7.1-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 13
+Depends: dpkg-dev, zeroc-ice37-essential, zeroc-ice37-services, libzeroc-ice3.7-java
+Replaces: zeroc-ice36
+Priority: extra
+Section: utils
+Filename: pool/main/z/zeroc-ice37/zeroc-ice37_3.7.1-1_all.deb
+Size: 1650
+SHA256: 79e3a5ee65807301e44dc67c62f2e27a3f5a6e932a39ef04a0afbb73789838ec
+SHA1: 74656f1f117f23047ad94f9cf63726f2c689e923
+MD5sum: 7c2b8ff33e1dab3305f1c5a2af9d6f82
+Description: Virtual package to install ZeroC Ice 3.7.3
+ virtual package that install Debian packages provided by ZeroC.
+ PHP bindings are dropped.
+
+Package: zeroc-ice37-essential
+Source: zeroc-ice37
+Version: 3.7.1-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 8
+Depends: libzeroc-ice3.7, zeroc-ice-slice, zeroc-ice-utils, python3-zeroc-ice, libzeroc-ice-dev, zeroc-ice-compilers
+Priority: extra
+Section: utils
+Filename: pool/main/z/zeroc-ice37/zeroc-ice37-essential_3.7.1-1_all.deb
+Size: 1246
+SHA256: 3140f0dba9f08ea7793a6aa4446c0f122c7e97a763bb426f272a61ea2cf50c28
+SHA1: f29cbc68916b19db6e70d27bc4b62354239f9ca9
+MD5sum: f928dccacb2ef9edd9b7770c45a90edf
+Description: Virtual package to install ZeroC Ice 3.7.3
+ virtual package that install Debian packages provided by ZeroC.
+ Core libraries + Python bindings.
+
+Package: zeroc-ice37-services
+Source: zeroc-ice37
+Version: 3.7.1-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 8
+Depends: zeroc-ice37-essential, libzeroc-icestorm3.7, zeroc-glacier2, zeroc-icebox, zeroc-icegrid, zeroc-icepatch2, zeroc-icegridgui, libjgoodies-forms-java, libjgoodies-looks-java
+Priority: extra
+Section: utils
+Filename: pool/main/z/zeroc-ice37/zeroc-ice37-services_3.7.1-1_all.deb
+Size: 1260
+SHA256: 1d6826463e0c6b6e627dd7f4eaeec0bb3fd96895c4fdab1e625830118f3d8b74
+SHA1: 012f64d530edb90ac17764af17f7cf8097534825
+MD5sum: af2839901f64ec3210392be6f2bac0db
+Description: Virtual package to install ZeroC Ice 3.7.3
+ virtual package that install Debian packages provided by ZeroC.
+ Ice core services.
 
