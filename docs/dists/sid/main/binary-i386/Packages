@@ -95,6 +95,23 @@ MD5sum: b513a3cefd46091d6f29c6fcf81a1c5d
 Description: Arco user and staff tools
  Tools for Arco user and staff. Utilities for remote authentication.
 
+Package: citisim-slice
+Version: 0.20191007-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 22
+Depends: citisim-wiring-slice (>= 0.20181213-1), property-service-slice, citisim-energymodel-slice
+Priority: optional
+Section: devel
+Filename: pool/main/c/citisim-slice/citisim-slice_0.20191007-1_all.deb
+Size: 5108
+SHA256: 5c505037ccc8ab400e46ec30b5476a49e017d8c9c1ee9292435175273bc0cbe0
+SHA1: 0f48c176ce0f024ee00ad0f67fed9fd1045148e5
+MD5sum: dc61419f13316ca045d3cfe7e6487e43
+Description: Citisim slices
+ Contains the defined interfaces for Citisim project: for IoT and
+ Smart Services, using SmartObject module
+
 Package: emacs-pills
 Version: 0.20200622.1-1
 Architecture: all
@@ -301,18 +318,18 @@ Description: test doubles framework for Python 3
  code performing explicit type checking.
 
 Package: ripio
-Version: 0.20200707-1
+Version: 0.20200708-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 73
+Installed-Size: 74
 Depends: python3:any, python3-git, python3-toml
 Priority: optional
 Section: utils
-Filename: pool/main/r/ripio/ripio_0.20200707-1_all.deb
-Size: 7956
-SHA256: 80771af97a27910d74c897dae89cbe933296f137d1444ae0eb46e8340e21cf60
-SHA1: 61891ee0b2f9062c60b7914619c0c08706ae026d
-MD5sum: 759d09cf272bd74e2685524b1f756d09
+Filename: pool/main/r/ripio/ripio_0.20200708-1_all.deb
+Size: 8160
+SHA256: 68649b394806e8ee24aceaf664e99c01b5b34bcc69b922bd61bf857699af9a75
+SHA1: d5f2b348a9d81d9d7636995f04909210347e0ffa
+MD5sum: 241e80c52bc0c1d8cbd15c8510aa785e
 Description: Manage hosted git repositories
  Managet git repositories hosted at bitbucket.org
 
