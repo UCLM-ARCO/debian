@@ -184,18 +184,18 @@ Description: Citisim service to wire actuators
  the provided configuration in the property service.
 
 Package: citisim-dashboard-icegrid-dc
-Version: 0.20180717-1
+Version: 0.20200903-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 26
 Depends: python3, citisim-dashboard-webapp-ds
 Priority: optional
 Section: utils
-Filename: pool/main/c/citisim-dashboard-icegrid-dc/citisim-dashboard-icegrid-dc_0.20180717-1_all.deb
-Size: 4694
-SHA256: 45d9c37636a60c9b589747575f2e074bf1813e9f02bc089ebab02bf984b0c13a
-SHA1: c5303e9f3fb36a74db848d2c7d8a46a8d424cce4
-MD5sum: 715adf88934310e305d3297426b71d55
+Filename: pool/main/c/citisim-dashboard-icegrid-dc/citisim-dashboard-icegrid-dc_0.20200903-1_all.deb
+Size: 4812
+SHA256: 9f11b21d57f299e93e633b584f5e15010c7f7130f2a4462555789d7add253e83
+SHA1: c95139547a65150b84235015f8ee8b56ca98ee3c
+MD5sum: 991be61fa954327697cc12c1c5d7b959
 Description: Citisim dashboard IceGrid data collector
  IceGrid Data Collector, retrieves information about services and
  nodes from an IceGrid registry, and pushes them to the dashboard data
