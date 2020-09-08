@@ -1220,6 +1220,24 @@ Description: Smart home and automatization made easy
  This package provides a set of tools and interfaces to build applications for
  the smart home environment. It tries to be simple, and easy.
 
+Package: metamotion
+Version: 0.20200531-2
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 51
+Depends: python3
+Priority: optional
+Section: python
+Filename: pool/main/m/metamotion/metamotion_0.20200531-2_all.deb
+Size: 9136
+SHA256: 1a02c1b88f94e0eb69ddc50a1033a72efd93fe2c52bafd61dcc199f0dc638e67
+SHA1: 42922fadbfbcd736b457b72b48a745f7e627d84f
+MD5sum: 78c8abf055e544823bf402b66463e92a
+Description: Python library to control MetaMotionR devices
+ This package present a useful library that enable the users
+ to request differente data from the MetaMotionR sensor, like
+ the acceleration and rotation of the sensor.
+
 Package: mijia-smart-home
 Version: 0.20190924-1
 Architecture: all
