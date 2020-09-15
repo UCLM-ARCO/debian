@@ -1711,19 +1711,19 @@ Description: Python 3 module to manage "things"
 
 Package: python3-prego
 Source: prego3
-Version: 0.20181031-1
+Version: 0.20200915-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 95
 Depends: psmisc, python3-blessings, python3-commodity (>= 0.20181024), python3-configobj, python3-hamcrest, python3-nose (>= 1.3), python3:any
-Homepage: https://bitbucket.org/arco_group/prego
+Homepage: https://bitbucket.org/DavidVilla/prego3
 Priority: optional
 Section: python
-Filename: pool/main/p/prego3/python3-prego_0.20181031-1_all.deb
-Size: 20016
-SHA256: 31375839ec472cb11ddb015f436f0bd5481896789f74d0232d4f12f821f945ad
-SHA1: 7cfc7a30b9be4f6c7e9bc7aebbb7d9dd67a732ad
-MD5sum: 9af0135acae2622ef1539cacd3f8a0b7
+Filename: pool/main/p/prego3/python3-prego_0.20200915-1_all.deb
+Size: 20056
+SHA256: 4e9457044773562a697f88a36c8cd1936d1da9db1075e2b24dfe8412c6812403
+SHA1: f592b9a93ca0906e23bd04048e34d2aa08ee1cde
+MD5sum: fd238e65b3bf55b288b10374db17a145
 Description: system test framework based on Python3 test cases
  Prego is a python2 library consisting on a set of classes and hamcrest matchers
  useful  to specify shell command interactions through files, environment
