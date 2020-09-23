@@ -4,10 +4,9 @@
 function pool-commit {
     local msg="$1"
     echo "$msg"
-    git ci -a -m "$msg"
+    git commit --all --message "$msg"
     git push
 }
-
 
 
 git pull
