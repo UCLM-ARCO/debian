@@ -1688,18 +1688,18 @@ Description: Python3 module to interact a scone-server.
  Python3 module to interact a running scone-server.
 
 Package: ripio
-Version: 0.20200708-1
+Version: 0.20201021-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 74
+Installed-Size: 78
 Depends: python3:any, python3-git, python3-toml
 Priority: optional
 Section: utils
-Filename: pool/main/r/ripio/ripio_0.20200708-1_all.deb
-Size: 8160
-SHA256: 68649b394806e8ee24aceaf664e99c01b5b34bcc69b922bd61bf857699af9a75
-SHA1: d5f2b348a9d81d9d7636995f04909210347e0ffa
-MD5sum: 241e80c52bc0c1d8cbd15c8510aa785e
+Filename: pool/main/r/ripio/ripio_0.20201021-1_all.deb
+Size: 8716
+SHA256: be55be9b8d641a8b968b6f3cd78bf62db9f8b9872a930ec0afd5844bdd81e5fc
+SHA1: 5f13d504a9d85c08ee729d2125cb1871ec36881d
+MD5sum: 7670db00cc53f23b98bc7928bbe16d9f
 Description: Manage hosted git repositories
  Managet git repositories hosted at bitbucket.org
 
