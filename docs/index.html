@@ -42,8 +42,7 @@ $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D917ABDD28380433
     And add the repository:
 
     <pre class="console">
-$ sudo su
-# echo "deb https://uclm-arco.github.io/debian/ sid main" > /etc/apt/sources.list.d/arco.list
-# apt-get update </pre>
+$ echo "deb https://uclm-arco.github.io/debian/ sid main" | sudo tee /etc/apt/sources.list.d/arco.list
+$ sudo apt update </pre>
   </body>
 </html>
