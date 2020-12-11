@@ -1649,6 +1649,25 @@ MD5sum: afc42b9ffa580f8032d5e925940b25ec
 Description: Python 3 module to manage "things"
  It includes a Python 3 module to manage Property "things" at clients.
 
+Package: python3-miband
+Source: miband
+Version: 0.20201201-1
+Architecture: armhf
+Maintainer: Oscar Acena Herrera <oscaracena@gmail.com>
+Installed-Size: 48
+Depends: python3-crypto, python3:any, pkg-config, libboost-python-dev, libboost-thread-dev, libbluetooth-dev, libglib2.0-dev, python3-dev
+Priority: optional
+Section: python
+Filename: pool/main/m/miband/python3-miband_0.20201201-1_armhf.deb
+Size: 9352
+SHA256: 63a04618b58a8e26c86f8df1958a68bdf6a866eb4cd10137b85e6a93d8985cc5
+SHA1: ff9df6c124d0aa24c3499314e916ffc0e2682f31
+MD5sum: ea50dab22c5e4632257d75cee8fd4110
+Description: Xiaomi MiBand reader library (Python 3)
+ This is a Python 3 library which allows one to read
+ MiBand devices information: steps and calories record,
+ heart rate, battery, and more.
+
 Package: python3-prego
 Source: prego3
 Version: 0.20200915-1

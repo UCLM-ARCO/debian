@@ -21,4 +21,7 @@ allow * by key DCF71E29
 # jesus.fruiz
 allow * by key C5BC007C
 
+# cristina.bolaños
+allow * by key 50C1AA08
+
 # end
