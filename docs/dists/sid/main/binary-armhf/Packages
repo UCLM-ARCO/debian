@@ -1204,6 +1204,24 @@ Description: Python library to control MetaMotionR devices
  to request differente data from the MetaMotionR sensor, like
  the acceleration and rotation of the sensor.
 
+Package: miband-dc
+Version: 0.20201201-1
+Architecture: armhf
+Maintainer: Oscar Acena Herrera <oscaracena@gmail.com>
+Installed-Size: 55
+Depends: python3-miband, python3-peewee, python3-psycopg2, python3:any, postgresql, libpq-dev
+Priority: optional
+Section: python
+Filename: pool/main/m/miband-dc/miband-dc_0.20201201-1_armhf.deb
+Size: 9148
+SHA256: f10a1286807acc67edd44bba456a03ab79d416f828b835bb18726c05e154765a
+SHA1: 4f4c5bd88ac2c25eae9a444b47ddfc47704ddf51
+MD5sum: 6a7929e7c3e881db6c528b630392e4e5
+Description: Xiaomi MiBand data collector (Python 3)
+ This is a Python 3 script (and system service) which
+ collects data from Xiaomi MiBand4, previously configured,
+ and stores them on a PostgreSQL database.
+
 Package: mijia-smart-home
 Version: 0.20190924-1
 Architecture: all
