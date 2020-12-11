@@ -1257,6 +1257,24 @@ Description: Python library to control MetaMotionR devices
  to request differente data from the MetaMotionR sensor, like
  the acceleration and rotation of the sensor.
 
+Package: miband-grafana
+Version: 0.20201203-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 40
+Depends: grafana, postgresql
+Priority: optional
+Section: utils
+Filename: pool/main/m/miband-grafana/miband-grafana_0.20201203-1_all.deb
+Size: 6220
+SHA256: ca418500205e77e66684ee6e84b04ce7b7bd9f682134e10283b7281a3a3a9c9f
+SHA1: 65e33e3ddeb18e1b79483ea5a66c5e82f878b663
+MD5sum: 35dca789ef7adebb4375c8e1305203cc
+Description: Grafana provision for MiBand data
+ Creates, and modifies existing, configuration files
+ for Grafana instance to be able get MiBand data from
+ configured database. Based on configuration file.
+
 Package: mijia-smart-home
 Version: 0.20190924-1
 Architecture: all
