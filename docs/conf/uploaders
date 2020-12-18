@@ -5,6 +5,7 @@ allow * by key C7343A71
 # oscar.acena
 allow * by key 18F46E9A
 allow * by key FE6EF5B9
+allow * by key 914DFC0F
 
 # felix.villanueva
 allow * by key 98EE8D0B

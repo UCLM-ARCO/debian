@@ -1847,6 +1847,22 @@ Description: Citisim SmartObject publisher (temperature)
  any available forecast service. It uses SmartObject.AnalogSink
  interface, provided by Citisim.
 
+Package: shapes-slice
+Version: 0.20201218-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 16
+Priority: optional
+Section: utils
+Filename: pool/main/s/shapes-slice/shapes-slice_0.20201218-1_all.deb
+Size: 2312
+SHA256: 09214996f7410d600c8a68b9d7619ec05e5133bf4f05a88c4da0a4d004834b8e
+SHA1: b4bf58ba113d1a233d1619983dbe05b3ecd817a3
+MD5sum: 431df2adb017c88642a98eb137f3f417
+Description: Shapes ZeroC Slice files
+ This package contains the Interface Definition file (using
+ ZeroC Ice Slice IDL) for Shapes services.
+
 Package: slice-thing
 Source: ice-thing
 Version: 0.20160713-1
