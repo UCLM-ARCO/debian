@@ -1187,18 +1187,18 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: magic-mirror-2
-Version: 0.20201221-1
+Version: 0.20201222-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 275952
 Depends: nodejs, npm
 Priority: optional
 Section: utils
-Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20201221-1_armhf.deb
-Size: 67697316
-SHA256: 905f5e5b6cf759c4e7b5bee403635ad0464279f1b6b251baa4d30d85e44a9baa
-SHA1: fb0d9d2051b7593a258637dc6c004e83cd4b3552
-MD5sum: 17a623e8cf29afcfe8bb295838d3c67b
+Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20201222-1_armhf.deb
+Size: 67702588
+SHA256: 088f2df840daf7e44da2dd811fe9c18fa7f75198b5db4f78bc3b6ee8916c986e
+SHA1: 35c7c9c61b563df7e1d4b2b6ccb898630921671d
+MD5sum: 1c6e71dfe6e355867054bb6e29669d11
 Description: Q&D package of Magic Mirror 2
  This is a Debian package that installs a quick and dirty
  setup of magic mirror 2.
