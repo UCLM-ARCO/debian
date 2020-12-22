@@ -1205,18 +1205,18 @@ Description: Python library to control MetaMotionR devices
  the acceleration and rotation of the sensor.
 
 Package: miband-grafana
-Version: 0.20201211-1
+Version: 0.20201218-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 41
-Depends: grafana, postgresql
+Installed-Size: 44
+Depends: grafana, postgresql-client, uuid-runtime
 Priority: optional
 Section: utils
-Filename: pool/main/m/miband-grafana/miband-grafana_0.20201211-1_all.deb
-Size: 6644
-SHA256: 70f316f8913287cfbe423a858615b15275ba87746f2e5e85de4effb35258c576
-SHA1: 6dc4655d448b6d6ba23627c215de2591316c7262
-MD5sum: 89b2e226acffc071df0aee896ac255fa
+Filename: pool/main/m/miband-grafana/miband-grafana_0.20201218-1_all.deb
+Size: 7412
+SHA256: 3665f704f14a059ad71e7b7ec5e26b2d3cd31662ef78f4cbf4af8d60d25eadba
+SHA1: c5f9ff82edfef7560d4004dfc25ab9bc5cc04070
+MD5sum: cae51b763281d4f737f90326dc8ae195
 Description: Grafana provision for MiBand data
  Creates, and modifies existing, configuration files
  for Grafana instance to be able get MiBand data from
@@ -1931,6 +1931,39 @@ Description: Citisim SmartObject publisher (temperature)
  Provides a service to publish some location's temperature, using
  any available forecast service. It uses SmartObject.AnalogSink
  interface, provided by Citisim.
+
+Package: shapes-certs
+Version: 0.20201221-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 22
+Priority: optional
+Section: utils
+Filename: pool/main/s/shapes-certs/shapes-certs_0.20201221-1_all.deb
+Size: 6292
+SHA256: 1bf2f4da6ce293597977d6f6346030d942ddca5e23406a73c29882535035a760
+SHA1: b132d0a3591ec4dbd1b110a466f4aa23a666d9dc
+MD5sum: 992b7557ec67e6ee8871b9a271083215
+Description: Shapes certificates
+ This package contains the private certificates used to serve HTTPS
+ pages between backends and frontends, only in localhost
+ (do not use them for public websites).
+
+Package: shapes-slice
+Version: 0.20201218-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 16
+Priority: optional
+Section: utils
+Filename: pool/main/s/shapes-slice/shapes-slice_0.20201218-1_all.deb
+Size: 2312
+SHA256: 09214996f7410d600c8a68b9d7619ec05e5133bf4f05a88c4da0a4d004834b8e
+SHA1: b4bf58ba113d1a233d1619983dbe05b3ecd817a3
+MD5sum: 431df2adb017c88642a98eb137f3f417
+Description: Shapes ZeroC Slice files
+ This package contains the Interface Definition file (using
+ ZeroC Ice Slice IDL) for Shapes services.
 
 Package: slice-thing
 Source: ice-thing

@@ -1,3 +1,6 @@
 *~
 *.retry
 .vagrant
+private.key
+gnupg/.gpg-v21-migrated
+gnupg/private-keys-v1.d/
