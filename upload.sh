@@ -4,10 +4,10 @@
 function pool-commit {
     local msg="$1"
     echo "$msg"
+    date > docs/last-change
     git commit --all --message "$msg"
     git push
 }
-
 
 git pull
 git add docs/*
