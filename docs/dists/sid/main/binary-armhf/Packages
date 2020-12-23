@@ -1917,18 +1917,18 @@ Description: Shapes certificates
  (do not use them for public websites).
 
 Package: shapes-rfid-service
-Version: 0.20201218-1
+Version: 0.20201223-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 44
-Depends: python3, python3-pyscard, python3-zeroc-ice, pcscd, shapes-certs, shapes-slices
+Depends: python3, python3-pyscard, python3-zeroc-ice, pcscd, shapes-certs, shapes-slice
 Priority: optional
 Section: python
-Filename: pool/main/s/shapes-rfid-service/shapes-rfid-service_0.20201218-1_all.deb
-Size: 7516
-SHA256: 34a1b360ab86cbb3d32ba1c936147bf96818b6b6fb6d6ec2e538d4054bed10ca
-SHA1: 802945053b830aee200e04bf72fcb80f95f5c576
-MD5sum: 40774d0458ac1ebd2440b8f813b16362
+Filename: pool/main/s/shapes-rfid-service/shapes-rfid-service_0.20201223-1_all.deb
+Size: 7568
+SHA256: 9d9276902b3337ae7d18d6a35553e47518862efc563cca88aac3dd02cd517059
+SHA1: 6314924e92e395f8db40a575fa6d2b17cc345c40
+MD5sum: 35326befcf854ae9b7215ce979917186
 Description: SHAPES Service for reading RFID cards and tokens
  This service provides a ZeroC Ice interface to retrieve information (read)
  contained in RFID tokens: bands, cards or tags. It is part of the services
