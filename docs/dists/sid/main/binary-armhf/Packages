@@ -1916,6 +1916,23 @@ Description: Shapes certificates
  pages between backends and frontends, only in localhost
  (do not use them for public websites).
 
+Package: shapes-mm2-callservice
+Version: 0.20201221-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 926
+Depends: shapes-call-service, magic-mirror-2, nginx
+Priority: optional
+Section: utils
+Filename: pool/main/s/shapes-mm2-callservice/shapes-mm2-callservice_0.20201221-1_all.deb
+Size: 478884
+SHA256: 9626377bb04141a87e07d5ae8214a54b87bd23390cd1c2417dc7ffc183418e11
+SHA1: 8f8b06510e59b7b73a4d6a5c3fa243477a48248a
+MD5sum: f3b97336fc5fbeb35705f54c7256122f
+Description: Shapes Magic Mirror 2 module: Call Service
+ This package provides the frontend for the call service
+ as a magic mirror 2 module
+
 Package: shapes-rfid-service
 Version: 0.20201223-1
 Architecture: all
