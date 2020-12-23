@@ -854,7 +854,7 @@ MD5sum: 7015cc4ca03d4db4053afdc0cf3ffbd5
 Description: Aplicacion web que muestra historicos de temperatura y humedad en la ESI de Ciudad Real
 
 Package: ian
-Version: 0.20201222-1
+Version: 0.20201223-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 87
@@ -865,11 +865,11 @@ Replaces: arco-devel (<< 0.20141029-1)
 Homepage: https://bitbucket.org/DavidVilla/ian
 Priority: optional
 Section: shells
-Filename: pool/main/i/ian/ian_0.20201222-1_all.deb
-Size: 20784
-SHA256: 5afa524f55e712b9ec6bdfd64a06bdfd9e0d6072151551af7c6fc8e46793c0eb
-SHA1: 774b242f6be122e39774124db10dfda689d74064
-MD5sum: d6322baf60cc16cf576c40271bd91130
+Filename: pool/main/i/ian/ian_0.20201223-1_all.deb
+Size: 20892
+SHA256: 9d75cba740a5474084e16e12ae3fbae9c4a2cda1d7fc375ed3ce713a27e754f5
+SHA1: 844f1216df1d9a88128a6af26b4c637dec8785be
+MD5sum: 8ad6d75d90f880e37d423a8ef37d4566
 Description: command line helper to maintain Debian packages
  ian is a helper to simplify and assist to the maintainer in the using
  of Debian packaging  tools. It can create or get orig tarball, install
