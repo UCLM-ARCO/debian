@@ -1276,18 +1276,18 @@ Description: Python library for Mijia Smart Home
  by Mijia (a partner of Xiaomi).
 
 Package: mm2-grafanaembed
-Version: 0.20201222-1
+Version: 0.20201223-1
 Architecture: armhf
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 18
+Installed-Size: 17
 Depends: magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-grafanaembed/mm2-grafanaembed_0.20201222-1_armhf.deb
-Size: 3588
-SHA256: f16c01a2d2581fbb7e95a3ea2815db64ed3ea294beca52cb179a128b1cdeb003
-SHA1: c74c7aa39d3bdfd6263d7367255cd90dc2a11872
-MD5sum: 2a3f902ebfc4997dfdde8e3ee1c854ec
+Filename: pool/main/m/mm2-grafanaembed/mm2-grafanaembed_0.20201223-1_armhf.deb
+Size: 3652
+SHA256: 8f157d5bbf69af24dbbce4de0071dc3c2d3fb0a3a45005c1b221f504caca22de
+SHA1: 779f6499c0ce09d0053dc489bf3edfb38c4f3198
+MD5sum: 968d3d383a866d76cb0afe376fa39d9f
 Description: Magic Mirror module for Grafana graphs
  A Magic Mirror module for displaying graphs and charts using
  Grafana. It is needed a running Grafana instance for this module
