@@ -1961,7 +1961,7 @@ Description: Debug symbols for python3-zeroc-ice36
 Build-Ids: d39460546e09271b2c05a38ab5242a1475d2fe1b
 
 Package: ripio
-Version: 0.20210107.1-1
+Version: 0.20210107.2-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 51
@@ -1969,11 +1969,11 @@ Depends: python3:any, python3-git, python3-toml
 Homepage: https://bitbucket.org/DavidVilla/ripio
 Priority: optional
 Section: utils
-Filename: pool/main/r/ripio/ripio_0.20210107.1-1_all.deb
-Size: 9740
-SHA256: c8b6cb7379553acb00ce16ef8f02f620814ade1ca1805228259458444056ab06
-SHA1: f821b09f3fbf5fe84581a72178b9cd80ad3b9708
-MD5sum: f3a8dd6bc9c9cceb5365e2b2ab62c25d
+Filename: pool/main/r/ripio/ripio_0.20210107.2-1_all.deb
+Size: 9784
+SHA256: 540e9c99bb5f1040f91169dc26ee0bfceb86a51ddc03b63ea68ae800b3496b2b
+SHA1: 7c04d700680edc36357c71c5aa4a05c7166246e3
+MD5sum: d04e699cfd4cae1d25ec5eabe6656779
 Description: Manage hosted git repositories
  Manage git repositories hosted at bitbucket.org and github.com from command
  line. Run 'ripio --help' or visit https://bitbucket.org/DavidVilla/ripio.
