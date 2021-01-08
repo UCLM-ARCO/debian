@@ -1702,6 +1702,25 @@ MD5sum: 5f2b29490db07f9fece4379284109400
 Description: Read keystrokes from a gamepad
  Read strokes from a gamepad and sents to a observer class.
 
+Package: python3-hexdump
+Source: hexdump
+Version: 3.3-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 40
+Depends: python3:any
+Homepage: https://pypi.org/project/hexdump/
+Priority: optional
+Section: python
+Filename: pool/main/h/hexdump/python3-hexdump_3.3-1_all.deb
+Size: 10684
+SHA256: 8309bd7dfbc6aa0b98ee631627ad940fd4a6d5a1c2a2911fb624e25d531288d1
+SHA1: d9bf9f01a5d8ee3f887d90da45cd354adc57795a
+MD5sum: 7f04cff2a30e12cb26f4f4e8805f4694
+Description: Python 3 library to handle binarie files
+ This is a Python 3 library which allows one to
+ view/edit your binary with any text editor
+
 Package: python3-ice-thing
 Source: ice-thing
 Version: 0.20160713-1
