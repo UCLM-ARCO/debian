@@ -1293,6 +1293,41 @@ Description: Magic Mirror module for Grafana graphs
  Grafana. It is needed a running Grafana instance for this module
  to work.
 
+Package: mm2-qrwificonfig
+Version: 0.20201221-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 372
+Depends: python3-flask, uwsgi, uwsgi-plugin-python3, nginx, python3-flaskext.wtf, magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-qrwificonfig/mm2-qrwificonfig_0.20201221-1_all.deb
+Size: 90932
+SHA256: ea2413078546231942bb04d68d96177d5f6f81e10003261b76c965d859071a89
+SHA1: a192743468bacfe446feef6cc6ae700e2297a7ea
+MD5sum: 30f020439cd2227cfd5ab0ec53679b1b
+Description: Package for include a QR in Magic Mirror
+ With this module, you will be able to create a QR code that will stor
+ a piece of text, this is very useful to include urls.
+
+Package: mm2-qrwifipass
+Version: 0.20201222-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 43
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-qrwifipass/mm2-qrwifipass_0.20201222-1_all.deb
+Size: 11324
+SHA256: 3f3d45057eef23aabbbae715f2bc90be659675572a2d67fd9255575535ab1894
+SHA1: b9b783b56ae7ab5a0fdf80ad7cfd0c3571f8f11d
+MD5sum: 6ccb8ca58d411ccd0064cc090f95dc58
+Description: Smart Mirror module that enable the user to configure mirrors' Wi-Fi
+ When this modules is installed, you can show in your mirror a QR code
+ that will redirect to a website, where you can choose what SSID must
+ connect the smart mirror and with which key
+
 Package: motion-sensor
 Version: 0.20190821.2-1
 Architecture: all
