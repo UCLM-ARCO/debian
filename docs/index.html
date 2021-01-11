@@ -27,21 +27,27 @@
   </head>
 
   <body style="margin: 30px 10%; font-size: large; font-family: Helvetica, Sans-Serif">
-    <h1>ARCO Debian package repository</h1>
+  <h1>ARCO Debian package repository</h1>
 
-    To use this package repository, get repo key:
+  To use this package repository, get repo key:
 
-    <pre class="console">
+  <pre class="console">
 $ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
+  <div style="text-align:right">(apt-2.1.8 deprecates apt-key command).</div>
+
+  Or:
+
+  <pre class="console">
+$ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
 
     Or:
 
     <pre class="console">
-$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D917ABDD28380433 </pre>
+$ gpg --keyserver keyserver.ubuntu.com --recv-key D917ABDD28380433 | sudo tee /etc/apt/trusted.gpg.d/uclm-arco.asc</pre>
 
-    And add the repository:
+  And add the repository:
 
-    <pre class="console">
+  <pre class="console">
 $ echo "deb https://uclm-arco.github.io/debian/ sid main" | sudo tee /etc/apt/sources.list.d/arco.list
 $ sudo apt update </pre>
   </body>
