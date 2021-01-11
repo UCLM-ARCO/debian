@@ -1258,18 +1258,18 @@ Description: Python library to control MetaMotionR devices
  the acceleration and rotation of the sensor.
 
 Package: miband-grafana
-Version: 0.20201229-1
+Version: 0.20210111-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 44
-Depends: grafana, postgresql-client, uuid-runtime
+Installed-Size: 48
+Depends: grafana, postgresql-client, uuid-runtime, nano
 Priority: optional
 Section: utils
-Filename: pool/main/m/miband-grafana/miband-grafana_0.20201229-1_all.deb
-Size: 7508
-SHA256: 3ce38581cd8be09fb45dbe6022a23b3f85f6ac43935d90d16b865879445cde1d
-SHA1: f68650bc6274362a276499f6de17ca135c908a24
-MD5sum: 0931f568c8c552f07b01179388340222
+Filename: pool/main/m/miband-grafana/miband-grafana_0.20210111-1_all.deb
+Size: 8272
+SHA256: 1a4fa2c8c7567b6610aca3e17d070d08ad81906d9fdeba97c7bf4bcc889508da
+SHA1: fe461c294541386c2f5f48118ec6b53e58a7ec98
+MD5sum: 0e1b286a0f6a4f8f85f985c8504bfebd
 Description: Grafana provision for MiBand data
  Creates, and modifies existing, configuration files
  for Grafana instance to be able get MiBand data from
