@@ -1814,18 +1814,18 @@ Description: Python 3 module to manage "things"
 
 Package: python3-miband
 Source: miband
-Version: 0.20201201-1
+Version: 0.20210108-1
 Architecture: armhf
 Maintainer: Oscar Acena Herrera <oscaracena@gmail.com>
-Installed-Size: 48
-Depends: python3-crypto, python3:any, pkg-config, libboost-python-dev, libboost-thread-dev, libbluetooth-dev, libglib2.0-dev, python3-dev
+Installed-Size: 47
+Depends: python3-crypto, python3-gattlib, python3-hexdump, python3:any
 Priority: optional
 Section: python
-Filename: pool/main/m/miband/python3-miband_0.20201201-1_armhf.deb
-Size: 9352
-SHA256: 63a04618b58a8e26c86f8df1958a68bdf6a866eb4cd10137b85e6a93d8985cc5
-SHA1: ff9df6c124d0aa24c3499314e916ffc0e2682f31
-MD5sum: ea50dab22c5e4632257d75cee8fd4110
+Filename: pool/main/m/miband/python3-miband_0.20210108-1_armhf.deb
+Size: 9340
+SHA256: d46dcbb4acfa9f14e5f6962981d10a05a73ec24821c43755a797a952d9b9c7f1
+SHA1: 5ef777721dc695e05c0ba49ddab0de359cc4b3b2
+MD5sum: 1338f7136ceeb8698f285a2fbbc9d5ec
 Description: Xiaomi MiBand reader library (Python 3)
  This is a Python 3 library which allows one to read
  MiBand devices information: steps and calories record,
