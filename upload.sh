@@ -4,12 +4,12 @@
 function pool-commit {
     local msg="$1"
     echo "$msg"
-    date > docs/last-change
+    date > docs/last-change.html
     git commit --all --message "$msg"
     git push
 }
 
-git pull
+git pull --rebase
 git add docs/*
 
 package=$(git status -s | grep ^A | grep .dsc$ | head -1 | awk '{print $2}')
