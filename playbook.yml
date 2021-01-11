@@ -85,10 +85,10 @@
         owner: vagrant
         mode: 0600
 
-    - name: creates key.asc
+    - name: creates gpg key
       shell:
-        cmd: gpg --armor --export arco.uclm@gmail.com > /shared/key.asc
-        creates: /shared/key.asc
+        cmd: gpg --armor --export arco.uclm@gmail.com > /shared/uclm-arco.asc
+        creates: /shared/uclm-arco.asc
       become: yes
       become_user: vagrant
 
