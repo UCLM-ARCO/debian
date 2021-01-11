@@ -1747,7 +1747,7 @@ Description: Read keystrokes from a gamepad
 
 Package: python3-hexdump
 Source: hexdump
-Version: 3.3-1
+Version: 3.3+ds.1-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
 Installed-Size: 40
@@ -1755,11 +1755,11 @@ Depends: python3:any
 Homepage: https://pypi.org/project/hexdump/
 Priority: optional
 Section: python
-Filename: pool/main/h/hexdump/python3-hexdump_3.3-1_all.deb
-Size: 10684
-SHA256: 8309bd7dfbc6aa0b98ee631627ad940fd4a6d5a1c2a2911fb624e25d531288d1
-SHA1: d9bf9f01a5d8ee3f887d90da45cd354adc57795a
-MD5sum: 7f04cff2a30e12cb26f4f4e8805f4694
+Filename: pool/main/h/hexdump/python3-hexdump_3.3+ds.1-1_all.deb
+Size: 10776
+SHA256: bfbfb6e710c5c48f8ca990a535b6afbf5d8b5de84a084db279a94579d321ec24
+SHA1: 5005342f8558ad9613cf58dc6d8cd049c8c8687f
+MD5sum: 7cb2df90ce27314cf021a332491b1563
 Description: Python 3 library to handle binarie files
  This is a Python 3 library which allows one to
  view/edit your binary with any text editor
