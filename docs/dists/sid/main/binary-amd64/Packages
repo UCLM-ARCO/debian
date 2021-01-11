@@ -1294,18 +1294,18 @@ Description: Python library for Mijia Smart Home
  by Mijia (a partner of Xiaomi).
 
 Package: mm2-qrwificonfig
-Version: 0.20201222-1
+Version: 0.20201223-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 372
 Depends: python3-flask, uwsgi, uwsgi-plugin-python3, nginx, python3-flaskext.wtf, magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-qrwificonfig/mm2-qrwificonfig_0.20201222-1_all.deb
-Size: 90968
-SHA256: 716cdfcc5f02b2772aa11184d9399c189474cc4529d5e99a1426afbf1e825576
-SHA1: 0a29a3f981406ceb385b3e2f84b55573cb5a5e96
-MD5sum: 78e049bde780d45e344dfbf0f856b2f4
+Filename: pool/main/m/mm2-qrwificonfig/mm2-qrwificonfig_0.20201223-1_all.deb
+Size: 91012
+SHA256: f5f6f177b76fb0230e2b4f6982800ca31aa27e254b25d894578732691d1ce6ca
+SHA1: cbcbe920bfb4f38fc448d081279e942004a2905d
+MD5sum: 6deef84d09eb03fb5473485875c0fd2a
 Description: Package for include a QR in Magic Mirror
  With this module, you will be able to create a QR code that will stor
  a piece of text, this is very useful to include urls.
