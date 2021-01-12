@@ -1293,41 +1293,6 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
-Package: mm2-qrwificonfig
-Version: 0.20201223-1
-Architecture: all
-Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
-Installed-Size: 372
-Depends: python3-flask, uwsgi, uwsgi-plugin-python3, nginx, python3-flaskext.wtf, magic-mirror-2
-Priority: optional
-Section: utils
-Filename: pool/main/m/mm2-qrwificonfig/mm2-qrwificonfig_0.20201223-1_all.deb
-Size: 91012
-SHA256: f5f6f177b76fb0230e2b4f6982800ca31aa27e254b25d894578732691d1ce6ca
-SHA1: cbcbe920bfb4f38fc448d081279e942004a2905d
-MD5sum: 6deef84d09eb03fb5473485875c0fd2a
-Description: Package for include a QR in Magic Mirror
- With this module, you will be able to create a QR code that will stor
- a piece of text, this is very useful to include urls.
-
-Package: mm2-qrwifipass
-Version: 0.20201222-1
-Architecture: all
-Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
-Installed-Size: 43
-Depends: magic-mirror-2
-Priority: optional
-Section: utils
-Filename: pool/main/m/mm2-qrwifipass/mm2-qrwifipass_0.20201222-1_all.deb
-Size: 11324
-SHA256: 3f3d45057eef23aabbbae715f2bc90be659675572a2d67fd9255575535ab1894
-SHA1: b9b783b56ae7ab5a0fdf80ad7cfd0c3571f8f11d
-MD5sum: 6ccb8ca58d411ccd0064cc090f95dc58
-Description: Smart Mirror module that enable the user to configure mirrors' Wi-Fi
- When this modules is installed, you can show in your mirror a QR code
- that will redirect to a website, where you can choose what SSID must
- connect the smart mirror and with which key
-
 Package: motion-sensor
 Version: 0.20190821.2-1
 Architecture: all
