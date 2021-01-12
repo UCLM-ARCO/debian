@@ -1293,6 +1293,24 @@ Description: Magic Mirror module for Grafana graphs
  Grafana. It is needed a running Grafana instance for this module
  to work.
 
+Package: mm2-qrwificredentials
+Version: 0.20201222-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 43
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-qrwificredentials/mm2-qrwificredentials_0.20201222-1_all.deb
+Size: 11340
+SHA256: b7ee18ed6d075ac2c65e85a76f439315553276fb22863dc88126e72cd5f37ff0
+SHA1: 9bbdced1405f39498cdc19fd86bd39c96a8f1185
+MD5sum: d7aa896fdb811b92b63a333927b4e0c0
+Description: Smart Mirror module that enable the user to configure mirrors' Wi-Fi
+ When this modules is installed, you can show in your mirror a QR code
+ that will redirect to a website, where you can choose what SSID must
+ connect the smart mirror and with which key
+
 Package: motion-sensor
 Version: 0.20190821.2-1
 Architecture: all
