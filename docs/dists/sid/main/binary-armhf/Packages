@@ -2220,6 +2220,24 @@ Description: Energy publisher for wibeee devices
  This service reads measurements from a wibeee device and publish them in an
  IceStorm topic.
 
+Package: wifi-selector
+Version: 0.20210113-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 341
+Depends: python3:any, python3-flask, uwsgi, uwsgi-plugin-python3, nginx, python3-flaskext.wtf
+Priority: optional
+Section: utils
+Filename: pool/main/w/wifi-selector/wifi-selector_0.20210113-1_all.deb
+Size: 83676
+SHA256: 076d0941c16897e4353b4ba6658739c153aa0cf7b9a64c8bf8885e401748dd41
+SHA1: 0b63db49171bc493d15f4501bd52f7af80ba6c95
+MD5sum: 81d243ba784901fc54f740aa3f618222
+Description: Website to connect RPi to a concrete AP
+ This package enable the user to deploy a website in a Raspberry Pi, where you
+ can choose which access point you want to connect the Rpi, and which is the
+ key for the connection.
+
 Package: wunderground-temp-publisher
 Version: 0.20170720-1
 Architecture: all
