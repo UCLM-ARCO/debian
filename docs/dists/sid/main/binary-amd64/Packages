@@ -1,17 +1,17 @@
 Package: aexec
-Version: 0.20160524-1
+Version: 0.20210113-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 50
-Depends: python (<< 2.8), python (>= 2.7), python:any, python-pyinotify, python-loggingx, python-gi, gir1.2-notify-0.7
-Homepage: http://arco.esi.uclm.es/~david.villa/aexec.html
+Depends: python:any, python3-pyinotify, python3-gi, gir1.2-notify-0.7
+Homepage: https://bitbucket.org/DavidVilla/aexec
 Priority: optional
 Section: utils
-Filename: pool/main/a/aexec/aexec_0.20160524-1_all.deb
-Size: 9424
-SHA256: 673ce70658f83d6865586476f2de892cdc422a36d2307f37803d217a23de74c3
-SHA1: df9a2d2753745e811ec25fec09709cfe7e6647fa
-MD5sum: fbaaedb33319e307b5de1c528442101f
+Filename: pool/main/a/aexec/aexec_0.20210113-1_all.deb
+Size: 9412
+SHA256: 50b3c9b1aee7fb9668f6e45238037f217b3fb7e5bb0593dc3ae098a7d9c7e02e
+SHA1: aa92073afa1a01bd5035775dd01f983e9ce775b8
+MD5sum: cee285c67fe43d51105536d0c1f2b401
 Description: It executes a program when the given files change
  This program uses the Linux inotify mechanism to detect file changes and
  execute given command when that happens. Additionally, it checks and shows
