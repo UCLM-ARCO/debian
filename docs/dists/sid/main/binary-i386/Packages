@@ -1204,6 +1204,23 @@ Description: Python library to control MetaMotionR devices
  to request differente data from the MetaMotionR sensor, like
  the acceleration and rotation of the sensor.
 
+Package: metamotion-log-collector
+Version: 0.20210114-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 13
+Depends: python3:any, metamotion, python3-service-identity
+Priority: optional
+Section: utils
+Filename: pool/main/m/metamotion-log-collector/metamotion-log-collector_0.20210114-1_all.deb
+Size: 2456
+SHA256: 0798e4fe38dde87a121d5e2a200eca456c7ef59f6ff3d3b687cbc101c78da88a
+SHA1: fef350802f347ba204c73e5cd82175aaef8a1ce5
+MD5sum: 651da20d2b576874447395e6c209fb74
+Description: Package to collect data from metamotion sensor
+ Set of tool that enable the user to create logs in a metamotion sensor
+ and download all the data in a desired file
+
 Package: miband-grafana
 Version: 0.20210111-1
 Architecture: all
