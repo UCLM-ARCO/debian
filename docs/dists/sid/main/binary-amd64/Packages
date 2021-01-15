@@ -1310,6 +1310,23 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
+Package: mm2-qrurl
+Version: 0.20201221-1
+Architecture: all
+Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
+Installed-Size: 35
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-qrurl/mm2-qrurl_0.20201221-1_all.deb
+Size: 9208
+SHA256: a41cc619fbd32a7f14063259daa2a50aef7feb1342ec6460ee714046181a0fcd
+SHA1: 02f186418e91d5e1acb34d39bc764a1ed8355fa4
+MD5sum: 6435ec37d2b738dd3fd48942c6ea9845
+Description: Package for include a QR in Magic Mirror
+ With this module, you will be able to create a QR code that will store
+ a piece of text, which is very useful to include urls for example.
+
 Package: mm2-qrwificredentials
 Version: 0.20201222-1
 Architecture: all
