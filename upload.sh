@@ -9,7 +9,6 @@ function pool-commit {
     git push
 }
 
-git pull --rebase
 git add docs/*
 
 package=$(git status -s | grep ^A | grep .dsc$ | head -1 | awk '{print $2}')
