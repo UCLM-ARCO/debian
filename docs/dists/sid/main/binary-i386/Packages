@@ -1899,19 +1899,19 @@ Description: Ice is comprehensive RPC framework with support for Python3,
   * Intuitive mapping from Slice to Python3
 
 Package: ripio
-Version: 0.20210111-1
+Version: 0.20210118-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 53
+Installed-Size: 54
 Depends: python3:any, python3-git, python3-toml
 Homepage: https://bitbucket.org/DavidVilla/ripio
 Priority: optional
 Section: utils
-Filename: pool/main/r/ripio/ripio_0.20210111-1_all.deb
-Size: 10060
-SHA256: feb0c8f55fcb67499d5e62ecdca7c5005b8d993342382660073b19ff74213fad
-SHA1: 133f4769bbfaf354a91bf2215123699d95923bbe
-MD5sum: 7e9dd21a6ebef0bf2b83a3b87ecbd8e6
+Filename: pool/main/r/ripio/ripio_0.20210118-1_all.deb
+Size: 10296
+SHA256: 68a8064c4bfb279f620ec056680df4f4b4b9c7273bd3e68627f912d03e82c689
+SHA1: 28360e53240540f8e1e91d03c0cdb110c2b49325
+MD5sum: a4c782b9d33203233c480d384ab5f345
 Description: Manage hosted git repositories
  Manage git repositories hosted at bitbucket.org and github.com from command
  line. Run 'ripio --help' or visit https://bitbucket.org/DavidVilla/ripio.
