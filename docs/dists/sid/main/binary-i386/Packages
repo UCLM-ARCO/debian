@@ -1258,35 +1258,35 @@ Description: Python library for Mijia Smart Home
  by Mijia (a partner of Xiaomi).
 
 Package: mm2-qrurl
-Version: 0.20201222-1
+Version: 0.20201223-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 36
 Depends: magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-qrurl/mm2-qrurl_0.20201222-1_all.deb
-Size: 9664
-SHA256: 8540983bde31352468af842b20e9bbffe97c3d9a453db2705fa08bc2525f4393
-SHA1: 9971ad3e61a7a1b420bf8a32617ed46b23979860
-MD5sum: c39adb9986948700863565aa99181afc
+Filename: pool/main/m/mm2-qrurl/mm2-qrurl_0.20201223-1_all.deb
+Size: 9692
+SHA256: 267c6053e2b34e8236cfc997cd79d235923780fe872cac3cb07e3d172430382c
+SHA1: 3309b618320996763a0cb4c372264cbba11750ec
+MD5sum: 3d5f00b705f8f06d0efcd123ccf8a0fc
 Description: Package for include a QR in Magic Mirror
  With this module, you will be able to create a QR code that will store
  a piece of text, which is very useful to include urls for example.
 
 Package: mm2-qrwificredentials
-Version: 0.20201223-1
+Version: 0.20201224-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 44
 Depends: magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-qrwificredentials/mm2-qrwificredentials_0.20201223-1_all.deb
-Size: 11812
-SHA256: 08b9b898ec49ad3a78c5e779d90b9c60b49571fbde85ff36c5d3b09a1125a162
-SHA1: 6e03e54ff26abd0dccf9740a0f70390ef57d5f08
-MD5sum: b37a3c24e40f3853d2a249027f0cc4d8
+Filename: pool/main/m/mm2-qrwificredentials/mm2-qrwificredentials_0.20201224-1_all.deb
+Size: 11840
+SHA256: 54c45e2d9ae4c6e1c2580c3c07ef8974e9b58e7cd2b96a62ccb38c9193412593
+SHA1: 6b835a012f69b195081331ae7f1dcdff19610b86
+MD5sum: b847a88e61a3476c7f89e0b36619cac8
 Description: Smart Mirror module that enable the user to configure mirrors' Wi-Fi
  When this modules is installed, you can show in your mirror a QR code
  that will redirect to a website, where you can choose what SSID must
