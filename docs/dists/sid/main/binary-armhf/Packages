@@ -1311,35 +1311,35 @@ Description: Magic Mirror module for Grafana graphs
  to work.
 
 Package: mm2-qrurl
-Version: 0.20201223-1
+Version: 0.20201224-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 36
 Depends: magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-qrurl/mm2-qrurl_0.20201223-1_all.deb
-Size: 9692
-SHA256: 267c6053e2b34e8236cfc997cd79d235923780fe872cac3cb07e3d172430382c
-SHA1: 3309b618320996763a0cb4c372264cbba11750ec
-MD5sum: 3d5f00b705f8f06d0efcd123ccf8a0fc
+Filename: pool/main/m/mm2-qrurl/mm2-qrurl_0.20201224-1_all.deb
+Size: 9740
+SHA256: 308e8773afe6e11c0f83ab595a2a57ee7921250df66df48652fc5fd8a1142f58
+SHA1: f0557292180f737e4f7ff88b65c4d9f548ffc35d
+MD5sum: 1ba8a58af622bd98a6f1096306b6300d
 Description: Package for include a QR in Magic Mirror
  With this module, you will be able to create a QR code that will store
  a piece of text, which is very useful to include urls for example.
 
 Package: mm2-qrwificredentials
-Version: 0.20201225-1
+Version: 0.20201226-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 44
 Depends: magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-qrwificredentials/mm2-qrwificredentials_0.20201225-1_all.deb
-Size: 11872
-SHA256: 47cbf052b656bf59f7e1e839da8d68d017c254cc91ae405ea6c00d5a5ed6c219
-SHA1: 6df1f78e028afb9a91064a00ac058bb5695a5956
-MD5sum: 93a8f886efed9944125b7a94fd25ec49
+Filename: pool/main/m/mm2-qrwificredentials/mm2-qrwificredentials_0.20201226-1_all.deb
+Size: 11920
+SHA256: 455110ea1f2d037b159cdbc0e15bef55fcbfc67199a725611ed43cf77c978e03
+SHA1: 52a219f43c2c9129087247dd31014756166268e8
+MD5sum: 352be797b933e90d1c1e275aa2dc5c54
 Description: Smart Mirror module that enable the user to configure mirrors' Wi-Fi
  When this modules is installed, you can show in your mirror a QR code
  that will redirect to a website, where you can choose what SSID must
