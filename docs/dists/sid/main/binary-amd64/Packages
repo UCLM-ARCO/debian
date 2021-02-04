@@ -1240,18 +1240,18 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: metamotion
-Version: 0.20200912-1
+Version: 0.20200913-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 57
 Depends: python3
 Priority: optional
 Section: python
-Filename: pool/main/m/metamotion/metamotion_0.20200912-1_all.deb
-Size: 10176
-SHA256: 5dcecc44d560275e37b283919054302e7a0b796c86e65a1a4259b5c78c90e282
-SHA1: 1cbb49518d744d1e991764948ad3b7aff1258e04
-MD5sum: 1b366eb513aafcc8f1d30a2d2a6ee882
+Filename: pool/main/m/metamotion/metamotion_0.20200913-1_all.deb
+Size: 10228
+SHA256: 506797d5ce5610793c4783e20114f53b60ce1e42dff64520343dd533e43a96ec
+SHA1: cf4de77c14fb123d94af34b4ef50b33c4071f7f5
+MD5sum: f1630c92466918acab66063ae4211cbc
 Description: Python library to control MetaMotionR devices
  This package present a useful library that enable the users
  to request differente data from the MetaMotionR sensor, like
