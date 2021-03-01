@@ -1612,7 +1612,7 @@ Description: Ice is comprehensive RPC framework with support for Python,
 
 Package: python3-commodity
 Source: python-commodity
-Version: 0.20210301-1
+Version: 0.20210301.1-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 169
@@ -1620,11 +1620,11 @@ Depends: python3:any, python3-setuptools, python3-hamcrest, python3-configobj, i
 Homepage: https://bitbucket.org/arco_group/python-commodity
 Priority: optional
 Section: python
-Filename: pool/main/p/python-commodity/python3-commodity_0.20210301-1_all.deb
-Size: 22264
-SHA256: 0cfd07ecf91f6f4e4f0b17996a6932834a1a5f93ad12e5a192f5af59beafdd63
-SHA1: 63200d49aa93339bf3eb13bee8039f14af1d4864
-MD5sum: 51d760ff8cc747dddea509b0fa4b6a99
+Filename: pool/main/p/python-commodity/python3-commodity_0.20210301.1-1_all.deb
+Size: 22280
+SHA256: c8c75a9b2775611fecfdcdda5e3734dc286c45a61e13da8582aa96f8a6440490
+SHA1: faeecd5096084cf75d00a6cb1df1463ae3fc9a40
+MD5sum: 1315c9b601c2df623b59cbe5810ab047
 Description: Useful utilities library for Python 3 programmers
  python-commodity is a set of general purpose classes, functions and
  utilities (commodities) for Python 3 programming.
