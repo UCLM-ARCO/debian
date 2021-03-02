@@ -56,20 +56,20 @@ Description: the ARCO debian repository gpg key
   the ARCO debian repository GPG key
 
 Package: arco-authors
-Version: 0.20210222.1-1
+Version: 0.20210302-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
-Installed-Size: 658
+Installed-Size: 659
 Depends: texlive-binaries, texlive-lang-spanish, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-fonts-extra, texlive-fonts-recommended, texlive-bibtex-extra, cm-super, inkscape, netpbm, aspell-en, dblatex, dia
 Recommends: unoconv, noweb
 Homepage: https://bitbucket.org/arco_group/arco-authors
 Priority: extra
 Section: shells
-Filename: pool/main/a/arco-authors/arco-authors_0.20210222.1-1_all.deb
-Size: 180944
-SHA256: e3a80d6d4fed161b80591558f5427588e1770e2a37055a8a94c5126c319732ad
-SHA1: 6f037d5ecce24f9757834075e63fd7e246c766fc
-MD5sum: d4b42c777afbb82c8a49a91d4ae3b5fd
+Filename: pool/main/a/arco-authors/arco-authors_0.20210302-1_all.deb
+Size: 180984
+SHA256: 4887bd3cd70dd23825e08392d9e3c93c9081be78e5a6575f4d02a00e6c86dc62
+SHA1: b29a5d788c51b9be24eb6bb264f921b03910c7c6
+MD5sum: 668a83f603c9704438d9e6967a4c8c52
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
