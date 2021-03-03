@@ -664,21 +664,21 @@ Description: Cerberus Clip Service
  This service records an audio file (.wav) with a specific duration.
 
 Package: curricula
-Version: 0.20210303-1
+Version: 0.20210303.1-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 97
+Installed-Size: 99
 Depends: python3:any, poppler-utils, python3-jinja2, python3-pypdf2, python3-sphinx, python3-pil, python3-commodity
 Recommends: texlive-lang-spanish, texlive-latex-extra, texlive-latex-recommended
 Suggests: texlive-extra-utils
 Homepage: https://github.com/UCLM-ARCO/curricula
 Priority: optional
 Section: utils
-Filename: pool/main/c/curricula/curricula_0.20210303-1_all.deb
-Size: 22136
-SHA256: e1544cbe7e2b299a85a6e57a0662bb43929aff57eccfd78669405843230cd23b
-SHA1: a6bf9389bed64060cb4211310df17b4f8774bc00
-MD5sum: 3fa77825a271ccaa6d4bd27d3e16d7a4
+Filename: pool/main/c/curricula/curricula_0.20210303.1-1_all.deb
+Size: 22544
+SHA256: bd175b2c947c21aeb70b7a97a78a4aa4e599aca387065c4f6a5eed11b70730f7
+SHA1: 2b7f3869d7b3e5feb339b6788b94d968a19d4d8e
+MD5sum: d64e89733d03ad180bdc9da8b67088e6
 Description: Processor script for Curricula
  Processor script for Curricula (see homepage)
 
