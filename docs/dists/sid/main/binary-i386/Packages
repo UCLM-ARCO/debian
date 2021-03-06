@@ -2267,18 +2267,18 @@ Description: Energy publisher for wibeee devices
  IceStorm topic.
 
 Package: wifi-selector
-Version: 0.20210115-1
+Version: 0.20210116-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
-Installed-Size: 345
+Installed-Size: 344
 Depends: python3:any, python3-flask, uwsgi, uwsgi-plugin-python3, nginx, python3-flaskext.wtf
 Priority: optional
 Section: utils
-Filename: pool/main/w/wifi-selector/wifi-selector_0.20210115-1_all.deb
-Size: 83948
-SHA256: 66d8e4918a4674d98f1eed141b650f66836268657cc5a503af95879789780b9d
-SHA1: cd50f25d640dcd4f3e179021738dd88baae37330
-MD5sum: e1a29000d84f170210f5249b5acef902
+Filename: pool/main/w/wifi-selector/wifi-selector_0.20210116-1_all.deb
+Size: 83840
+SHA256: 045591d4b7906c861e5322d662eebc91440ef44f445625f6ddcb2629d85c6531
+SHA1: fc41393ac894115d6a332bf694a9bf5d873a5004
+MD5sum: 98a9e1e37a00464d7d499d7cf3096dd9
 Description: Website to connect RPi to a concrete AP
  This package enable the user to deploy a website in a Raspberry Pi, where you
  can choose which access point you want to connect the Rpi, and which is the
