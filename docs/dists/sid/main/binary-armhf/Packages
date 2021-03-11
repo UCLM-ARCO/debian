@@ -2130,6 +2130,22 @@ Description: Smart home and automatization made easy
  This package provides a set of tools and interfaces to build applications for
  the smart home environment. It tries to be simple, and easy.
 
+Package: smartmirror-console
+Version: 0.20210311-1
+Architecture: armhf
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 9718
+Depends: python3-apt, python3-flask, python3-flask-restful, python3-flask-security, python3:any, uwsgi, uwsgi-plugin-python3, nginx
+Priority: optional
+Section: python
+Filename: pool/main/s/smartmirror-console/smartmirror-console_0.20210311-1_armhf.deb
+Size: 788052
+SHA256: 8cbbd94b2c4e36d88ecf9246af53ead2774a6d77e63cc9970551bd41402f026c
+SHA1: 47c8b55036c488d634e28a6fe500934c574b3811
+MD5sum: 8bf33f66f18005ea90f89c2eb12b640d
+Description: Web application to configure SHAPES Smart Mirror
+ This package deploys a website through an user can configurate SHAPES SmartMirror.
+
 Package: snapshot-service
 Version: 0.20190821.1-1
 Architecture: all
