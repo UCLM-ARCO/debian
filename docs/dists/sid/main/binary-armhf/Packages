@@ -1292,6 +1292,24 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
+Package: mm2-bandupdater
+Version: 0.20210316-1
+Architecture: armhf
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 23
+Depends: magic-mirror-2, miband-dc
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-bandupdater/mm2-bandupdater_0.20210316-1_armhf.deb
+Size: 5056
+SHA256: 865970eb1017589be86567f14586c6efd01276a8809e6ffeec045c3996cfa2c9
+SHA1: 247e5b582c4db56022ea1e0255ea7f0bdb5a8871
+MD5sum: e1c87af9c865015e71c401c58e195167
+Description: Magic Mirror module for MiBand4 update states
+ A Magic Mirror module for displaying miband-dc devices update state.
+ It is needed the miband-dc service up and running, with a hook
+ to 'update state notification' in localhost:8465.
+
 Package: mm2-grafanaembed
 Version: 0.20201223-1
 Architecture: armhf
