@@ -841,22 +841,6 @@ Description: fast directory finder
   * configuration file for default options;
   * multiprocess execution.
 
-Package: graf
-Version: 0.20210318-1
-Architecture: all
-Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 34
-Depends: python:any, python-libxml2, python-libxslt1, arco-authors (>= 0.20180611)
-Priority: extra
-Section: utils
-Filename: pool/main/g/graf/graf_0.20210318-1_all.deb
-Size: 6528
-SHA256: 4495536491f5376fd05a46ecbd97ed8dd803bea10614a82596590841de828fb1
-SHA1: 1766443a1f67e29fcb70c6ba048b72f0ea37f293
-MD5sum: fc4f436639639508e85e7b215da916fd
-Description: Graf XML to LaTeX/PDF compiler
- Graf XML to LaTeX/PDF compiler
-
 Package: horaimon
 Version: 0.20180905-1
 Architecture: all
