@@ -1293,18 +1293,18 @@ Description: Python library for Mijia Smart Home
  by Mijia (a partner of Xiaomi).
 
 Package: mm2-bandupdater
-Version: 0.20210316-1
+Version: 0.20210324-1
 Architecture: armhf
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 23
+Installed-Size: 27
 Depends: magic-mirror-2, miband-dc
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-bandupdater/mm2-bandupdater_0.20210316-1_armhf.deb
-Size: 5056
-SHA256: 865970eb1017589be86567f14586c6efd01276a8809e6ffeec045c3996cfa2c9
-SHA1: 247e5b582c4db56022ea1e0255ea7f0bdb5a8871
-MD5sum: e1c87af9c865015e71c401c58e195167
+Filename: pool/main/m/mm2-bandupdater/mm2-bandupdater_0.20210324-1_armhf.deb
+Size: 5944
+SHA256: 6dc1c86eca3bb7f224c9c312c5b2e2d8c510c5e0128c0e8121574e26fcc928e1
+SHA1: b67014aad78c45bf462b51703a1bea5da8d45093
+MD5sum: d30186c41c061b32c597c5dfe4cc9938
 Description: Magic Mirror module for MiBand4 update states
  A Magic Mirror module for displaying miband-dc devices update state.
  It is needed the miband-dc service up and running, with a hook
