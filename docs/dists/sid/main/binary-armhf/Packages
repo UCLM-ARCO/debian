@@ -1622,19 +1622,19 @@ Description: Python3 module to interact a scone-server.
 
 Package: python3-commodity
 Source: python-commodity
-Version: 0.20210307-1
+Version: 0.20210329-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 169
+Installed-Size: 92
 Depends: python3:any, python3-setuptools, python3-hamcrest, python3-configobj, iproute2
 Homepage: https://bitbucket.org/arco_group/python-commodity
 Priority: optional
 Section: python
-Filename: pool/main/p/python-commodity/python3-commodity_0.20210307-1_all.deb
-Size: 22300
-SHA256: d222994ffa93c4ae9194bbaf5c794ad7c375b83877ac362e93bea0b5cb536813
-SHA1: 368cff4c3183df8b9f5569159be2fa505a555581
-MD5sum: d94446cf4256d6c13aaff91dcabad073
+Filename: pool/main/p/python-commodity/python3-commodity_0.20210329-1_all.deb
+Size: 21736
+SHA256: 3d89884df7de7ad8793d6683ba0453c79b9cad52757334493f023245dbfe6795
+SHA1: e3f3fdde00d19dcd63f9210f089f10ddcb8da5fc
+MD5sum: bcfc46517e0e7eaaa021f216cac2ba38
 Description: Useful utilities library for Python 3 programmers
  python-commodity is a set of general purpose classes, functions and
  utilities (commodities) for Python 3 programming.
