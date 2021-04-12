@@ -1310,6 +1310,24 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
+Package: mm2-dynamic-modules
+Version: 0.20210412-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 16
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-dynamic-modules/mm2-dynamic-modules_0.20210412-1_all.deb
+Size: 2716
+SHA256: 9a9134327b03c87f378efd54dcc922683bde99930a8c82f5660dc5ed502e2e57
+SHA1: 7fe89b64ca25670ef4fb6cb796ce283735a656c5
+MD5sum: 1bd95d5a9df3f0cf674aa0cd9b6e2ed0
+Description: Magic Mirror 2 module to change module positions
+ MMM-Dynamic-Modules moves modules without need to restart Magic Mirror.
+ Module also allows one to hide or show modules. Module have method to change
+ configured positions back.
+
 Package: mm2-qrurl
 Version: 0.20201225-1
 Architecture: all
