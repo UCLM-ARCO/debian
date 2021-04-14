@@ -1995,18 +1995,18 @@ Description: knowledge base system
  states, etc.
 
 Package: scone-server
-Version: 0.20170727-1
+Version: 0.20210414-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 3198
+Installed-Size: 3130
 Depends: scone
 Priority: extra
 Section: utils
-Filename: pool/main/s/scone-server/scone-server_0.20170727-1_all.deb
-Size: 601224
-SHA256: 69827ee69a66984fee31d5bbadd3cc5a570d1d0051211b18ec839e5e1f2a1a18
-SHA1: 7d4ff99db0cf9badf82d41defca2896e32d82f5d
-MD5sum: e2566f2690dc1028046e9173a869aaea
+Filename: pool/main/s/scone-server/scone-server_0.20210414-1_all.deb
+Size: 602320
+SHA256: a352d7f2499f70f443e99ea591e3b0d34fb886046915d891e44101416d6dc847
+SHA1: b03e02862b39c6e25b11366b38fa67cf62f03fce
+MD5sum: 5cb3c9c61001e28fac2ffca808cd6ba8
 Description: FIXME: Short description of the scone-server package
  FIXME: long description about the basic features of the scone-server package
 
