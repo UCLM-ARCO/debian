@@ -2191,18 +2191,18 @@ Description: Shapes certificates
  (do not use them for public websites).
 
 Package: shapes-mm2-callservice
-Version: 0.20210413-1
+Version: 0.20210414-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 948
+Installed-Size: 950
 Depends: shapes-call-service, magic-mirror-2, mm2-dynamic-modules, nginx
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-mm2-callservice/shapes-mm2-callservice_0.20210413-1_all.deb
-Size: 485584
-SHA256: 0af39be969c84b8248c7aebf6599075a786d51f93b73c55960229635eaaa7586
-SHA1: 145b3716e97fd1fe3e15b9fe95f0377d06840945
-MD5sum: 7fc034c0c09ad7b910dc187217c115e7
+Filename: pool/main/s/shapes-mm2-callservice/shapes-mm2-callservice_0.20210414-1_all.deb
+Size: 486052
+SHA256: 423e13fd0a8d5917b17f2e6b415d8012a46dc70c9ce613917a23d80ef7fe1d76
+SHA1: 26d6886a32679e6f17c179dcaca8043a6f584b56
+MD5sum: 53b74a3c98a8cdeababe50cbde847cd8
 Description: Shapes Magic Mirror 2 module: Call Service
  This package provides the frontend for the call service
  as a magic mirror 2 module
