@@ -1204,18 +1204,18 @@ Description: Q&D package of Magic Mirror 2
  setup of magic mirror 2.
 
 Package: metamotion
-Version: 0.20200914-1
+Version: 0.20200916-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 57
 Depends: python3
 Priority: optional
 Section: python
-Filename: pool/main/m/metamotion/metamotion_0.20200914-1_all.deb
-Size: 10192
-SHA256: a1924d8c4bb6ced6d727e5bd9025530ebc73db7c9bfb236376f993cdd1dac07b
-SHA1: 2747bbdc8867e085d38ed656df38d145456f510b
-MD5sum: 69be58a9dee1b250ac87fa71449297b2
+Filename: pool/main/m/metamotion/metamotion_0.20200916-1_all.deb
+Size: 10336
+SHA256: 31b8b682f7616baa313d29bebf4bb3c14939048da17b23f27e8012a317631360
+SHA1: 51fe46848d23d6821aaaf9c1a9c532135088e182
+MD5sum: a9de3fc251629d536a0898621ba8553a
 Description: Python library to control MetaMotionR devices
  This package present a useful library that enable the users
  to request differente data from the MetaMotionR sensor, like
