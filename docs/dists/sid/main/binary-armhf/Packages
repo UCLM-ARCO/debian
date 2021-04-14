@@ -2047,18 +2047,18 @@ Description: Citisim SmartObject publisher (temperature)
  interface, provided by Citisim.
 
 Package: shapes-call-service
-Version: 0.20210414-1
+Version: 0.20210414.1-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 21556
 Depends: libatomic1 (>= 4.8), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.28), libgcc1 (>= 1:3.5), libglib2.0-0 (>= 2.12.0), libjpeg62-turbo (>= 1.3.1), libopus0 (>= 1.1), libqt5core5a (>= 5.10.0), libqt5gui5 (>= 5.3.0), libssl1.1 (>= 1.1.1), libstdc++6 (>= 7), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libx11-6, libzeroc-ice3.7, zlib1g (>= 1:1.1.4), v4l2loopback-utils
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service_0.20210414-1_armhf.deb
-Size: 6519340
-SHA256: cc6fe1c9135d167f252d6b950bffbe250c76d84b7aaa6144bd742ea165b1e58d
-SHA1: 4ec8e7892801ace8d93973ae494b4d59d1274161
-MD5sum: 9737ca2cd6b8a11cd87ff181a2e811fd
+Filename: pool/main/s/shapes-call-service/shapes-call-service_0.20210414.1-1_armhf.deb
+Size: 6520632
+SHA256: e42376c632127c6b5f0e2c9081b935eb3c90db2a4b577b839a8b4c4830639881
+SHA1: 45e039e911e8846580a5eceb511030b2183da6da
+MD5sum: a594ea04bc774f0f8d09d92744413b72
 Description: Shapes service for video calls
  This package contains the Shapes Call Service, which provides
  video calls using the Telegram framework.
