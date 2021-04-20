@@ -2011,7 +2011,7 @@ Description: FIXME: Short description of the scone-server package
  FIXME: long description about the basic features of the scone-server package
 
 Package: scone-wrapper
-Version: 0.20171003-1
+Version: 0.20210420-1
 Architecture: all
 Maintainer: María José Santofimia Romero <MariaJose.Santofimia@uclm.es>
 Installed-Size: 25
@@ -2019,11 +2019,11 @@ Depends: python3-commodity (>= 0.20161112), scone-server (>= 0.20161115.2), dhar
 Homepage: https://bitbucket.org/arco_group/scone.wrapper
 Priority: optional
 Section: devel
-Filename: pool/main/s/scone-wrapper/scone-wrapper_0.20171003-1_all.deb
-Size: 4492
-SHA256: 2d50f9a43cfc520f0b759d974b79ada0c814f378bf5f98e71366208e38b4bdea
-SHA1: 8be50b59bef086d1d37b63c241b4cf40bdd936a9
-MD5sum: 0d6fe1f49cfdb15b098f617df68deff0
+Filename: pool/main/s/scone-wrapper/scone-wrapper_0.20210420-1_all.deb
+Size: 4608
+SHA256: 980b388c9120447b83aed7bdacbb996081f83d62d2c898aab729c9fb310f863e
+SHA1: 0d13a188e7fbbfd8d8642850194351deb54b1ca4
+MD5sum: 31e1d83109f0bda56213112f066921e2
 Description: scone-server Ice wrapper
  Ice service wrapper for the scone-server
 
