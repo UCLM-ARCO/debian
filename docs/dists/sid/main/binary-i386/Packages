@@ -1222,18 +1222,18 @@ Description: Package to collect data from metamotion sensor
  and download all the data in a desired file
 
 Package: miband-grafana
-Version: 0.20210125-1
+Version: 0.20210423-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 49
+Installed-Size: 131
 Depends: grafana, postgresql-client, uuid-runtime, nano
 Priority: optional
 Section: utils
-Filename: pool/main/m/miband-grafana/miband-grafana_0.20210125-1_all.deb
-Size: 8752
-SHA256: 285fbefd38994e050e03f49da650da2230ef2373edbf61ee66f42128963d3221
-SHA1: 15dd3e9ba590227b97c9cf734a81423eb8c3ca13
-MD5sum: 6aa5ba83aa78e2a16abb687fcb293ea0
+Filename: pool/main/m/miband-grafana/miband-grafana_0.20210423-1_all.deb
+Size: 20532
+SHA256: bc4f846f257a4596742b31662f02849d9997180a77742abf2c51cb071e5c89f8
+SHA1: 9491cb7ef2daddb427d5396f02132970fd905920
+MD5sum: f2db981e8abd954a45b2169e733ddcab
 Description: Grafana provision for MiBand data
  Creates, and modifies existing, configuration files
  for Grafana instance to be able get MiBand data from
