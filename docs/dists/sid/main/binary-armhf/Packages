@@ -1381,6 +1381,24 @@ Description: Smart Mirror module that enable the user to configure mirrors' Wi-F
  that will redirect to a website, where you can choose what SSID must
  connect the smart mirror and with which key
 
+Package: monitoring-service
+Version: 0.20210423-1
+Architecture: all
+Maintainer: María Espinosa Astilleros <mariaespinasti@gmail.com>
+Installed-Size: 352
+Depends: python3, docker.io, influxdb-client, python3-influxdb
+Priority: optional
+Section: utils
+Filename: pool/main/m/monitoring-service/monitoring-service_0.20210423-1_all.deb
+Size: 72944
+SHA256: 3e54d12835f69363e8948ba730c5fa9f7ec6d03137492fba2773dab9396a86be
+SHA1: fee9e4173da9f9126cc24c39f026d7658b9e18b2
+MD5sum: 4da1b310a07c066d75f42b4b7c6e5628
+Description: Monitoring system for smart sensors
+ This package presents a monitoring system that collects
+ the data emitted by sensors and displays them in an
+ intuitive way for the user. This service runs in background.
+
 Package: motion-sensor
 Version: 0.20190821.2-1
 Architecture: all
