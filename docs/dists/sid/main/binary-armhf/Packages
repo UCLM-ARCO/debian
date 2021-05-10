@@ -2203,18 +2203,19 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: smartmirror-console
-Version: 0.20210430-1
+Version: 0.20210510-1
 Architecture: armhf
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 9817
-Depends: python3-apt, python3-flask, python3-flask-babel, python3-flask-peewee, python3-flask-security, python3-requests, python3-slimit, python3:any, uwsgi, uwsgi-plugin-python3, nginx
+Installed-Size: 9864
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: python3-apt, python3-flask, python3-flask-babel, python3-flask-security, python3-flask-sqlalchemy, python3-requests, python3-slimit, python3:any, uwsgi, uwsgi-plugin-python3, nginx
 Priority: optional
 Section: python
-Filename: pool/main/s/smartmirror-console/smartmirror-console_0.20210430-1_armhf.deb
-Size: 828568
-SHA256: bc7947661de310c1bed1904c59d2bfb48bc297693cd0ee6cbac70532af74f464
-SHA1: 2220b708a05dffc9dbfcf34dc3c105d8f9619bcf
-MD5sum: a9626f2ce1207f62ecdae8899ec55e7e
+Filename: pool/main/s/smartmirror-console/smartmirror-console_0.20210510-1_armhf.deb
+Size: 833116
+SHA256: bc4511b180570310ef1f9fc95c1935a3ae54bd0e1953d9901daaa99a480dc20c
+SHA1: e35296e6d8e3fa0ecedadcb065cb9389644a3053
+MD5sum: 1dcd4a5299116fdda3af684188c58b6c
 Description: Web application to configure SHAPES Smart Mirror
  This package deploys a website through an user can configurate SHAPES SmartMirror.
 
