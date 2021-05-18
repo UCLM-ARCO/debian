@@ -1383,6 +1383,22 @@ Description: Smart Mirror module that enable the user to configure mirrors' Wi-F
  that will redirect to a website, where you can choose what SSID must
  connect the smart mirror and with which key
 
+Package: mm2-shapes-login
+Version: 0.20210518-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 314
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-shapes-login/mm2-shapes-login_0.20210518-1_all.deb
+Size: 280740
+SHA256: 3d3cc69ac9a587a03924c71377bcbcc5dbffa6c8fe31d7c23c5e9b88aa772910
+SHA1: cc56876007f45647fec0c467ad38e45a952c64ac
+MD5sum: 83e8f3625a384be53b1a8ac4695f67ca
+Description: Magic Mirror module which displays an ARCO-SHAPES login page
+ A Magic Mirror module for displaying a login page for SHAPES project.
+
 Package: monitoring-service
 Version: 0.20210423-1
 Architecture: all
