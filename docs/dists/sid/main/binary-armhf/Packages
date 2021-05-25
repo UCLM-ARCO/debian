@@ -1349,18 +1349,18 @@ Description: Magic Mirror 2 module to change module positions
  configured positions back.
 
 Package: mm2-grafanaembed
-Version: 0.20210520-1
+Version: 0.20210525-1
 Architecture: armhf
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 18
-Depends: magic-mirror-2
+Installed-Size: 17
+Depends: magic-mirror-2, node-uuid
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-grafanaembed/mm2-grafanaembed_0.20210520-1_armhf.deb
-Size: 4148
-SHA256: 0a68cf61bbeac167309a6624dca8138f04797d30309b9602f7314cd02908f553
-SHA1: 03fee4bb70720295f8b4347b253b3a6e9feccd81
-MD5sum: 802aa9b46424a536f599b58a56e5230a
+Filename: pool/main/m/mm2-grafanaembed/mm2-grafanaembed_0.20210525-1_armhf.deb
+Size: 4800
+SHA256: bc8fa13f23fccbda4248a8de06cbba44ccc11f309bcf4cc6d84afb329c1e88a8
+SHA1: 5e9f2dcfd957969477183b7fbe46fde40323ee2f
+MD5sum: c22e92da09d537ab7e0717584119d3b8
 Description: Magic Mirror module for Grafana graphs
  A Magic Mirror module for displaying graphs and charts using
  Grafana. It is needed a running Grafana instance for this module
