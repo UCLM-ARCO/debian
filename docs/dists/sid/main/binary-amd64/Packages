@@ -913,18 +913,18 @@ Description: fast directory finder
   * multiprocess execution.
 
 Package: graf
-Version: 0.20210318-1
+Version: 0.20210526-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 34
-Depends: python:any, python-libxml2, python-libxslt1, arco-authors (>= 0.20180611)
+Depends: python2:any, python-libxml2, python-libxslt1, arco-authors (>= 0.20180611)
 Priority: extra
 Section: utils
-Filename: pool/main/g/graf/graf_0.20210318-1_all.deb
-Size: 6532
-SHA256: 23a23307361ff468291c14314c38e4c0854c882c36c975184094b837e349833b
-SHA1: 61736dcb4a797dba9527a189c45184c0c9450a6f
-MD5sum: 41c4c2468367e8cb866eb991447f3bf6
+Filename: pool/main/g/graf/graf_0.20210526-1_all.deb
+Size: 6736
+SHA256: 81c43dc72369575a65aa43c0e16dc5c378649a5e88c02be882fbe27c873986a3
+SHA1: 1e9cfa583a43acf5be724b580e55e50937f4fd71
+MD5sum: f80c70aadac84e0ec2ea96568dd01bbd
 Description: Graf XML to LaTeX/PDF compiler
  Graf XML to LaTeX/PDF compiler
 
