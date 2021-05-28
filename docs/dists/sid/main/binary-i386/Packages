@@ -816,18 +816,18 @@ Description: Clases LaTeX y utilidades para escribir las memorías de TFG y TFM
  de Ciudad Real
 
 Package: fall-detection-service
-Version: 0.20210418-1
+Version: 0.20210419-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 61
 Depends: python3, metamotion, python3-scipy, python3-dropbox
 Priority: optional
 Section: utils
-Filename: pool/main/f/fall-detection-service/fall-detection-service_0.20210418-1_all.deb
-Size: 25056
-SHA256: 6876c54a7d3ef1535946813bc08ef86d90405c8d09ecd49c198bb40e2185e67e
-SHA1: 513a31840313dbfa9c2655e535f8a2c967a1d637
-MD5sum: a60cc04750d81ec0a3563dcde4020741
+Filename: pool/main/f/fall-detection-service/fall-detection-service_0.20210419-1_all.deb
+Size: 25196
+SHA256: 0ba4c9b23315185b4a3ceeab387fdde7424d15d287a6a2e4972c73662c47fe2a
+SHA1: b56e59031f39ba036c4d8b94df103c039accf72f
+MD5sum: 7bf944f3dcdf48e7f8273a7513e57b7d
 Description: Fall detector system for real time monitoring
  This package presents a real time fall detection system,
  which enable the user to continuously monitor a patient and
