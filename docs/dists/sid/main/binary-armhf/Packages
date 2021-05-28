@@ -1242,18 +1242,18 @@ Description: debug symbols for magic-mirror-2
 Build-Ids: 883789df8b6c68550497c99c4986ebf9fe88a5b0 9e6c22b6ec113e008864bd8952a33130ce204e28 afd28fab8f9f2a0f4597e10186fb9b9b9eedcadb b0ff38cf66fd7c0b99da95f83bcf4f18962e5aaa b48a4b8abf7448b08e31204e15ed1a21813377fe d6b18429f7a69f04ee6c75ec671417e810c696b6 da92792dba3725130cd220dd951ec5175735b931 dced8505ce328af96a914d5926cb995608cb3f61 ef9a9d42acdd9d5828470d3a9033204df1adbf6a f7473dc699738523690b0a31bb12d1047bb0292c
 
 Package: metamotion
-Version: 0.20200918-1
+Version: 0.20200919-1
 Architecture: all
 Maintainer: Jesús Fernández-Bermejo Ruiz <jesus.fruiz@uclm.es>
 Installed-Size: 57
 Depends: python3
 Priority: optional
 Section: python
-Filename: pool/main/m/metamotion/metamotion_0.20200918-1_all.deb
-Size: 10308
-SHA256: dc7dd4ae6d4a8d87bcf16cc5e86c75b20c8510ae89794fcb8d5893028c6bb5e4
-SHA1: 209f3fbcd225de688b2f255f6e08a5360d8669a6
-MD5sum: ed35984ba95f72f1d318c1ac64d792ab
+Filename: pool/main/m/metamotion/metamotion_0.20200919-1_all.deb
+Size: 10420
+SHA256: 4f58e20de44be9c744e31b93c9af9d8d4839dedb2faa07243fa1ddb863ade65c
+SHA1: 050957526ba33fe5a4c2a7f92713b7abd36aeda5
+MD5sum: 6a1c1f0c554a27a2efad1c50b2976268
 Description: Python library to control MetaMotionR devices
  This package present a useful library that enable the users
  to request differente data from the MetaMotionR sensor, like
