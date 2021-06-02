@@ -2170,21 +2170,21 @@ Description: Shapes Magic Mirror 2 module: Call Service
  as a magic mirror 2 module
 
 Package: shapes-monitoring-service
-Version: 0.20210427-1
+Version: 0.20210603-1
 Architecture: all
 Maintainer: María Espinosa Astilleros <mariaespinasti@gmail.com>
-Installed-Size: 352
-Depends: python3, docker.io, docker-compose, influxdb-client, python3-influxdb
+Installed-Size: 518
+Depends: python3, docker.io, docker-compose, influxdb-client, python3-influxdb, nano, grafana
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-monitoring-service/shapes-monitoring-service_0.20210427-1_all.deb
-Size: 72972
-SHA256: 0f47ce7033097310df874cd4a1b528db3d0a2a1274ce8120864043c875278078
-SHA1: f61357c5b78c4223b44d528c1ead495a8f326595
-MD5sum: 53c4db8d5c1539240bf241260dabd335
+Filename: pool/main/s/shapes-monitoring-service/shapes-monitoring-service_0.20210603-1_all.deb
+Size: 89100
+SHA256: bb9e53b61235e05b7afb3494a84cef06802d704dfd4b3eaee5b90406377b5fbf
+SHA1: ae4cf2dd29e474ccaff1772f99095bbe3d7c7561
+MD5sum: 7675aa23ba4b40a54ec5a52c8ad7d51a
 Description: Monitoring system for smart sensors
  This package presents a monitoring system that collects
- the data emitted by smart sensors and displays the in
+ the data emitted by smart sensors and displays them in
  an intuitive way for the user. This service runs in background.
 
 Package: shapes-rfid-service
