@@ -2147,18 +2147,18 @@ Description: Monitoring system for smart sensors
  an intuitive way for the user. This service runs in background.
 
 Package: shapes-rfid-service
-Version: 0.20210614-1
+Version: 0.20210615-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 48
 Depends: python3, python3-pyscard, python3-zeroc-ice, pcscd, shapes-certs, shapes-slice
 Priority: optional
 Section: python
-Filename: pool/main/s/shapes-rfid-service/shapes-rfid-service_0.20210614-1_all.deb
-Size: 8340
-SHA256: 40c0bd836884fbeaaeb7be30f9667d5bb7f529f7700212c16fc518571919b776
-SHA1: edd5810582869eae9a92aa6e902d433f68a76d95
-MD5sum: 030129646593feed4b0b62ae65fa6aab
+Filename: pool/main/s/shapes-rfid-service/shapes-rfid-service_0.20210615-1_all.deb
+Size: 8388
+SHA256: 337d83eb3271c6f67e5d4aa7279a35c693b425b33436be09d144d8dca15989c4
+SHA1: 055b5e07e63ab455f7e46ed568e7d0f2b5455a36
+MD5sum: f15a26a108f6b4a9c8c45268fb88e0fc
 Description: SHAPES Service for reading RFID cards and tokens
  This service provides a ZeroC Ice interface to retrieve information (read)
  contained in RFID tokens: bands, cards or tags. It is part of the services
