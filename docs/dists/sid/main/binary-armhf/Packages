@@ -1864,7 +1864,7 @@ Description: Read keystrokes from a gamepad
 
 Package: python3-gattlib
 Source: gattlib
-Version: 0.20201113-1.1
+Version: 0.20210617-1.1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 510
@@ -1872,11 +1872,11 @@ Depends: python3 (<< 3.8), python3 (>= 3.7~), libbluetooth3 (>= 4.91), libboost-
 Homepage: https://github.com/oscaracena/pygattlib
 Priority: optional
 Section: python
-Filename: pool/main/g/gattlib/python3-gattlib_0.20201113-1.1_armhf.deb
-Size: 105824
-SHA256: b13d1fe0d7520aeba67c4de7cd320b599140017d7a7078cd2825cee317f1d4f4
-SHA1: e082db5c508122feb38fd762680e5ee0abf3dfd2
-MD5sum: c5b23537e3ad25edc882934bee68caa3
+Filename: pool/main/g/gattlib/python3-gattlib_0.20210617-1.1_armhf.deb
+Size: 106072
+SHA256: 71b4a3f4cd0993aaa05dfdc791c49d9a8ab26f6fd8b0a2d7a872b8cf3b96a465
+SHA1: 7fdf3c44d1602939dd2785ca44790b0bdb04c656
+MD5sum: 5569907408f1f30d7f088110b7524abf
 Description: Bluetooth LE GATT library (Python 3)
  This is a Python library to use the GATT Protocol for Bluetooth LE
  devices. It is a wrapper around the implementation used by gatttool
@@ -1884,21 +1884,21 @@ Description: Bluetooth LE GATT library (Python 3)
 
 Package: python3-gattlib-dbgsym
 Source: gattlib
-Version: 0.20201113-1.1
+Version: 0.20210617-1.1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 1367
-Depends: python3-gattlib (= 0.20201113-1.1)
+Depends: python3-gattlib (= 0.20210617-1.1)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gattlib/python3-gattlib-dbgsym_0.20201113-1.1_armhf.deb
-Size: 1161936
-SHA256: dc90b1d1528e1d90b1fa51120e88b65dfaf1fbd1b31b6f299a3ad1752d81caca
-SHA1: 87c16c7d212ac44aaf15f558542577843da421bf
-MD5sum: d41f33d7346c4ff4bd1ee70d814eb3aa
+Filename: pool/main/g/gattlib/python3-gattlib-dbgsym_0.20210617-1.1_armhf.deb
+Size: 1161428
+SHA256: 77131af1db8dd1353511a79f252cea7e281f7fcc3bb501b30d934e3fefbd3706
+SHA1: f7e3260270814995b63f9c918beed1a8119f0712
+MD5sum: f2570c2e07a99c873264255181d8855c
 Description: debug symbols for python3-gattlib
-Build-Ids: 6a2a1dcfa525abe0a67a647123ebabf66f059684
+Build-Ids: 9be08fcf853425a50ffa6ef2199ae0ccd93e0500
 
 Package: python3-hexdump
 Source: hexdump
