@@ -1486,6 +1486,26 @@ MD5sum: 87900b636a11423918e86140a03c9b18
 Description: FIXME: Short description of the nets2-ginkana package
  FIXME: long description about the basic features of the nets2-ginkana package
 
+Package: nodogsplash
+Version: 5.0.1-1
+Architecture: armhf
+Maintainer: Shiao-An Yuan <shiao.an.yuan@gmail.com>
+Installed-Size: 168
+Depends: libc6 (>= 2.28), libmicrohttpd12 (>= 0.9.51)
+Homepage: http://kokoro.ucsd.edu/nodogsplash/
+Priority: optional
+Section: net
+Filename: pool/main/n/nodogsplash/nodogsplash_5.0.1-1_armhf.deb
+Size: 71652
+SHA256: 51075fe0006518fad8061c34fb017782ddcabe582790775bf306f988cf6155c1
+SHA1: 10bc137ada79f70731e47b9873d406fbaec4cb71
+MD5sum: b4f800ec8088d3c372df848618d3a883
+Description: manage access to public internet access
+ Nodogsplash controls access to a public Internet connection and offers
+ a simple way to open a Hotspot for wireless networks. It provides a
+ captive portal to inform users about the services and optionally have
+ them acknowledge the terms and conditions of its use.
+
 Package: person-recognizer
 Version: 0.20190821.1-1
 Architecture: all
@@ -2257,7 +2277,7 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: smartmirror-console
-Version: 0.20210510+ds.1-1
+Version: 0.20210628-1
 Architecture: armhf
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
 Installed-Size: 9865
@@ -2265,11 +2285,11 @@ Pre-Depends: dpkg (>= 1.17.14)
 Depends: python3-apt, python3-flask, python3-flask-babel, python3-flask-security, python3-flask-sqlalchemy, python3-requests, python3-slimit, python3:any, uwsgi, uwsgi-plugin-python3, nginx
 Priority: optional
 Section: python
-Filename: pool/main/s/smartmirror-console/smartmirror-console_0.20210510+ds.1-1_armhf.deb
-Size: 833516
-SHA256: 6e2b51a3b5ffb8434f8a9aa8bff9ae552845849a1750e437497bb5f1d4984d82
-SHA1: 1295428220adae5843df6626b84416334f70517d
-MD5sum: 528a1441e3497a5a710d912925e6113a
+Filename: pool/main/s/smartmirror-console/smartmirror-console_0.20210628-1_armhf.deb
+Size: 833284
+SHA256: 8beb375f4d17d684ad70ec09ddc1fd0ff443f45363031fcd0e33abca67489af3
+SHA1: b45199ae921bdab060b32f89768d152ff250f33f
+MD5sum: 5e43a844a6a26665fd0011eccbced715
 Description: Web application to configure SHAPES Smart Mirror
  This package deploys a website through an user can configurate SHAPES SmartMirror.
 
