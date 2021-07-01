@@ -2043,23 +2043,23 @@ Description: knowledge base system
  states, etc.
 
 Package: scone-server
-Version: 0.20210503-1
+Version: 0.20210503-2
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 3126
-Depends: scone, ncat, iproute2
+Installed-Size: 3155
+Depends: scone, ncat | nmap, iproute2
 Priority: optional
 Section: utils
-Filename: pool/main/s/scone-server/scone-server_0.20210503-1_all.deb
-Size: 601548
-SHA256: 4e076ecb2cc4bcad52701f0edc44e2f931b7c791c441ad51d53f4750709dfad4
-SHA1: 0f0afe236869c9b590698722c7eedc4e1414582c
-MD5sum: 219ec0658030591253e02cffa3003bf0
+Filename: pool/main/s/scone-server/scone-server_0.20210503-2_all.deb
+Size: 603920
+SHA256: 486436065f0cadc78d2b351838ef5ed54f47e2dcb295515dc7caebb0cd99cf3b
+SHA1: 55ca6c631fc38f24148424184a9a16c5ca9e7488
+MD5sum: a3f99089e04c5498203b1b555d3bc11b
 Description: TCP scone wrapper server
   TCP scone wrapper server
 
 Package: scone-wrapper
-Version: 0.20210420-1
+Version: 0.20210701-1
 Architecture: all
 Maintainer: María José Santofimia Romero <MariaJose.Santofimia@uclm.es>
 Installed-Size: 25
@@ -2067,11 +2067,11 @@ Depends: python3-commodity (>= 0.20161112), scone-server (>= 0.20161115.2), dhar
 Homepage: https://bitbucket.org/arco_group/scone.wrapper
 Priority: optional
 Section: devel
-Filename: pool/main/s/scone-wrapper/scone-wrapper_0.20210420-1_all.deb
-Size: 4608
-SHA256: 980b388c9120447b83aed7bdacbb996081f83d62d2c898aab729c9fb310f863e
-SHA1: 0d13a188e7fbbfd8d8642850194351deb54b1ca4
-MD5sum: 31e1d83109f0bda56213112f066921e2
+Filename: pool/main/s/scone-wrapper/scone-wrapper_0.20210701-1_all.deb
+Size: 4580
+SHA256: 43567b3588478de91982aa9452e9e508bcaa5e5c6363a772e2c4e8d627d73061
+SHA1: 991215426c304a44e2f063386e4759e054d365b2
+MD5sum: cbc43370a0dca78071ad282665b72942
 Description: scone-server Ice wrapper
  Ice service wrapper for the scone-server
 
