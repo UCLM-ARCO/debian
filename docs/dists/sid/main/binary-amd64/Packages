@@ -1400,23 +1400,6 @@ Description: Smart Mirror module that enable the user to configure mirrors' Wi-F
  that will redirect to a website, where you can choose what SSID must
  connect the smart mirror and with which key
 
-Package: mm2-shapes-login
-Version: 0.20210709-1
-Architecture: all
-Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 361
-Depends: magic-mirror-2, shapes-rfid-service (>= 0.20210708-1)
-Priority: optional
-Section: utils
-Filename: pool/main/m/mm2-shapes-login/mm2-shapes-login_0.20210709-1_all.deb
-Size: 65852
-SHA256: 5bbf1ad0a3fce8f87374f8683c3e4fe39dc4901599baf58e173faf128ce503e1
-SHA1: 1edd174561d9cc0bced25ad1913bd21bc63c9aff
-MD5sum: a5c7f9b17a79728d6c8499ee5031f18a
-Description: Shapes Magic Mirror login module
- This package allows the user to log into the smartmirror
- using the Shapes RFID service.
-
 Package: mm2-shapes-logos
 Version: 0.20210617-1
 Architecture: all
