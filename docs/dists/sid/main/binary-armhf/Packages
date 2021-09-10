@@ -2498,6 +2498,22 @@ Description: This package provides a library for Telegram clients
  of that dependencies: rpl. It provides some funcionality for building
  Telegram clients. See the source to know what it does.
 
+Package: tg-tdlib
+Version: 0.20210715-1
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 70947
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-tdlib/tg-tdlib_0.20210715-1_armhf.deb
+Size: 8397792
+SHA256: 63e4dc998b1e01467c1d02cf98299fbbbf1a919e63332e115c1d0ca89b5b70fe
+SHA1: 85ae566c0f0d4481e68ba8e6bdc3f46f76ff8df9
+MD5sum: 8dbe28f322c841d0d6fdc3e3944fb74b
+Description: This package provides a library to create Telegram clients
+ TDLib (Telegram Database library) is a cross-platform library for building
+ Telegram clients. It can be easily used from almost any programming language.
+
 Package: twilight-sensor
 Version: 0.20190404-1
 Architecture: all
