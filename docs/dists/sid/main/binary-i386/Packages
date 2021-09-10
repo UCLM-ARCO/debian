@@ -2301,6 +2301,23 @@ MD5sum: 80db7034242f77f9f5f4d0847633e657
 Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
+Package: tg-gsl
+Version: 0.20210715-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 187
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-gsl/tg-gsl_0.20210715-1_all.deb
+Size: 25752
+SHA256: 2d7b4bd15dc37139a2d54e90eb0d967b9c646b703b30037fd76dca9116006442
+SHA1: 079b46868aeb2ac6498e15f9cefbe6a22aa46cca
+MD5sum: 68d3e0bd515bc3e0a288c9d87bb7d00c
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: tg-gsl. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
 Package: tg-rpl
 Version: 0.20210715-1
 Architecture: all
