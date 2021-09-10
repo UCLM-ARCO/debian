@@ -2468,6 +2468,23 @@ MD5sum: 80db7034242f77f9f5f4d0847633e657
 Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
+Package: tg-rpl
+Version: 0.20210715-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 138
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-rpl/tg-rpl_0.20210715-1_all.deb
+Size: 16720
+SHA256: 363dc1dfccc30e4694cc05bc278c2585d3f521e3eb8a6b4f350363dcdcf1d521
+SHA1: 06fcfe5eaf0103d0d8b0f8fbc95b299e50bcdc04
+MD5sum: 49913c7095d9ed3f0f53c0739894db55
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: rpl. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
 Package: twilight-sensor
 Version: 0.20190404-1
 Architecture: all
