@@ -2379,6 +2379,41 @@ MD5sum: 80db7034242f77f9f5f4d0847633e657
 Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
+Package: tg-libcrl
+Version: 0.20210715-1
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 105
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-libcrl/tg-libcrl_0.20210715-1_armhf.deb
+Size: 17036
+SHA256: 610c61fafb1b38178dc721c6cdc47889a3550bfb858f24784f8b341bdd7a82ea
+SHA1: c786630aec0683d6d3ea364df9523a7916c52b99
+MD5sum: a6ded567eb24df678bd26df7e98b5cb0
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: libcrl. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
+Package: tg-libcrl-dbgsym
+Source: tg-libcrl
+Version: 0.20210715-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 36
+Depends: tg-libcrl (= 0.20210715-1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/tg-libcrl/tg-libcrl-dbgsym_0.20210715-1_armhf.deb
+Size: 6680
+SHA256: 5af315d72e18a7f46bc580f72560659b48cffaf2c0f29c1870e770954ac642bc
+SHA1: 4d5880259471282acade0c07d4d7bcf5cdaae765
+MD5sum: 95459daa00365770ad4d5b977b0a3c32
+Description: debug symbols for tg-libcrl
+Build-Ids: 4e8173b3eb7a66c9cc1c99a80e5a1eca5784959e
+
 Package: twilight-sensor
 Version: 0.20190404-1
 Architecture: all
