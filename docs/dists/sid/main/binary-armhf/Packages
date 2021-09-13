@@ -2514,6 +2514,22 @@ Description: This package provides a library to create Telegram clients
  TDLib (Telegram Database library) is a cross-platform library for building
  Telegram clients. It can be easily used from almost any programming language.
 
+Package: tg-tgcalls
+Version: 0.20210715-1
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 2157
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-tgcalls/tg-tgcalls_0.20210715-1_armhf.deb
+Size: 321924
+SHA256: e2d49a9f61803dd0e0902a1ff035cca1bf095ee5bcbe61131617d10f7d50d0da
+SHA1: fc73be63715d374b8b6b6656120b4fb0a0d56f32
+MD5sum: eaf1a76f431e5692643273b95cbb5836
+Description: This is the Telegram calls library
+ This library provides the hability to stablish and handle audio and
+ video calls inside a Telegram client.
+
 Package: twilight-sensor
 Version: 0.20190404-1
 Architecture: all
