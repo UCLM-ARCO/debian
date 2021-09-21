@@ -2060,18 +2060,18 @@ Description: knowledge base system
  states, etc.
 
 Package: scone-server
-Version: 0.20210701.1-1
+Version: 0.20210921-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 3155
-Depends: scone, ncat | nmap, iproute2
+Installed-Size: 3124
+Depends: scone, ncat | nmap, iproute2, sbcl (<= 2:1.4.16)
 Priority: optional
 Section: utils
-Filename: pool/main/s/scone-server/scone-server_0.20210701.1-1_all.deb
-Size: 603904
-SHA256: 908a4d7ee576ac72ab6347ba0fbb6a12b9f771b950791bcb1c2a2766105be40d
-SHA1: 9ed772974a6016069a38220b0a2d2ac426656a0b
-MD5sum: 6b22c6d7f146005a96d8568ecb4fa8ce
+Filename: pool/main/s/scone-server/scone-server_0.20210921-1_all.deb
+Size: 601404
+SHA256: 4da3eff8529c01924782beaf07fcc7bf076810d0cf047b2bdd3a240e2c731fe5
+SHA1: 6ecc6afb5ca0e1bda381458c3b627dad176a400e
+MD5sum: e2448eb15f21796a0bd35dcdb66088e1
 Description: TCP scone wrapper server
   TCP scone wrapper server
 
