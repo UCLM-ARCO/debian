@@ -1207,37 +1207,37 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: magic-mirror-2
-Version: 0.20210526-1
+Version: 0.20210923-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 295194
-Depends: nodejs, npm
+Installed-Size: 295197
+Depends: libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.3), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.21.5), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, debconf (>= 0.5) | debconf-2.0, nodejs, npm, debconf (>= 0.2.17), po-debconf
 Priority: optional
 Section: utils
-Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20210526-1_armhf.deb
-Size: 78259648
-SHA256: 884cbce248cbd2939d98b0c66b59e4e11d0fc6ffb582f53e31ffa6c8a8240977
-SHA1: 95f5854d4908c14ebc3dee5ea8eb9232e50adf13
-MD5sum: 651bd8eba1834a3fce2fb5bb2ef10109
+Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20210923-1_armhf.deb
+Size: 78260200
+SHA256: 911ef72ef1a530291c4c97ec39fb2f05dd7a59d7cd1e81360371eb6de04284f1
+SHA1: 4b690282ed820507e610bde923cc7bacacd9971a
+MD5sum: fc01521a6074cd034012dcde9423c5ad
 Description: Q&D package of Magic Mirror 2
  This is a Debian package that installs a quick and dirty
  setup of magic mirror 2.
 
 Package: magic-mirror-2-dbgsym
 Source: magic-mirror-2
-Version: 0.20210526-1
+Version: 0.20210923-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 2214
-Depends: magic-mirror-2 (= 0.20210526-1)
+Depends: magic-mirror-2 (= 0.20210923-1)
 Priority: optional
 Section: debug
-Filename: pool/main/m/magic-mirror-2/magic-mirror-2-dbgsym_0.20210526-1_armhf.deb
-Size: 766736
-SHA256: 516cf0f17767660d4a3c55bc85fa9e70d5bd0efb60be35d6043f99f4e976f898
-SHA1: ccef319c4e05154b4de8e9f0ad6191fe9a512922
-MD5sum: df33a3659422e015b3e4ed811151b4f5
+Filename: pool/main/m/magic-mirror-2/magic-mirror-2-dbgsym_0.20210923-1_armhf.deb
+Size: 766400
+SHA256: 0a081c54875290641fa29ef8756b210d298db333ac0c638ff5efb9e1d8c43007
+SHA1: e0454c25b228df8a9a35fef0ef3ee65f28156977
+MD5sum: 2f54398401c3d40916063727a312cf20
 Description: debug symbols for magic-mirror-2
 Build-Ids: 883789df8b6c68550497c99c4986ebf9fe88a5b0 9e6c22b6ec113e008864bd8952a33130ce204e28 afd28fab8f9f2a0f4597e10186fb9b9b9eedcadb b0ff38cf66fd7c0b99da95f83bcf4f18962e5aaa b48a4b8abf7448b08e31204e15ed1a21813377fe d6b18429f7a69f04ee6c75ec671417e810c696b6 da92792dba3725130cd220dd951ec5175735b931 dced8505ce328af96a914d5926cb995608cb3f61 ef9a9d42acdd9d5828470d3a9033204df1adbf6a f7473dc699738523690b0a31bb12d1047bb0292c
 
