@@ -1740,7 +1740,7 @@ Description: Python module to create and run construction grammars
  scone-client.
 
 Package: python3-django
-Version: 3.2.7-1
+Version: 3:3.2.7-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 5390
@@ -1748,10 +1748,10 @@ Depends: python3
 Priority: optional
 Section: python
 Filename: pool/main/p/python3-django/python3-django_3.2.7-1_all.deb
-Size: 885732
-SHA256: b81bb9994e3a05c2ac8c657f265b6ad720bb11c82533c7c3037078d69bdc8b27
-SHA1: 89542fd725a1569bfa228223d9e8b18060e4d11a
-MD5sum: 31f0a4e39676503f94dbebaf619a3634
+Size: 885728
+SHA256: e83bcf235a1e0be3e60d37305fe63a7c2787efae6ec35f9da35626aaa9381f34
+SHA1: 9d968b7a17700e9358968159d3953e49f1051ed1
+MD5sum: 4258398b2e3a5514d974945a77234c26
 Description: Web framework that makes it easier to build better web apps
  Django is a high-level Python web framework that encourages rapid development
  and clean, pragmatic design. Built by experienced developers, it takes care
