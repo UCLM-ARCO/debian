@@ -1347,6 +1347,27 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
+Package: mkcert
+Version: 1.4.3-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 3334
+Priority: optional
+Section: utils
+Filename: pool/main/m/mkcert/mkcert_1.4.3-1_amd64.deb
+Size: 1114240
+SHA256: 83d8bf6bbe6e77f2c74cc72edadb74608d52985f0e57983ab6f7338d9cc1ad3f
+SHA1: efc987f9610e170322b281135791e93379881ebe
+MD5sum: 0bcd6a7dfaf6b1ed0f77b40aaa2db69c
+Description: tool to make locally-trusted certificates
+ This is a simple tool for making locally-trusted development certificates.
+ It requires no configuration.
+ .
+ mkcert automatically creates and installs
+ a local CA in the system root store, and generates locally-trusted
+ certificates. mkcert does not automatically configure servers to use
+ the certificates, though, that's up to you.
+
 Package: mm2-dynamic-modules
 Version: 0.20210412-1
 Architecture: all
