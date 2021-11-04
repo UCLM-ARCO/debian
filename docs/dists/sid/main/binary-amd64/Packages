@@ -1348,17 +1348,17 @@ Description: Python library for Mijia Smart Home
  by Mijia (a partner of Xiaomi).
 
 Package: mkcert
-Version: 1.4.3-1
+Version: 1.4.3.1-1
 Architecture: amd64
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 3334
+Installed-Size: 3335
 Priority: optional
 Section: utils
-Filename: pool/main/m/mkcert/mkcert_1.4.3-1_amd64.deb
-Size: 1114240
-SHA256: 83d8bf6bbe6e77f2c74cc72edadb74608d52985f0e57983ab6f7338d9cc1ad3f
-SHA1: efc987f9610e170322b281135791e93379881ebe
-MD5sum: 0bcd6a7dfaf6b1ed0f77b40aaa2db69c
+Filename: pool/main/m/mkcert/mkcert_1.4.3.1-1_amd64.deb
+Size: 1114184
+SHA256: e5573010237548c9edd4a808a37fa1497127e3ebaa9ee37eb5c5587dd2fd3a9a
+SHA1: dff105f746ceb53e94abd3656637b798737f43ca
+MD5sum: ed38a34562f69960e3a99e3e988b8184
 Description: tool to make locally-trusted certificates
  This is a simple tool for making locally-trusted development certificates.
  It requires no configuration.
