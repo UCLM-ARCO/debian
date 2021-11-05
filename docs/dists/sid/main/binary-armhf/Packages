@@ -1385,18 +1385,18 @@ Description: Magic Mirror module for Grafana graphs
  to work.
 
 Package: mm2-loginservice
-Version: 0.20211015-1
+Version: 0.20211105-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 367
+Installed-Size: 368
 Depends: python3, python3-all, magic-mirror-2, shapes-rfid-service (>= 0.20210708-1)
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-loginservice/mm2-loginservice_0.20211015-1_all.deb
-Size: 67848
-SHA256: 69e5a57508136331f5f6bc2d1fc8f0f8defe6fffa0e665d7a875a9666fa90233
-SHA1: 6a88b8aab8569318b26d8899ccd1639e4e05bd3a
-MD5sum: d6d13c51ce0759517038857c0f1c38d5
+Filename: pool/main/m/mm2-loginservice/mm2-loginservice_0.20211105-1_all.deb
+Size: 67860
+SHA256: 5ae9269ee1d715881a0b572fb0ef537f4b265e3725755bb825316b0291b2ab6b
+SHA1: 0803aad7113b1e2e7137c3b0cfa260c8f3acfb45
+MD5sum: 467cc5b97d7d9292ddd56dbaa1637fe4
 Description: Shapes Magic Mirror login module
  This package allows the user to log into the smartmirror
  using the Shapes RFID service.
