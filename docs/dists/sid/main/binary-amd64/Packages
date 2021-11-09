@@ -2093,6 +2093,25 @@ MD5sum: afc42b9ffa580f8032d5e925940b25ec
 Description: Python 3 module to manage "things"
  It includes a Python 3 module to manage Property "things" at clients.
 
+Package: python3-miband
+Source: miband
+Version: 0.20211109-1
+Architecture: all
+Maintainer: Oscar Acena Herrera <oscaracena@gmail.com>
+Installed-Size: 47
+Depends: python3-crypto, python3-gattlib, python3-hexdump, python3:any
+Priority: optional
+Section: python
+Filename: pool/main/m/miband/python3-miband_0.20211109-1_all.deb
+Size: 9420
+SHA256: 554853b7d5a5ab9ecaa0140f08332cfe5a163b4ad9f9ccccf46fb55adfec6ce6
+SHA1: af6d9f3532f637f6ba984a236c6b05e2c190f7ce
+MD5sum: 5ad4008aed335faab567000f2e9abb8c
+Description: Xiaomi MiBand reader library (Python 3)
+ This is a Python 3 library which allows one to read
+ MiBand devices information: steps and calories record,
+ heart rate, battery, and more.
+
 Package: python3-prego
 Source: prego3
 Version: 0.20210301-1
