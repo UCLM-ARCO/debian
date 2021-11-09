@@ -1330,18 +1330,18 @@ Description: Xiaomi MiBand data collector (Python 3)
  and stores them on a PostgreSQL database.
 
 Package: miband-grafana
-Version: 0.20210427-1
+Version: 0.20211109-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 123
+Installed-Size: 125
 Depends: grafana, postgresql-client, uuid-runtime, nano
 Priority: optional
 Section: utils
-Filename: pool/main/m/miband-grafana/miband-grafana_0.20210427-1_all.deb
-Size: 21424
-SHA256: 391e115311c3f5df57bec8732b03f9318de8c2ef9597ae6408450b72cf0f8b57
-SHA1: 17c5639eeb036239c61eeeb3e1814c9b52d377fb
-MD5sum: 1b4f203f5068dfa0d2bfb1cc9aefc1c8
+Filename: pool/main/m/miband-grafana/miband-grafana_0.20211109-1_all.deb
+Size: 21856
+SHA256: a2d1de28754279103bb3732750bab4ac5e1c0a94976f855ce1fc24d5fb90790b
+SHA1: d8bbde3b4441ecccc5b620817fefa884724fe089
+MD5sum: a4911e2393415c5070b1e0b5b69896dc
 Description: Grafana provision for MiBand data
  Creates, and modifies existing, configuration files
  for Grafana instance to be able get MiBand data from
