@@ -1330,6 +1330,27 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
+Package: mkcert
+Version: 1.4.3.1-2
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 2950
+Priority: optional
+Section: utils
+Filename: pool/main/m/mkcert/mkcert_1.4.3.1-2_armhf.deb
+Size: 974744
+SHA256: 23406ea71a8f687eacc01ce1ad36705feaff571fa4e72ecaca074737e1702b79
+SHA1: b59ec086b7ce2d58adfbc2a9304aa7bd57a523a7
+MD5sum: 378c3a97001d323bbc3fc39fecf5d8db
+Description: tool to make locally-trusted certificates
+ This is a simple tool for making locally-trusted development certificates.
+ It requires no configuration.
+ .
+ mkcert automatically creates and installs
+ a local CA in the system root store, and generates locally-trusted
+ certificates. mkcert does not automatically configure servers to use
+ the certificates, though, that's up to you.
+
 Package: mm2-bandupdater
 Version: 0.20210324-1
 Architecture: armhf
