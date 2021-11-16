@@ -147,45 +147,6 @@ MD5sum: e519db8e94adb57a966a952462cd75c4
 Description: Cerberus Authenticator Service
  This service is responsible for checking if the identification of the person is authorized to execute a command.
 
-Package: bazel
-Version: 4.2.1-1
-Architecture: armhf
-Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 2395
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libgcc1 (>= 1:3.5), libstdc++6 (>= 6), g++, zlib1g-dev, unzip
-Suggests: openjdk-11-jdk-headless, bash-completion
-Homepage: https://bazel.build
-Priority: optional
-Section: utils
-Filename: pool/main/b/bazel/bazel_4.2.1-1_armhf.deb
-Size: 765188
-SHA256: 05b4fa96d77f183622875b1b98d81609f15934a7336de2d3d2110cdadde0128f
-SHA1: 55d747e124eccfab6e9e3e69d6995d13622d8ee7
-MD5sum: 48a675adaf779a2e25fbb6e5d92012c8
-Description: Tool for automating software builds and tests
- Supported build tasks include running compilers and linkers to produce
- executable programs and libraries, and assembling deployable packages
- for Android, iOS and other target environments. Bazel is similar to
- other tools like Make, Ant, Gradle, Buck, Pants and Maven.
-
-Package: bazel-dbgsym
-Source: bazel
-Version: 4.2.1-1
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 1310
-Depends: bazel (= 4.2.1-1)
-Priority: optional
-Section: debug
-Filename: pool/main/b/bazel/bazel-dbgsym_4.2.1-1_armhf.deb
-Size: 172884
-SHA256: a0661fad200a2a60bb571c8c70b4e373cbc0d19903992c1aa170d971302e156f
-SHA1: f1ac2eac3c092adae0973b331a44e920b939eeb4
-MD5sum: 1d5d238bee0d44d75d055d480d68ee18
-Description: debug symbols for bazel
-Build-Ids: 2e308d1e34fc099e5ce8a640d146793834e33f8b
-
 Package: citisim-actuator-wirer
 Version: 0.20191121-1
 Architecture: all
