@@ -22,6 +22,7 @@ allow * by key C5BC007C
 
 # cristina.bolaños
 allow * by key AEACD287
+allow * by key FF77D1A8
 
 # maria.espinosa
 allow * by key 91149275
