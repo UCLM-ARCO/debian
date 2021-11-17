@@ -2093,24 +2093,6 @@ MD5sum: afc42b9ffa580f8032d5e925940b25ec
 Description: Python 3 module to manage "things"
  It includes a Python 3 module to manage Property "things" at clients.
 
-Package: python3-mediapipe
-Source: mediapipe
-Version: 0.8.8+ds.1-1
-Architecture: amd64
-Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 45806
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.8.1), python3 (>= 3.7), python3-attr, python3-numpy, python3-opencv, python3-matplotlib, python3-six, python3-protobuf, python3-wheel
-Homepage: https://google.github.io/mediapipe/
-Priority: optional
-Section: utils
-Filename: pool/main/m/mediapipe/python3-mediapipe_0.8.8+ds.1-1_amd64.deb
-Size: 26426792
-SHA256: 28d0c177c3abc6dd81fb34d386f1b7fb21403bbb16d118745ae17168bc9db1e1
-SHA1: 44e3dfb160ed673ba10c8a2757df3e56fec68d16
-MD5sum: 6023f0416ce588bfd8f6640e09658e0c
-Description: Mediapipe Python3 library
- This package contains Mediapipe python3 solutions.
-
 Package: python3-miband
 Source: miband
 Version: 0.20211109-1
