@@ -11,20 +11,11 @@ allow * by key 98EE8D0B
 # ana.rubio
 allow * by key 11622BED
 
-# cristian.trapero
-allow * by key 11BF041F
-
-# jose.mota
-allow * by key DCF71E29
-
 # jesus.fruiz
 allow * by key C5BC007C
 
 # cristina.bolaños
 allow * by key AEACD287
 allow * by key FF77D1A8
-
-# maria.espinosa
-allow * by key 91149275
 
 # end
