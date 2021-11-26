@@ -836,19 +836,19 @@ Description: Fall detector system for real time monitoring
  needed.
 
 Package: go2
-Version: 2.20181225.6-1
+Version: 2.20211126-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 69
+Installed-Size: 73
 Depends: python3:any, tree, python3-gi
 Homepage: https://bitbucket.org/DavidVilla/go2
 Priority: optional
 Section: utils
-Filename: pool/main/g/go2/go2_2.20181225.6-1_all.deb
-Size: 16460
-SHA256: 54d1ac48061213f01cfb310856f93a27d80d3ea9d818698a2b061c72c4d310ea
-SHA1: db21c78ae2892371f3319dce29323e6651a68364
-MD5sum: 8f3e8526b69afa98e0447eff26fec418
+Filename: pool/main/g/go2/go2_2.20211126-1_all.deb
+Size: 17792
+SHA256: f531bf85d153ae7ec77a99b367f0cd8bec90d0e9cd469bcea6a5769be10dc8ce
+SHA1: e892a4e569a2991ccc15e79cc92622903084f943
+MD5sum: 4d0724b495c56fce78498206aa917d45
 Description: fast directory finder
  This package provides a mechanism for quickly changing directory on
  the commandline, in the style of the old Norton Change Directory for
