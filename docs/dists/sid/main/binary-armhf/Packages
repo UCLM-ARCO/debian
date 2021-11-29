@@ -1578,6 +1578,22 @@ Description: Module runner of Phyxio service
  This package provides a service that will handle requests from phyxio. It
  coordinates the execution of exercise modules inside the host machine.
 
+Package: phyxio-totem-setup
+Version: 21.11.29-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 18
+Depends: python3, python3-requests, python3-yaml
+Priority: optional
+Section: utils
+Filename: pool/main/p/phyxio-totem-setup/phyxio-totem-setup_21.11.29-1_all.deb
+Size: 3128
+SHA256: 2fae7b88d7709388b892ddf4411f3c0b855c9c841816e142bf15c03af55dfdf5
+SHA1: d3b983590a0a7d9e10ef708f3562a98d4a5881a6
+MD5sum: e471dbb3a526fb03f4577e395df5287e
+Description: Phyxio totem setup tool
+ Install this package on a totem to configure and register inside phyxio.
+
 Package: platino-dashboard
 Version: 0.20190603-1
 Architecture: all
