@@ -1883,7 +1883,7 @@ Build-Ids: 3d1c5793bde6242d445d8ad2db41b31702ae7afe
 
 Package: python3-commodity
 Source: python-commodity
-Version: 0.20220203.1-1
+Version: 0.20220203.2-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 171
@@ -1891,11 +1891,11 @@ Depends: python3:any, python3-setuptools, python3-hamcrest, python3-configobj, i
 Homepage: https://bitbucket.org/arco_group/python-commodity
 Priority: optional
 Section: python
-Filename: pool/main/p/python-commodity/python3-commodity_0.20220203.1-1_all.deb
-Size: 22816
-SHA256: 4eb5d4386046a1a14214832c277f0e12a04e1318d564c1ba18743a39b1d33201
-SHA1: 27a70077331bc8abd1e61a180a6c17eb9b37a961
-MD5sum: 6d232686e4e31388c03e315c440aaef2
+Filename: pool/main/p/python-commodity/python3-commodity_0.20220203.2-1_all.deb
+Size: 22820
+SHA256: 98526cc5dbcd5de31bd692dea316426715dd548b65bbc56dcc44d6416d6d2dd0
+SHA1: cf72f5415899105d3637a245dea6692ffb89ef9a
+MD5sum: 29991352e73c3ffc0a6f9e04753ce5a3
 Description: Useful utilities library for Python 3 programmers
  python-commodity is a set of general purpose classes, functions and
  utilities (commodities) for Python 3 programming.
