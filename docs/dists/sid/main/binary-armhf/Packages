@@ -1207,39 +1207,39 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: magic-mirror-2
-Version: 0.20211108-1
+Version: 0.20220207-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 295198
-Depends: libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.16), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.3), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.21.5), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, debconf (>= 0.5) | debconf-2.0, nodejs, npm, debconf (>= 0.2.17), po-debconf
+Installed-Size: 340844
+Depends: libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.5), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, debconf (>= 0.5) | debconf-2.0, nodejs, npm, debconf (>= 0.2.17), po-debconf
 Priority: optional
 Section: utils
-Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20211108-1_armhf.deb
-Size: 78243028
-SHA256: d6c815e18798202ca2eb2ff8dd9d4b9579cc5b613c5ed53d6121711ea9bdeb29
-SHA1: 7312bbee45c8b84e2875c91dc4a5f39e4af90a27
-MD5sum: 422ffc8e1896a69e778fa299cb954e97
+Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20220207-1_armhf.deb
+Size: 83136400
+SHA256: 19f1ce9b9b6e4407895d85ef0f4aef452fb57806b8dffb0f77895f00028e847e
+SHA1: e6b1b3441a0ce10c7a0a5f1532a8a5d88f3da27b
+MD5sum: 7e13c668ed88c580d097c1b3859482ff
 Description: Q&D package of Magic Mirror 2
  This is a Debian package that installs a quick and dirty
  setup of magic mirror 2.
 
 Package: magic-mirror-2-dbgsym
 Source: magic-mirror-2
-Version: 0.20211108-1
+Version: 0.20220207-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 2214
-Depends: magic-mirror-2 (= 0.20211108-1)
+Installed-Size: 3290
+Depends: magic-mirror-2 (= 0.20220207-1)
 Priority: optional
 Section: debug
-Filename: pool/main/m/magic-mirror-2/magic-mirror-2-dbgsym_0.20211108-1_armhf.deb
-Size: 766440
-SHA256: 0e411ae27c4e8cba213e65501e64ced4b95498a7dfaa68d49e9ff895711a7b7d
-SHA1: 7732f8d39222abee0df63a196fd7683e2f4bee79
-MD5sum: 40f06844533d180b5c466148c3d6b413
+Filename: pool/main/m/magic-mirror-2/magic-mirror-2-dbgsym_0.20220207-1_armhf.deb
+Size: 1503020
+SHA256: 85a30b0c8e8a8b8c38a3a171edd4caa41a0ccd05ee92c608f97497cd69b9faa3
+SHA1: 5eb7c2fdc7de7cc72831eb07f235e5a696ab4e1f
+MD5sum: 4f25647b6218ee15f17fefe8e89b81ed
 Description: debug symbols for magic-mirror-2
-Build-Ids: 883789df8b6c68550497c99c4986ebf9fe88a5b0 9e6c22b6ec113e008864bd8952a33130ce204e28 afd28fab8f9f2a0f4597e10186fb9b9b9eedcadb b0ff38cf66fd7c0b99da95f83bcf4f18962e5aaa b48a4b8abf7448b08e31204e15ed1a21813377fe d6b18429f7a69f04ee6c75ec671417e810c696b6 da92792dba3725130cd220dd951ec5175735b931 dced8505ce328af96a914d5926cb995608cb3f61 ef9a9d42acdd9d5828470d3a9033204df1adbf6a f7473dc699738523690b0a31bb12d1047bb0292c
+Build-Ids: 008321e51238fb385483fa6a49b8ad0f8400adf2 1be5bbf2d75b2582f8ad5a9ab736f865cc46ba30 2ca204c9bdcb870c46776e727863824b9cfd1e59 3d81b36b6e8953f839959d04107d770c48385df4 4a40ba108a914a74d8bec4a3b090d79b40c59adc 50976be28676442781f6b5f37b514f8e4d6f12f0 738015fac1bbbf0f9e63e101f2663815255b881c 78aa6806968e88629d9974f2d246ebeaa08e4e43 7ee035cce0baba7eaab5d20cfb487a134bf29c71 d096aea1e1537237f311225b8b8d7bd50faed733
 
 Package: metamotion
 Version: 0.20200919-1
