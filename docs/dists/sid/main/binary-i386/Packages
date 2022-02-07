@@ -1449,6 +1449,22 @@ MD5sum: 0eafe711a8655fe9597af9350e74e6a0
 Description: Cerberus Person Recognizer
  This service recognize a face person usign the Openface Library.
 
+Package: phyxio-mod-rise-arm
+Version: 22.02.07-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 54
+Depends: python3, python3-av, python3-opencv, python3.7-mediapipe | python3.8-mediapipe | python3.9-mediapipe, python3-zeroc-ice, phyxio-module-runner
+Priority: optional
+Section: utils
+Filename: pool/main/p/phyxio-mod-rise-arm/phyxio-mod-rise-arm_22.02.07-1_all.deb
+Size: 10196
+SHA256: 78f6a682e6aa2dae735b0b93f9295b072ff3634e8bfde2aecfc78b801f127534
+SHA1: f680772027c890b4aa8f51e8cd2f4248dd0a4c86
+MD5sum: e41f05ada63ee681051a790bed37663b
+Description: Rise arm module for Phyxio
+ This module monitors a user that needs to raise and lower his right arm.
+
 Package: phyxio-module-runner
 Version: 22.01.27-1
 Architecture: all
