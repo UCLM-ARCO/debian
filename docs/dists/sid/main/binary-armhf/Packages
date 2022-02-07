@@ -1578,18 +1578,18 @@ Description: Rise arm module for Phyxio
  This module monitors a user that needs to raise and lower his right arm.
 
 Package: phyxio-module-runner
-Version: 22.01.27-1
+Version: 22.02.07-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 65
-Depends: adduser, python3, v4l2loopback-dkms, v4l2loopback-utils, v4l-utils, python3-zeroc-ice, mkcert
+Installed-Size: 6396
+Depends: adduser, python3, v4l2loopback-dkms, v4l2loopback-utils, v4l-utils, python3-zeroc-ice, mkcert, libnss3-tools
 Priority: optional
 Section: utils
-Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.01.27-1_all.deb
-Size: 10468
-SHA256: 5a769fb9ecd7efc0dcc23f74f2f1ca7148c3bd0170eaba80f5821c1baa4c70a5
-SHA1: f84c6fbe53c4846f5c3859c9ca4a25adcb9e566e
-MD5sum: 3e4ccf3e0c23b23cc45d434d2c30597b
+Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.02.07-1_all.deb
+Size: 2061776
+SHA256: ac64df6f64b333da511800546b1cfb99116f85fa9633d8bd1c20b0b53f0157df
+SHA1: 8d85dcb3d25b07f48a1b27a78281588bade4497f
+MD5sum: b78fc390ef57c3a6ee3158465870a856
 Description: Module runner of Phyxio service
  This package provides a service that will handle requests from phyxio. It
  coordinates the execution of exercise modules inside the host machine.
