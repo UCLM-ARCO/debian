@@ -1577,6 +1577,23 @@ MD5sum: e41f05ada63ee681051a790bed37663b
 Description: Rise arm module for Phyxio
  This module monitors a user that needs to raise and lower his right arm.
 
+Package: phyxio-module-runner
+Version: 22.02.07-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 6396
+Depends: adduser, python3, v4l2loopback-dkms, v4l2loopback-utils, v4l-utils, python3-zeroc-ice, mkcert, libnss3-tools
+Priority: optional
+Section: utils
+Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.02.07-1_all.deb
+Size: 2061868
+SHA256: 6d86db69a7078e10da188b2247b17a393353715b5a13391002b5de2f0e0495ac
+SHA1: eb9b3b81e5b0fbb8b637c6d95e0dfd60d23d4591
+MD5sum: 7c53e2c52a1c94e672d20d572ba20ca5
+Description: Module runner of Phyxio service
+ This package provides a service that will handle requests from phyxio. It
+ coordinates the execution of exercise modules inside the host machine.
+
 Package: phyxio-totem-setup
 Version: 22.01.10-1
 Architecture: all
