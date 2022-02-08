@@ -2263,6 +2263,60 @@ MD5sum: b217322c3022730939d40c4528a92ad1
 Description: Debug symbols for python3-zeroc-ice36
 Build-Ids: d39460546e09271b2c05a38ab5242a1475d2fe1b
 
+Package: python3.10-mediapipe
+Source: mediapipe
+Version: 0.8.9.1-1
+Architecture: amd64
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 49454
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.8.1), python3 (<< 3.11), python3 (>= 3.10), python3.10, python3-attr, python3-numpy, python3-opencv, python3-matplotlib, python3-six, python3-protobuf
+Homepage: https://google.github.io/mediapipe/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mediapipe/python3.10-mediapipe_0.8.9.1-1_amd64.deb
+Size: 28917912
+SHA256: faf2d4427a4b5d3acad04f02d765e47a16bdd2bf9d672327f0b6567dad01366c
+SHA1: 12d569385ca1a779a298895bb1cf991b19acfca3
+MD5sum: 1a7f5ddeb4d36271612416038821de8a
+Description: Mediapipe library (Python3.10)
+ This package contains Mediapipe solutions library (Python3.10).
+
+Package: python3.8-mediapipe
+Source: mediapipe
+Version: 0.8.9.1-1
+Architecture: amd64
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 49442
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.8.1), python3 (<< 3.9), python3 (>= 3.8), python3.8, python3-attr, python3-numpy, python3-opencv, python3-matplotlib, python3-six, python3-protobuf
+Homepage: https://google.github.io/mediapipe/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mediapipe/python3.8-mediapipe_0.8.9.1-1_amd64.deb
+Size: 28913824
+SHA256: a255dd849bcf118b392ce67bfb8098ac36af43db3f03a3c341051734fa026c51
+SHA1: 46c4c8e47dde99f6c01ff137081e58648e300b41
+MD5sum: 994fa04f8875cff6a49a30bea02e1ac8
+Description: Mediapipe library (Python3.8)
+ This package contains Mediapipe solutions library (Python3.8).
+
+Package: python3.9-mediapipe
+Source: mediapipe
+Version: 0.8.9.1-1
+Architecture: amd64
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 49446
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.8.1), python3 (<< 3.10), python3 (>= 3.9), python3.9, python3-attr, python3-numpy, python3-opencv, python3-matplotlib, python3-six, python3-protobuf
+Homepage: https://google.github.io/mediapipe/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mediapipe/python3.9-mediapipe_0.8.9.1-1_amd64.deb
+Size: 28915636
+SHA256: a6efc7748f27c1adf70adca7d3afabea8e71bba6fd812d2dcdd2f76880a92873
+SHA1: 458729ca882c83739bea0869547b92d38527c834
+MD5sum: a5c61b2e5354713a230cbd0a854b4ff5
+Description: Mediapipe library (Python3.9)
+ This package contains Mediapipe solutions library (Python3.9).
+
 Package: ripio
 Version: 0.20211110-1
 Architecture: all
