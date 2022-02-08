@@ -2263,6 +2263,42 @@ MD5sum: b217322c3022730939d40c4528a92ad1
 Description: Debug symbols for python3-zeroc-ice36
 Build-Ids: d39460546e09271b2c05a38ab5242a1475d2fe1b
 
+Package: python3.8-mediapipe
+Source: mediapipe
+Version: 0.8.8+ds.3-1
+Architecture: amd64
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 20933
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.8), python3 (<< 3.9), python3 (>= 3.8), python3.8, python3-attr, python3-numpy, python3-opencv, python3-matplotlib, python3-six, python3-protobuf, python3-wheel
+Homepage: https://google.github.io/mediapipe/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mediapipe/python3.8-mediapipe_0.8.8+ds.3-1_amd64.deb
+Size: 5132660
+SHA256: c621f641b8fd7cce6b4f850306e97c5608e4b6be412a4fc907f3c8adf97807bb
+SHA1: b87e4f0bd787d32f75bbeffe6e91b6f1a2d33e4a
+MD5sum: 01ddc02d38224e85429da8053196ea74
+Description: Mediapipe library (Python3.8)
+ This package contains Mediapipe solutions library (Python3.8).
+
+Package: python3.9-mediapipe
+Source: mediapipe
+Version: 0.8.8+ds.3-1
+Architecture: amd64
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 20941
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3), libstdc++6 (>= 4.8), python3 (<< 3.10), python3 (>= 3.9), python3.9, python3-attr, python3-numpy, python3-opencv, python3-matplotlib, python3-six, python3-protobuf, python3-wheel
+Homepage: https://google.github.io/mediapipe/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mediapipe/python3.9-mediapipe_0.8.8+ds.3-1_amd64.deb
+Size: 5136264
+SHA256: a6d0215a792e39ffe83aaf06b45b31d64a0abfa690d86448050322cb935ef3fa
+SHA1: b6ff8f34fc4acdae1d4121aad300b5ff9ccb855d
+MD5sum: d04b1830757cb5e88787effe8488d753
+Description: Mediapipe library (Python3.9)
+ This package contains Mediapipe solutions library (Python3.9).
+
 Package: ripio
 Version: 0.20211110-1
 Architecture: all
