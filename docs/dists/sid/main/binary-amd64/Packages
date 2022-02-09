@@ -2648,6 +2648,23 @@ MD5sum: 80db7034242f77f9f5f4d0847633e657
 Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
+Package: tg-ffmpeg
+Version: 0.20210715-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 111
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-ffmpeg/tg-ffmpeg_0.20210715-1_amd64.deb
+Size: 21268
+SHA256: 686338e1e87bd5cf3ed8d9705f4363deddb4f5a6e77e30b90e83bedb9157ae63
+SHA1: f115baaf2a2842299598da80a1b27b59a2324c93
+MD5sum: 6b4e01d55f982f1cf4e2c620726468f5
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: tg-ffmpeg. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
 Package: tg-gsl
 Version: 0.20210715-1
 Architecture: all
