@@ -2682,6 +2682,22 @@ Description: This package provides a library for Telegram clients
  of that dependencies: rpl. It provides some funcionality for building
  Telegram clients. See the source to know what it does.
 
+Package: tg-tgcalls
+Version: 0.20210715-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 3058
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-tgcalls/tg-tgcalls_0.20210715-1_amd64.deb
+Size: 415440
+SHA256: 30d7004c8bb85f9e1b20d0904a8cb4000a8f68cb9e6fdb00e1447f1b8c2534c0
+SHA1: dd6d99c745a097259417688b2eab74674a5b6824
+MD5sum: 7acf1a26517da5dc1c5221b2c39f82e9
+Description: This is the Telegram calls library
+ This library provides the hability to stablish and handle audio and
+ video calls inside a Telegram client.
+
 Package: twilight-sensor
 Version: 0.20190404-1
 Architecture: all
