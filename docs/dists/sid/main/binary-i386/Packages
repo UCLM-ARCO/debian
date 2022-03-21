@@ -1432,6 +1432,21 @@ MD5sum: 87900b636a11423918e86140a03c9b18
 Description: FIXME: Short description of the nets2-ginkana package
  FIXME: long description about the basic features of the nets2-ginkana package
 
+Package: pdfjam-extras
+Version: 0.20220321-1
+Architecture: all
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Installed-Size: 23
+Priority: optional
+Section: utils
+Filename: pool/main/p/pdfjam-extras/pdfjam-extras_0.20220321-1_all.deb
+Size: 3848
+SHA256: a7d96f188d39c430e7ea307de291f90fce0521f0a43726731eb268c1148000a3
+SHA1: 04e41969e81793dba7fe1b19b2f852eb7874c12c
+MD5sum: 4bdd84c90b7da30010e268ea3a807038
+Description: FIXME: Short description of the pdfjam-extras package
+ FIXME: long description about the basic features of the pdfjam-extras package
+
 Package: person-recognizer
 Version: 0.20190821.1-1
 Architecture: all
