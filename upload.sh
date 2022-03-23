@@ -17,22 +17,19 @@ function pool-sync {
 
     if [[ "$package" ]]; then
 	name=$(basename "$package" .dsc)
-	echo "git commiting new package: $name"
+	echo "git commiting NEW package: $name"
 	pool-commit "upload $name"
 	exit
     fi
-
 
     package=$(git status -s | grep ^D | grep .dsc$ | head -1 | awk '{print $2}')
 
     if [[ "$package" ]]; then
 	name=$(basename "$package" .dsc)
-	echo "git commiting removed package: $name"
+	echo "git commiting REMOVED package: $name"
 	pool-commit "remove $name"
     fi
 }
 
-(
-    cd "$(dirname "$(readlink -f "$0")")"
-    pool-sync
-)
+cd "$(dirname "$(readlink -f "$0")")"
+pool-sync
