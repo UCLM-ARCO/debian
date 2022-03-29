@@ -1577,18 +1577,18 @@ Description: Cerberus Person Recognizer
  This service recognize a face person usign the Openface Library.
 
 Package: phyxio-module-runner
-Version: 22.03.29-1
+Version: 22.03.29.1-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 6396
 Depends: adduser, python3, v4l2loopback-dkms, v4l2loopback-utils, v4l-utils, python3-zeroc-ice, mkcert, libnss3-tools
 Priority: optional
 Section: utils
-Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.03.29-1_all.deb
-Size: 2061720
-SHA256: 247f7c869d889f7e31999b7b0e1426b2f41bda32ad1e342e53d05ddf9165268f
-SHA1: 1672c174149723b767cbad75046d68eb198d75c7
-MD5sum: 026bf4d546e67d8f1d0b7638fb585458
+Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.03.29.1-1_all.deb
+Size: 2062068
+SHA256: 1237c89c48b477e8b991de208b87e185f5c3250560cb5bfa876feef9b9abcac5
+SHA1: 268a3deb1cf208af19d5a72f5cbbc17a08ac1e95
+MD5sum: 1e2fd5d5953976ec8866c2eace57dcd5
 Description: Module runner of Phyxio service
  This package provides a service that will handle requests from phyxio. It
  coordinates the execution of exercise modules inside the host machine.
