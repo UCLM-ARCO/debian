@@ -2441,36 +2441,36 @@ Description: Citisim SmartObject publisher (temperature)
  interface, provided by Citisim.
 
 Package: shapes-call-service
-Version: 22.02.10-1
+Version: 22.03.29-1
 Architecture: amd64
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 30157
+Installed-Size: 30158
 Depends: libavcodec58 (>= 7:4.2), libavformat58, libavutil56 (>= 7:4.0), libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglibmm-2.4-1v5 (>= 2.64.2), libjpeg62 (>= 6b1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.1), libstdc++6 (>= 9), libswscale5 (>= 7:4.0), libzeroc-ice3.7, zlib1g (>= 1:1.1.4), tg-tgcalls, tg-ffmpeg, tg-libcrl, jq, pwgen, shapes-certs, shapes-call-service-client
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service_22.02.10-1_amd64.deb
-Size: 8713820
-SHA256: 94262a71071e68f2383f6d809a8a6f8a9372505c77a73c3020e3cd99a5ee80c3
-SHA1: ca399d4d6e7bee44e0a573ff7c361d197caf792c
-MD5sum: 3c089591f02fb3a1e26cc2d1799679aa
+Filename: pool/main/s/shapes-call-service/shapes-call-service_22.03.29-1_amd64.deb
+Size: 8715916
+SHA256: afa7696cae000743dd6dbf360a06e2c67b751d01fbce1c5fbf1edb8168b54d7b
+SHA1: 58f8a01d985fa6e43f627e21350c8445b6f3d8ce
+MD5sum: c6754862c4cea61348485c54304925fa
 Description: Shapes service for video calls
  This package contains the Shapes Call Service, which provides
  video calls using the Telegram framework.
 
 Package: shapes-call-service-client
 Source: shapes-call-service
-Version: 22.02.10-2
+Version: 22.03.29-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 16
+Installed-Size: 17
 Depends: python3, shapes-slice, python3-zeroc-ice
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.02.10-2_all.deb
-Size: 3492
-SHA256: 8f822fc52bf2140cdee3a3ba95c30b2a7fa7588b057854da85ccb93a24325d26
-SHA1: 031c1aeb87937b722694377248b7f72fdf6da6ea
-MD5sum: 4ce5dfdb6cc1e27df8fa217814ffc83f
+Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.03.29-1_all.deb
+Size: 3548
+SHA256: 65d06965e4a267fcb54c74d112c2cf85a7d712c06aca7f62491b29ec93767cd3
+SHA1: 266ced90da47b34c66ba3b9109daf89d9c0e55c0
+MD5sum: 353164a2adef5734f9c4bbf94fbd2442
 Description: Shapes service for video calls, client utility
  This package contains the client utility to manage the Shapes Call Service,
  which provides video calls using the Telegram framework.
