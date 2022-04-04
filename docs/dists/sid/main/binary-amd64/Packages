@@ -2181,6 +2181,28 @@ MD5sum: a368ab4e6d1a0076f9a363800bf88de3
 Description: Python3 module to interact a scone-server.
  Python3 module to interact a running scone-server.
 
+Package: python3-viulib
+Version: 22.04.04-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 7036
+Depends: libc6 (>= 2.4), python3
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-viulib/python3-viulib_22.04.04-1_amd64.deb
+Size: 6172900
+SHA256: 29ae09d8f65a4f41092451c033e92ba9c4cd227824f9871a902eded1ebc78aec
+SHA1: effad4b2c32b399b4d25febcf91d0ebd73f81dcd
+MD5sum: 6e6b36caaee973127f0ae72237634159
+Description: Viulib library for Python3
+ Set of precompiled SW libraries for computer vision applications, which
+ simplifies the building of complex vision-based solutions.
+ .
+ Viulib is a software library, a solution that collects, processes
+ and analyzes real-time video images. Reduces time in prototyping phases,
+ facilitates technology validation, optimizes scalable deployments and
+ enables transparent licensing schemes.
+
 Package: python3-zeroc-ice-arco
 Source: zeroc-ice
 Version: 3.6.3-2
