@@ -1421,6 +1421,23 @@ Description: Shapes Magic Mirror login module
  This package allows the user to log into the smartmirror
  using the Shapes RFID service.
 
+Package: mm2-phyxio-connect
+Version: 0.20220422-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 19
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-phyxio-connect/mm2-phyxio-connect_0.20220422-1_all.deb
+Size: 2580
+SHA256: 1419f97a19d7b1d1c91679cf321dbb192954e1ad2c69c94ec972aabf341c208f
+SHA1: b0247e131a3364c2555e50de02a5c343eaf63c2d
+MD5sum: 3af314395ee649914a599792b233a30e
+Description: Shapes Magic Mirror Phyx.io module
+ This package allows the user access Phyx.io site
+ through the smartmirror interface.
+
 Package: mm2-qrurl
 Version: 0.20201225-1
 Architecture: all
