@@ -1611,18 +1611,18 @@ Description: Module runner of Phyxio service
  coordinates the execution of exercise modules inside the host machine.
 
 Package: phyxio-totem-setup
-Version: 22.05.3-1
+Version: 22.05.3.1-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 36
+Installed-Size: 71
 Depends: python3, python3-requests, python3-yaml, jq
 Priority: optional
 Section: utils
-Filename: pool/main/p/phyxio-totem-setup/phyxio-totem-setup_22.05.3-1_all.deb
-Size: 10952
-SHA256: 09c28a9aa34d7def6bef5b70690b96e9064e4c44bb04de9a9a87c3c5028c5190
-SHA1: 691246fc3bc8ef50867ea5ba87e5f8a435ee6bfc
-MD5sum: a20bf69a32d62cd840ca164996ae9208
+Filename: pool/main/p/phyxio-totem-setup/phyxio-totem-setup_22.05.3.1-1_all.deb
+Size: 20108
+SHA256: 52e9b22d79e24cb03476e4a79eed082a2d08271065830a7df9412b4949180c0a
+SHA1: 129c3488ac114a20fd82a2f893bfcacab1a1a020
+MD5sum: 5c06f9272d9cc869bdaa63db3a88747d
 Description: Phyxio totem setup tool
  Install this package on a totem to configure and register inside phyxio.
 
