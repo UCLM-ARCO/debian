@@ -1589,18 +1589,18 @@ Description: Tool to create Phyxio modules
  Provides a set of tools to easily create new runner modules.
 
 Package: phyxio-module-runner
-Version: 22.05.09-1
+Version: 22.05.11-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 6536
 Depends: adduser, python3, v4l2loopback-dkms, v4l2loopback-utils, v4l-utils, python3-zeroc-ice, mkcert, libnss3-tools
 Priority: optional
 Section: utils
-Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.05.09-1_all.deb
-Size: 2190816
-SHA256: 09e01a05c5a8f4b9c9450ff255cc10db6485cc3900a63836767ed0cb241fac00
-SHA1: 9f14ffc9e05eda91b76658c5d3dc09d13578582e
-MD5sum: 4359f5f0837397b8773beb3a5bf204db
+Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_22.05.11-1_all.deb
+Size: 2190828
+SHA256: 229d6517173d10442e3d2517bbcd8103504329820ee64b4dc6bb3594b1d3b231
+SHA1: 1d0e25954f6bc928e296d77f0b36cd4ba7ed30e4
+MD5sum: 7e1588bc5677b7b217e0a9aec791b519
 Description: Module runner of Phyxio service
  This package provides a service that will handle requests from phyxio. It
  coordinates the execution of exercise modules inside the host machine.
