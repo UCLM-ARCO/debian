@@ -1573,18 +1573,18 @@ Description: Cerberus Person Recognizer
  This service recognize a face person usign the Openface Library.
 
 Package: phyxio-module-creator
-Version: 22.5.17-1
+Version: 22.5.24-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 6690
+Installed-Size: 6784
 Depends: python3, make, zeroc-ice-compilers
 Priority: optional
 Section: utils
-Filename: pool/main/p/phyxio-module-creator/phyxio-module-creator_22.5.17-1_all.deb
-Size: 4764216
-SHA256: 46560ccb88017ca8ecefb60ec020eed26a3d4022199fa51d321517436198bcfd
-SHA1: cea3f825ca1055f041f6e337989b8dbe570d4520
-MD5sum: 14a2b493767a19745a2df907afffc3f0
+Filename: pool/main/p/phyxio-module-creator/phyxio-module-creator_22.5.24-1_all.deb
+Size: 4795908
+SHA256: cf2381848e4a219a13339dbbb5ee5a52f5c2b5676fc9826bbf9f162b400a6396
+SHA1: a791a119565d74f290baf8328a67ae5af0256128
+MD5sum: c1155eea5df22661295f1862592d80c1
 Description: Tool to create Phyxio modules
  Provides a set of tools to easily create new runner modules.
 
