@@ -2100,26 +2100,6 @@ MD5sum: 5f2b29490db07f9fece4379284109400
 Description: Read keystrokes from a gamepad
  Read strokes from a gamepad and sents to a observer class.
 
-Package: python3-gattlib
-Source: gattlib
-Version: 0.20220207-2
-Architecture: amd64
-Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 642
-Depends: python3 (<< 3.9), python3 (>= 3.8~), libbluetooth3 (>= 4.91), libboost-python1.71.0, libboost-python1.71.0-py38, libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.28.0), libstdc++6 (>= 5.2)
-Homepage: https://github.com/oscaracena/pygattlib
-Priority: optional
-Section: python
-Filename: pool/main/g/gattlib/python3-gattlib_0.20220207-2_amd64.deb
-Size: 133992
-SHA256: 755c5eacd7f5f69feb92ddba781fd5bf37f971313ddddf3a4f630868d6edf805
-SHA1: d4db3f98246f160305777ad680bc9d01d52751a3
-MD5sum: 62dbb1b774c7211e7c091a75c721db41
-Description: Bluetooth LE GATT library (Python 3)
- This is a Python library to use the GATT Protocol for Bluetooth LE
- devices. It is a wrapper around the implementation used by gatttool
- in bluez package. Python 3 version.
-
 Package: python3-hexdump
 Source: hexdump
 Version: 3.3+ds.1-1
