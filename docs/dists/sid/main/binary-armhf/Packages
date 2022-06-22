@@ -1207,18 +1207,18 @@ Description: Smart home and automatization made easy
  the smart home environment. It tries to be simple, and easy.
 
 Package: magic-mirror-2
-Version: 0.20220207-1
+Version: 0.20220617-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 340844
+Installed-Size: 341098
 Depends: libasound2 (>= 1.0.16), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.5), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.22), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, debconf (>= 0.5) | debconf-2.0, nodejs, npm, debconf (>= 0.2.17), po-debconf
 Priority: optional
 Section: utils
-Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20220207-1_armhf.deb
-Size: 83136400
-SHA256: 19f1ce9b9b6e4407895d85ef0f4aef452fb57806b8dffb0f77895f00028e847e
-SHA1: e6b1b3441a0ce10c7a0a5f1532a8a5d88f3da27b
-MD5sum: 7e13c668ed88c580d097c1b3859482ff
+Filename: pool/main/m/magic-mirror-2/magic-mirror-2_0.20220617-1_armhf.deb
+Size: 83249464
+SHA256: 4582bf63a80586302332c5537a67a8a8a4cae626b014624096d2bd4e1d867b5d
+SHA1: 293446c6f7704f245cdaf07190a0bc95b4521e33
+MD5sum: 6c55b8c7f7a8843ed249f73e17a3bf99
 Description: Q&D package of Magic Mirror 2
  This is a Debian package that installs a quick and dirty
  setup of magic mirror 2.
