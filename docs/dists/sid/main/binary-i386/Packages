@@ -1798,6 +1798,23 @@ Description: Ice is comprehensive RPC framework with support for Python,
   * Supports IPv4 and IPv6
   * Intuitive mapping from Slice to Python
 
+Package: python3-asapa
+Version: 22.6.23-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 26
+Depends: python3, python3-requests
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-asapa/python3-asapa_22.6.23-1_all.deb
+Size: 3696
+SHA256: afffa4025dce761286ae7cb167018f2375b849003f77e61361a6b35612c4c678
+SHA1: 235a4b4fb6709eea629b4172fec3ae82f5673e14
+MD5sum: 0b517dcce4cc7149b67f1746ab340510
+Description: ASAPA authorization module for Python
+ ASAPA is the Shapes authorization service, so this module provides a
+ Python class to authorize users and obtain an API token.
+
 Package: python3-commodity
 Source: python-commodity
 Version: 0.20220204-1
