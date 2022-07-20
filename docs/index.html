@@ -31,19 +31,20 @@
 
   To use this package repository, get repo key:
 
-  <pre class="console">
-$ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
-  <div style="text-align:right">(apt-2.1.8 deprecates apt-key command).</div>
-
-  Or:
-
-  <pre class="console">
+<pre class="console">
 $ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
 
     Or:
 
-    <pre class="console">
+<pre class="console">
 $ gpg --keyserver keyserver.ubuntu.com --recv-key D917ABDD28380433 | sudo tee /etc/apt/trusted.gpg.d/uclm-arco.asc</pre>
+
+    Or
+
+<pre class="console">
+$ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
+  <div style="text-align:right">(warning: apt-2.1.8 deprecates apt-key command).</div>
+
 
   And add the repository:
 
