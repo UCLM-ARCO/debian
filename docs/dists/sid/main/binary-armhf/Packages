@@ -1277,18 +1277,18 @@ Description: Package to collect data from metamotion sensor
  and download all the data in a desired file
 
 Package: miband-dc
-Version: 0.20220620-1
+Version: 0.20220913-1
 Architecture: all
 Maintainer: Oscar Acena Herrera <oscaracena@gmail.com>
-Installed-Size: 97
-Depends: python3-miband (>= 0.20220408), python3-peewee, python3-psycopg2, python3-pytimeparse, python3-requests, python3:any, libpq-dev
+Installed-Size: 93
+Depends: python3-miband (>= 0.20220913), python3-peewee, python3-psycopg2, python3-pytimeparse, python3-requests, python3:any, libpq-dev
 Priority: optional
 Section: python
-Filename: pool/main/m/miband-dc/miband-dc_0.20220620-1_all.deb
-Size: 19932
-SHA256: 9784bad85d5daf0966f5d285e75eac06bb48850351b00aeb9cba82092f11b32e
-SHA1: 06ab524a6914c502d3ed446775072c7e60694257
-MD5sum: dc363c2c43ca19ebf94a8645d539b40a
+Filename: pool/main/m/miband-dc/miband-dc_0.20220913-1_all.deb
+Size: 16952
+SHA256: bf0a50ae031e0282769130023473ec4d9055e5505655d49be97cdc328462f55f
+SHA1: 3fd1447ffa54bf1978df9478d271ae7394ddeccf
+MD5sum: 0658c3418655503dd1cda9d2adda7eff
 Description: Xiaomi MiBand data collector (Python 3)
  This is a Python 3 script (and system service) which
  collects data from Xiaomi MiBand4, previously configured,
