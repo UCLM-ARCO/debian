@@ -1313,6 +1313,23 @@ Description: Magic Mirror 2 module to change module positions
  Module also allows one to hide or show modules. Module have method to change
  configured positions back.
 
+Package: mm2-ice
+Version: 3.7.80-2
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 306
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-ice/mm2-ice_3.7.80-2_all.deb
+Size: 56384
+SHA256: e475815f8c0aba6c29fa458dd356afe018e5f1c5b63e2fe204f52bcd265a986c
+SHA1: 2e7ebd199027ea0d68cc4ae84c5238a3ea243a56
+MD5sum: 84be51ab7ffaaf65253c4e12ba9ba01d
+Description: ZeroC Ice module for Magic Mirror 2
+ This package contains basic scripts for using
+ ZeroC Ice on Magic Mirror 2 package.
+
 Package: mm2-loginservice
 Version: 0.20220425-1
 Architecture: all
