@@ -2835,17 +2835,18 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-tgcalls
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: amd64
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 3058
+Installed-Size: 7050
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 12)
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-tgcalls/tg-tgcalls_0.20210715-1_amd64.deb
-Size: 415440
-SHA256: 30d7004c8bb85f9e1b20d0904a8cb4000a8f68cb9e6fdb00e1447f1b8c2534c0
-SHA1: dd6d99c745a097259417688b2eab74674a5b6824
-MD5sum: 7acf1a26517da5dc1c5221b2c39f82e9
+Filename: pool/main/t/tg-tgcalls/tg-tgcalls_22.9.14-1_amd64.deb
+Size: 1191544
+SHA256: defeb84f6629924617d38449b99067815fec8450b57b53ca2ad20461a6e0b0ba
+SHA1: 96cd9d209b545b2fcc3da71fb3e4dbdd158867a0
+MD5sum: 363b3df7e33229bd02bc9c70071851ca
 Description: This is the Telegram calls library
  This library provides the hability to stablish and handle audio and
  video calls inside a Telegram client.
