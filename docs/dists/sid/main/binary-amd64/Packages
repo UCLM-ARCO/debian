@@ -2765,17 +2765,18 @@ Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
 Package: tg-ffmpeg
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: amd64
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 111
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-ffmpeg/tg-ffmpeg_0.20210715-1_amd64.deb
-Size: 21268
-SHA256: 686338e1e87bd5cf3ed8d9705f4363deddb4f5a6e77e30b90e83bedb9157ae63
-SHA1: f115baaf2a2842299598da80a1b27b59a2324c93
-MD5sum: 6b4e01d55f982f1cf4e2c620726468f5
+Filename: pool/main/t/tg-ffmpeg/tg-ffmpeg_22.9.14-1_amd64.deb
+Size: 24006
+SHA256: b61f02a295f69ac37ff0fa0ae2dfcfc227f894f720957261f4d19620f5fbe746
+SHA1: d1e986d4817625eb6d57cb3be258d0a0b26f3763
+MD5sum: 4d5da0f30d57cc989883558b53b72cc9
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: tg-ffmpeg. It provides some funcionality for building
