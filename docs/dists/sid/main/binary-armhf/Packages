@@ -2653,6 +2653,23 @@ Description: Library to manage webrtc transmissions
  This library is a dependency used by Telegram clients. It handles the
  media transmission inside audio or video calls.
 
+Package: tg-owt
+Version: 22.9.20-1
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 37122
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-owt/tg-owt_22.9.20-1_armhf.deb
+Size: 6178316
+SHA256: 5df39780a3be9501f780ad1fd4546fdc496bdbb6c372b0d13f5bd645d2ef848d
+SHA1: 2620feee643687bc8793b940a40f47423f2b82f9
+MD5sum: 5aaa9acd31e9dcedda8cf6d85a008256
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: tgowt. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
 Package: tg-rpl
 Version: 22.9.14-1
 Architecture: all
