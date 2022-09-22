@@ -5,22 +5,22 @@ Origin: ARCO Research Group
 Label: ARCO
 Suite: unstable
 Codename: sid
-Date: Thu, 22 Sep 2022 08:31:41 UTC
+Date: Thu, 22 Sep 2022 08:32:43 UTC
 Architectures: i386 amd64 armhf
 Components: main non-free
 Description: ARCO repository
 MD5Sum:
- 8a274c5b7342bf99a83afc2859d53427 107773 main/binary-i386/Packages
- 8f1c9c6dad99fc06c3c2fa1652d3424e 32589 main/binary-i386/Packages.gz
+ 53062fcc064f45642c97164d37b64fd4 107767 main/binary-i386/Packages
+ 11428236091dd3d8b6f7e04492c1a07b 32577 main/binary-i386/Packages.gz
  9fff0296e2b5ec46cc19cac11e803f59 122 main/binary-i386/Release
- 55a83dffbb89650944bc279d067b9088 121780 main/binary-amd64/Packages
- fd0853372c1a69c08fb108499a4431ff 36496 main/binary-amd64/Packages.gz
+ a7150ebc2b998d92c15dcb9e687bb630 121774 main/binary-amd64/Packages
+ 92f8e765daada4bd15230e377e6a9517 36489 main/binary-amd64/Packages.gz
  b857bd6b35764f2f06526877fdf508f2 123 main/binary-amd64/Release
- f3f15902ba5fc4fc20a1f044f9227ed0 115609 main/binary-armhf/Packages
- d2778a30a059e0b4c707145574a36ab1 35726 main/binary-armhf/Packages.gz
+ ed65b7bce89ec4ece821d2b574f1aa07 115603 main/binary-armhf/Packages
+ d8f1794b244a45262c5e983c07d7940d 35718 main/binary-armhf/Packages.gz
  c651628a3815193503c47452d13db11a 123 main/binary-armhf/Release
- f37faa9ee2d0e4ebd442856acfa8b74b 75243 main/source/Sources
- e4ff3ecdb9036acadcef15c2eabe13d7 21640 main/source/Sources.gz
+ cdae17f1771d25137e9a328d69de4477 75215 main/source/Sources
+ a208bd5fbb5c87114623ef884676e559 21629 main/source/Sources.gz
  48ae1d4927ae9b14719e4c46051ce88c 124 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-i386/Packages.gz
@@ -35,17 +35,17 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  a189bb2a50038188196f5b413fd960a4 128 non-free/source/Release
 SHA1:
- 5aab1499df85cda9eda56d9ea1fb5f1a66416a0f 107773 main/binary-i386/Packages
- 52ca879907646c4c80e8d13734fde21e9217d7d8 32589 main/binary-i386/Packages.gz
+ 7616b4527d9c4a9b46da1a53e7135cd7b33b7b4e 107767 main/binary-i386/Packages
+ bb2a6cb1259b31c0b6bde236ceacf9780647cbc1 32577 main/binary-i386/Packages.gz
  f73c852905e94d1be8052f6dcd1632c45991e869 122 main/binary-i386/Release
- ebe7ee11308592b1a676ad63c6c05c53efbf1962 121780 main/binary-amd64/Packages
- bd2a21b4c60dfe882e5b133406fec9ec3d005398 36496 main/binary-amd64/Packages.gz
+ 88b4eebaf6955b081e1ae8b1985e2a342406d4d8 121774 main/binary-amd64/Packages
+ 175336fb34d60eb528bf520e40537b83d091109d 36489 main/binary-amd64/Packages.gz
  dd009351f7593883478b917f7e5573d1b9c1097c 123 main/binary-amd64/Release
- 13d2a5a52d34b6636e096b4bd4da6f9172892ef5 115609 main/binary-armhf/Packages
- bc100417726335bf4c568f25f39cc0bdb8de7a0b 35726 main/binary-armhf/Packages.gz
+ 93c009fde1b7d853b851f8463d6f764b45d2c378 115603 main/binary-armhf/Packages
+ 5b7c3e358c03ef3247a302f2092f8795d64baef0 35718 main/binary-armhf/Packages.gz
  2a1f20328501b86ca4ba3c77a019e344ffc586ed 123 main/binary-armhf/Release
- 29c9cccea7e79eddf3a2bcfa9cbb171908a0cc0a 75243 main/source/Sources
- a28b109ddab0f70bc9c69c863697d682e48c7fed 21640 main/source/Sources.gz
+ 3f19d4f703e57f4a79b2c7dd7b106303b0189e6e 75215 main/source/Sources
+ 1e319d34f80d9d6fe8c556cd4b346377d3fc9eea 21629 main/source/Sources.gz
  5065fae7901cce22989f70c98a05d91878b12618 124 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-i386/Packages.gz
@@ -60,17 +60,17 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  949270a23d1fb78efebde956635ec0c2dd7670d2 128 non-free/source/Release
 SHA256:
- 9602532a028bca9174d23d1d88c70383ee9fef15da6836578c1284e1e16166bf 107773 main/binary-i386/Packages
- 2ffd6cb82a10ce74a1319933a207f911b3debe3b010d0eb9dc5561139069c1d6 32589 main/binary-i386/Packages.gz
+ 8acaeb7288c6cd3782fee8d6427d9dc4fbc0b4003a9f8590f9deb3d1cce9cdf5 107767 main/binary-i386/Packages
+ e96bfc3428dac7c43c5e6b68358bb3649e47b08c30d7e2f3741d8804bb3071a0 32577 main/binary-i386/Packages.gz
  503217a79b1ca22183ed19016019536af50170d0e0beae24a22e4569b7be90dc 122 main/binary-i386/Release
- 7f8880e145fb1066eae9ac2fa04a49dc931e8e014f55b3d0909c26c8d06eaaa6 121780 main/binary-amd64/Packages
- 57164205415040d28ebfa92da91f6869ed2dd8a71ebe8e74d12a68d6ac56c412 36496 main/binary-amd64/Packages.gz
+ 778b33ea69f4ae4b95e6485a5d9eade7588c0c56070ecae94e94265c9297f8a7 121774 main/binary-amd64/Packages
+ f19807b98821556545687baea78c6502c7054c09e94487d1a371708e7b720715 36489 main/binary-amd64/Packages.gz
  f2e0ea11e2fd1feaf25d61bccd60a87e4f8cc3020b4975d98d62270262a7be83 123 main/binary-amd64/Release
- 50cf1c5cccd463cd338057d91692181c0c2fc5e9a510dbdc8bf20c86f45e26e7 115609 main/binary-armhf/Packages
- 2813bd48a1fe22f9b9e969de60de4e52c48f30b31c6c372aca3f7b2733480eea 35726 main/binary-armhf/Packages.gz
+ 3530ab763981390f7b5ff60180b81215b2be55efe46725c8a9b9f8da6820ab7b 115603 main/binary-armhf/Packages
+ ff66271b6e2d6455130ef7ee22f75cc2604c3e4e82ab10c3552b117f0a5fe45c 35718 main/binary-armhf/Packages.gz
  eca113d3289f5ab01f5f05e46150bf631e3c4b3e87862722a42b2fd91062418a 123 main/binary-armhf/Release
- c36a3e4538d29a1453aa1930b2321fd8ce628a44bfd8702828fb6b45ba3e6952 75243 main/source/Sources
- f60da68ee7b8287f47ad6aab0468301512cab664b32d0197bd364455078646f3 21640 main/source/Sources.gz
+ 5c5f18a705ac91f0cc799f689ba0bc546ede27a12dd992d1947b72c8afcfec95 75215 main/source/Sources
+ f625ea178aebabb17b579b6f923dbca69814646cabceb42d03fa95f636feb568 21629 main/source/Sources.gz
  468e0c5dd13fe6ab1cc0c4ef6de211e294406c2ad84a4a5162ce4e324922dc47 124 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-i386/Packages.gz
@@ -86,17 +86,17 @@ SHA256:
  0746df47cad1f4962e536149237539848569a6da5b2b3da5b9c74bf777130ab8 128 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEUQDs/AskriRH8Lj+2Rer3Sg4BDMFAmMsHW0ACgkQ2Rer3Sg4
-BDNg0xAAgLGnp5uVOFHevwE4VjftGmteVsgGrLJTSJ+9AEJkh8T0VE+a93RHGC2K
-lEFLwsgRX13vPfvaiG528h0kcaIOwvCRP1sQeEX9esRjbqr1PIvFpFDKj0Moa7d/
-S1nszTOElJFYGjJqPzNiINWIyVC/enC4cqqy0hECDGWJ0Wxqw35kxThbEcmBA4Dp
-WgolPcl9hb1LfQr2yXYJfy5AlTVDyRg6lZEk8xvY7KBDd5b2FvRBNYaTbbAw6Rxj
-29Fi2pkgpdlZT3jkvvZr150bMGPOZsxhUbbP6PRvbWwxr2a18sRZ/rPTEEyr+DJF
-i6HUdBcsYTyh7q+KSY6mrgEpxnDnjlIp62F4xLi5S7K2Tj6xBKfpgI+S3DqMX11C
-u+PhBjvCROZXknhOfUsx11PKFBj806fpRQ8VDWYYmtG50R0xrQ2F+7yXLFzU8Nsb
-hMM4FpJGuk9gEB46DdoUy0xdn5LCNlx9WB0v3l7aXdTuyvQSwCJLLdUUUtY6huiS
-FDxqgUBoyYq3JzQdnMC146SHc6zJc0GTGtkeZq5rTcHNcuaeAsWzWAeaEhch/0ZP
-8uIoQeLotwdDHidQPHdS+ENJNP4vVMGmNaZoUNoP/QrzXMSb0rvClLEXLWwxrPVY
-ktGKu2v13TUslJ1Dq9mzvA0KovR4UHSXQQ8uJbEhv63U2Acn8To=
-=z+L/
+iQIzBAEBCgAdFiEEUQDs/AskriRH8Lj+2Rer3Sg4BDMFAmMsHasACgkQ2Rer3Sg4
+BDOGVxAAn01i/5C+wRz5DC0CnHxJ3M3YDMUgKQqx23aBbW0C/ibDYJ39IQxzVXKH
++Le+gI9c9mXOSGmxIh/uJJCrPAXqPa3F/1z5l+G1ZGRt7D4kgBWj0D/drukKMlfI
+NeQo4Dk0MW6mUWtpxDY+fObHQVkLAnCU3IAvEOsBDW42HmpJt+HNg4rmR1Y5KyyI
+hiasrdW00NooPqhMhxjTIS4yDh6l+1HOOL5QvFsNRvafzAJOO/scC4gWT/Ij8+kK
+5YaK1IIVcjkhGUmPovw37rQ2Rqrwd25pt8v9L3vzC7ed0eZ+frZV9I0uOXIbaltt
+JWnvKtQimA5KF0+qVmwmDRjZ/aEmhcO5BLknQl380twGoSCZimXxhCzLAgH0LArK
+TwOltTkNLXy7/BePv0OBIuH0qMTWtb2V9+OvG3uBjqjClYiC6gT/sTpc3Zq9IooX
+IqG7cni/2uN1YwRbC+8X0TikQhiHnsI8B1ds3me8c3kpIhygopwND6eZDGFut0Vp
+XdBTI3PvSWYX6N/Nyr4I847HtwIT7u0lElNN9C+d3Xcfv7Gy4DvCtOBsNL3WOWdO
+Ueq2laS6xWFJSy/4eXk80dKN4DkzpFCzBh4i+jZtRh6GVheBkg8Gh/KNWuRw+oeS
+z+5wcyi4u65sSzcbQPxs+TPC1af+TN5SiGrBx1YO16x3ZAq7MsI=
+=tuJf
 -----END PGP SIGNATURE-----

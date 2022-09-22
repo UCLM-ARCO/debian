@@ -2783,17 +2783,17 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-gsl
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 187
+Installed-Size: 190
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-gsl/tg-gsl_0.20210715-1_all.deb
-Size: 25752
-SHA256: 2d7b4bd15dc37139a2d54e90eb0d967b9c646b703b30037fd76dca9116006442
-SHA1: 079b46868aeb2ac6498e15f9cefbe6a22aa46cca
-MD5sum: 68d3e0bd515bc3e0a288c9d87bb7d00c
+Filename: pool/main/t/tg-gsl/tg-gsl_22.9.14-1_all.deb
+Size: 25868
+SHA256: e6118ac106f74c19d9277207e198216af296b43d83925af8f565b313e41dd4e3
+SHA1: 119f93e194c784e3bab4604a5997287fdb637e0f
+MD5sum: c69d96129af4750406089590700b037c
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: tg-gsl. It provides some funcionality for building
