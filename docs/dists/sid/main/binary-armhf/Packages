@@ -2638,17 +2638,17 @@ Description: debug symbols for tg-libcrl
 Build-Ids: 4e8173b3eb7a66c9cc1c99a80e5a1eca5784959e
 
 Package: tg-libwebrtc
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 5752
+Installed-Size: 5823
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-libwebrtc/tg-libwebrtc_0.20210715-1_armhf.deb
-Size: 327412
-SHA256: d6d10583d2b082abb281289e538e98b769238894e821ca51818bdcb38824ad33
-SHA1: 9fac36d2ec949a02150c274f04fe43734d902dd7
-MD5sum: 3897477acbbddf81608dab9f4b944604
+Filename: pool/main/t/tg-libwebrtc/tg-libwebrtc_22.9.14-1_armhf.deb
+Size: 332944
+SHA256: b67b059d2d949f6aefb72d152bbd9b58a41d030a9896b0514e1cfe172b1bcb98
+SHA1: f6262d1805a19c215b97aa8c516a338ecabe89dc
+MD5sum: 2560d9c3d58af39efee44a4a8f1a7bc5
 Description: Library to manage webrtc transmissions
  This library is a dependency used by Telegram clients. It handles the
  media transmission inside audio or video calls.
