@@ -2688,17 +2688,17 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-tdlib
-Version: 0.20210913-1
+Version: 22.9.24-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 64852
+Installed-Size: 75226
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-tdlib/tg-tdlib_0.20210913-1_armhf.deb
-Size: 7811676
-SHA256: 6d5dd71668356c5a06a78f7e1e225970dd73d77287f2c0aac2839383495ffa19
-SHA1: 7165e3b3366dc076c2aaa4c366c184a450ef21c0
-MD5sum: 51f7f8fa3f397033777ac7d0faa7fa60
+Filename: pool/main/t/tg-tdlib/tg-tdlib_22.9.24-1_armhf.deb
+Size: 9000368
+SHA256: b184992898cdaa0e3dadc89f61bbb56c5a8bf1129073620dbace22062a903cad
+SHA1: cb07a8cdc034c70477453b0c8145691deb8afb80
+MD5sum: 27f3919b233fec65d001155181125dc0
 Description: This package provides a library to create Telegram clients
  TDLib (Telegram Database library) is a cross-platform library for building
  Telegram clients. It can be easily used from almost any programming language.
