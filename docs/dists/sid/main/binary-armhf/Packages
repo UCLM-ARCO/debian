@@ -2550,17 +2550,17 @@ Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
 Package: tg-base
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 7178
+Installed-Size: 8485
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-base/tg-base_0.20210715-1_armhf.deb
-Size: 528580
-SHA256: 7fcf8ba454e63ff4c1e6b8bf875718715a049c8518216e5601c4d04294bd5d8a
-SHA1: d7716c2f8156abe05143ca4148b207695b85f4b2
-MD5sum: 892d9f8b7cb18b2e93b540423ab061ba
+Filename: pool/main/t/tg-base/tg-base_22.9.14-1_armhf.deb
+Size: 616168
+SHA256: 430ea3c1c6c256c6cef4c91dd9e5133281b8a748dead213431dc34bb84d0d059
+SHA1: ad5497304695de2790f980d6c60947b74ba9b461
+MD5sum: 8eb706933ce36c7425bffd135d8d18a8
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: base. It provides some funcionality for building
