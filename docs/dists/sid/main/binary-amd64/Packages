@@ -2818,17 +2818,17 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-rpl
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 138
+Installed-Size: 139
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-rpl/tg-rpl_0.20210715-1_all.deb
-Size: 16720
-SHA256: 363dc1dfccc30e4694cc05bc278c2585d3f521e3eb8a6b4f350363dcdcf1d521
-SHA1: 06fcfe5eaf0103d0d8b0f8fbc95b299e50bcdc04
-MD5sum: 49913c7095d9ed3f0f53c0739894db55
+Filename: pool/main/t/tg-rpl/tg-rpl_22.9.14-1_all.deb
+Size: 16876
+SHA256: 4c6b90c3c030a38eea0d06d8a812678334622dccf88847164a305a19f51b7450
+SHA1: 3b612f8ab4b55c66240e2c3be0a5d4e7ba76db6b
+MD5sum: 205b479c82fb81f3986be303b4e20844
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: rpl. It provides some funcionality for building
