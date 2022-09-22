@@ -2601,17 +2601,18 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-libcrl
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 105
+Installed-Size: 106
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5), libstdc++6 (>= 6)
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-libcrl/tg-libcrl_0.20210715-1_armhf.deb
-Size: 17036
-SHA256: 610c61fafb1b38178dc721c6cdc47889a3550bfb858f24784f8b341bdd7a82ea
-SHA1: c786630aec0683d6d3ea364df9523a7916c52b99
-MD5sum: a6ded567eb24df678bd26df7e98b5cb0
+Filename: pool/main/t/tg-libcrl/tg-libcrl_22.9.14-1_armhf.deb
+Size: 17516
+SHA256: 0e31e1a3af84f72fe8fef7c935c15c649436ed861dfb7970fff1245eceaf9970
+SHA1: e1aa22cffd59ef6991ebe59e9aca111a97d315e3
+MD5sum: 3d9aba40dbdbd01d6e9d8c6d4ee187c1
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: libcrl. It provides some funcionality for building
