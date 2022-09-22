@@ -2567,17 +2567,18 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-ffmpeg
-Version: 0.20210715-1
+Version: 22.9.14-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 77
+Installed-Size: 85
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.3.0)
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-ffmpeg/tg-ffmpeg_0.20210715-1_armhf.deb
-Size: 16476
-SHA256: 27d0ccd13f644d8c9a85b73ac2894caaaaca032577ad29c1a97b028afed77d3a
-SHA1: d618caacb14aab5a43a55aac9b0a950fa0d8560e
-MD5sum: 41782eb15ebd5eafb4cc919d981be414
+Filename: pool/main/t/tg-ffmpeg/tg-ffmpeg_22.9.14-1_armhf.deb
+Size: 18244
+SHA256: f780089d6ab3238a638b18054e7ae2d010798632920ed77c295ea4ceb0355963
+SHA1: 6168461a5722e15c62eddffd9f2a290f9f065aac
+MD5sum: bc40006db8ccbb84a7738253c46369d2
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: tg-ffmpeg. It provides some funcionality for building
