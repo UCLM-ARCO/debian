@@ -2764,6 +2764,23 @@ MD5sum: 80db7034242f77f9f5f4d0847633e657
 Description: Slice file for the SmartStuff::Wirer service
  This package contains just the wiring.ice file.
 
+Package: tg-base
+Version: 22.9.14-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 6639
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-base/tg-base_22.9.14-1_amd64.deb
+Size: 529238
+SHA256: 7df42f8054703ceea2e9419243f80c4db1f5880013d6b66df744029d0c109639
+SHA1: af39d201a332a2a985cd12f4fade2d2e559e8a16
+MD5sum: baf24ac251cb065e1ad0247516ace21b
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: base. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
 Package: tg-ffmpeg
 Version: 22.9.14-1
 Architecture: amd64
