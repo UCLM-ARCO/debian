@@ -2884,6 +2884,22 @@ Description: This package provides a library for Telegram clients
  of that dependencies: rpl. It provides some funcionality for building
  Telegram clients. See the source to know what it does.
 
+Package: tg-tdlib
+Version: 22.9.24-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 99655
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-tdlib/tg-tdlib_22.9.24-1_amd64.deb
+Size: 10731684
+SHA256: 23038e8e1e8a4e6e449804eb1271dd378f7a93c01e8df31a9edeeef9618d4a1b
+SHA1: d00e4c73d9222ee67ab4c9ae96aff899d79044c8
+MD5sum: 955dc2178b26e5dda74f9f7385198d84
+Description: This package provides a library to create Telegram clients
+ TDLib (Telegram Database library) is a cross-platform library for building
+ Telegram clients. It can be easily used from almost any programming language.
+
 Package: tg-tgcalls
 Version: 22.9.14-1
 Architecture: amd64
