@@ -2850,6 +2850,23 @@ Description: Library to manage webrtc transmissions
  This library is a dependency used by Telegram clients. It handles the
  media transmission inside audio or video calls.
 
+Package: tg-rnnoise
+Version: 22.9.20-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 173
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-rnnoise/tg-rnnoise_22.9.20-1_amd64.deb
+Size: 116022
+SHA256: ecc09a11996b68cf2e4a80ace42d6154b473ea826d6a416b1a20342255d11d90
+SHA1: 4eece5a007eee586e93d9401c7656480a8e628ab
+MD5sum: 1cdcfe4a57b22ad3be187811579142f3
+Description: This package provides a library for Telegram clients
+ Building Telegram clients require a lot of dependencies. This is one
+ of that dependencies: tg-rnnoise. It provides some funcionality for building
+ Telegram clients. See the source to know what it does.
+
 Package: tg-rpl
 Version: 22.9.14-1
 Architecture: all
