@@ -2,7 +2,7 @@ Origin: ARCO Research Group
 Label: ARCO
 Suite: unstable
 Codename: sid
-Date: Fri, 23 Sep 2022 07:41:04 UTC
+Date: Fri, 23 Sep 2022 07:50:14 UTC
 Architectures: i386 amd64 armhf
 Components: main non-free
 Description: ARCO repository
@@ -10,8 +10,8 @@ MD5Sum:
  06b69739f8c97cd0ea3b0877f2ccfecd 107763 main/binary-i386/Packages
  5f9cc1da5de74c1ed3abcc968e15180f 32576 main/binary-i386/Packages.gz
  9fff0296e2b5ec46cc19cac11e803f59 122 main/binary-i386/Release
- 467b11b963b40cbf61673e06c293bf8c 122434 main/binary-amd64/Packages
- 6bdc25e630122def70cb5e5856484aba 36619 main/binary-amd64/Packages.gz
+ 95eedc4da9a6d54adeba062d4988769b 123021 main/binary-amd64/Packages
+ a7348299c4600d43f3ffdb31ac292731 36790 main/binary-amd64/Packages.gz
  b857bd6b35764f2f06526877fdf508f2 123 main/binary-amd64/Release
  138d009db170867b127335e499eba3a7 117077 main/binary-armhf/Packages
  e7347f5ad44c31586d450bf3fa9d1bf7 36015 main/binary-armhf/Packages.gz
@@ -35,8 +35,8 @@ SHA1:
  da0f21c1036b8865699f15b4b7c423b77d90d9a0 107763 main/binary-i386/Packages
  f1d8a96366af1c4cb68eaa1c635b56b35d5c1c65 32576 main/binary-i386/Packages.gz
  f73c852905e94d1be8052f6dcd1632c45991e869 122 main/binary-i386/Release
- 6640b7e0a4d36775091df0b00922792f88a0c686 122434 main/binary-amd64/Packages
- daf7fcfb2927b7e50459332ae5ff6002bdd8062f 36619 main/binary-amd64/Packages.gz
+ f816ceffcaf926e5229ea0daf1360cb400b486aa 123021 main/binary-amd64/Packages
+ 34c68b261a08c33c038723696e5c60f5d5c252db 36790 main/binary-amd64/Packages.gz
  dd009351f7593883478b917f7e5573d1b9c1097c 123 main/binary-amd64/Release
  be15ff89b79d360f3e1b481a1b0b6371df76d8cf 117077 main/binary-armhf/Packages
  8f8604bb37a9abf907f06ad8f9b80b58b777aa4b 36015 main/binary-armhf/Packages.gz
@@ -60,8 +60,8 @@ SHA256:
  bc8ded50424796d452f187215fe0897cdbfedcfe50353d35e5cd4354d21dde8c 107763 main/binary-i386/Packages
  2b05128bdb1cfd1dd91e91cbe6dbb3ec6cc2fdca0c18c61352c2665a2dcc32a7 32576 main/binary-i386/Packages.gz
  503217a79b1ca22183ed19016019536af50170d0e0beae24a22e4569b7be90dc 122 main/binary-i386/Release
- 6cfb57c0f4d658acd887b4f06b514168ca4a279fd95a391dd5e751d87c97aeed 122434 main/binary-amd64/Packages
- 3d9b9a84745fdcb242bd67ba782705436b096fe58f2df3f893439015cd2d6cc6 36619 main/binary-amd64/Packages.gz
+ 1727cd577620ade3181d5967b20746fb21403692fb6b41d5415dc9ae2d03342a 123021 main/binary-amd64/Packages
+ 3c0d4ac9d5c9e8a0c940a02597fa23899ec99ed36166e7cfa70d84658dabadb1 36790 main/binary-amd64/Packages.gz
  f2e0ea11e2fd1feaf25d61bccd60a87e4f8cc3020b4975d98d62270262a7be83 123 main/binary-amd64/Release
  d54132c338efc03cce4d603fa691a034e089cc63feb26c6be5632f0cb533760e 117077 main/binary-armhf/Packages
  8cba5555c5785788b2b30fc28a23d62c0230ea7ac5536b9e49ec0a9ed09cefc2 36015 main/binary-armhf/Packages.gz

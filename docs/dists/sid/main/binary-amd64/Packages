@@ -2834,6 +2834,22 @@ Description: This package provides a library for Telegram clients
  of that dependencies: libcrl. It provides some funcionality for building
  Telegram clients. See the source to know what it does.
 
+Package: tg-libwebrtc
+Version: 22.9.14-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 4438
+Priority: optional
+Section: utils
+Filename: pool/main/t/tg-libwebrtc/tg-libwebrtc_22.9.14-1_amd64.deb
+Size: 277094
+SHA256: 0befb2dc540f1defde15b0496a26db098d6634fc8be9a09d3eb5b9e776771f2d
+SHA1: e146395ff0b58577fcb1731678940a326a78141e
+MD5sum: 342ea826c2b11d198b32ea51c1010e8b
+Description: Library to manage webrtc transmissions
+ This library is a dependency used by Telegram clients. It handles the
+ media transmission inside audio or video calls.
+
 Package: tg-rpl
 Version: 22.9.14-1
 Architecture: all
