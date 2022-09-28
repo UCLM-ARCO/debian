@@ -2247,18 +2247,18 @@ Description: Python3 module to interact a scone-server.
  Python3 module to interact a running scone-server.
 
 Package: python3-tflite-runtime
-Version: 2.8.0-1
+Version: 2.10.0-1
 Architecture: amd64
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 5607
-Depends: libc6 (>= 2.27), libgcc-s1 (>= 4.7), libstdc++6 (>= 6), python3, python3-numpy
+Installed-Size: 6181
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.7), libstdc++6 (>= 12), python3, python3-numpy
 Priority: optional
 Section: python
-Filename: pool/main/p/python3-tflite-runtime/python3-tflite-runtime_2.8.0-1_amd64.deb
-Size: 1563700
-SHA256: 905d3a885d683411b4b4c5453c65d94bd7bc1cd838e567e7f049d29db64c3264
-SHA1: 3a30ffb843ceaf1874f7fae2dbc58fdf1ec50d9c
-MD5sum: fe64af0864a6ab76e270f7b3fbc1573e
+Filename: pool/main/p/python3-tflite-runtime/python3-tflite-runtime_2.10.0-1_amd64.deb
+Size: 1897118
+SHA256: eaf54832dbe334498ed69d121dd72758e60b5a07be2256d5a9da6e2c88359ec1
+SHA1: 43c145b38dadd01bbe3a848f1e875584496baf89
+MD5sum: 3aac2f425f3d6fd88ca27b5213c9c136
 Description: TensorFlow Lite runtime for Python3
  TensorFlow Lite is a set of tools that enables on-device machine learning
  by helping developers run their models on mobile, embedded, and edge devices.
