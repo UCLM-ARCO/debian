@@ -2263,6 +2263,28 @@ Description: TensorFlow Lite runtime for Python3
  TensorFlow Lite is a set of tools that enables on-device machine learning
  by helping developers run their models on mobile, embedded, and edge devices.
 
+Package: python3-viulib
+Version: 22.9.28.2-1
+Architecture: amd64
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 7027
+Depends: libc6 (>= 2.4), python3, python3-tflite-runtime (>= 0.10.0)
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-viulib/python3-viulib_22.9.28.2-1_amd64.deb
+Size: 6393812
+SHA256: 96a084cfae6585770366db70337e0712f5bd7cd7a4e7e8ffdd4cb0cf5f81fcd4
+SHA1: 8ea67381899feb03c376ee8e84e9386a03142cf9
+MD5sum: 60986d9f82d3357ae0b41027bddf7a97
+Description: Viulib library for Python3
+ Set of precompiled SW libraries for computer vision applications, which
+ simplifies the building of complex vision-based solutions.
+ .
+ Viulib is a software library, a solution that collects, processes
+ and analyzes real-time video images. Reduces time in prototyping phases,
+ facilitates technology validation, optimizes scalable deployments and
+ enables transparent licensing schemes.
+
 Package: python3-zeroc-ice-arco
 Source: zeroc-ice
 Version: 3.6.3-2
