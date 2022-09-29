@@ -2290,18 +2290,18 @@ Description: Citisim SmartObject publisher (temperature)
  interface, provided by Citisim.
 
 Package: shapes-call-service
-Version: 22.9.22.1-1
+Version: 22.9.29-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 25622
 Depends: libatomic1 (>= 4.8), libavcodec58 (>= 7:4.2), libavformat58, libavutil56 (>= 7:4.0), libc6 (>= 2.29), libgcc-s1 (>= 3.5), libjpeg62-turbo (>= 1.3.1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.1), libstdc++6 (>= 9), libswscale5 (>= 7:4.0), libvpx7 (>= 1.12.0), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.5.0), libxtst6, libzeroc-ice3.7, zlib1g (>= 1:1.1.4), jq, pwgen, shapes-certs, tg-libcrl, tg-ffmpeg, tg-tgcalls
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service_22.9.22.1-1_armhf.deb
-Size: 7351532
-SHA256: 1dfba043e9d8f1e06fe7760120151e1fb283d755fae003f417ff6eb27e928878
-SHA1: c4f01165e120cd71fd4cf47bd7aa9e5d1069ef77
-MD5sum: 6da9ea02b4735a168ecbba9b9d1b445f
+Filename: pool/main/s/shapes-call-service/shapes-call-service_22.9.29-1_armhf.deb
+Size: 7351276
+SHA256: 4118152c7654903409913c9ff127ebc388440880cf76a81956562664c54bbe23
+SHA1: 41bd9a8b5c95cf37d5c8e937e00bc9e91804c02b
+MD5sum: 649b6c6be1f4e5d531b28f9cd2fd24b7
 Description: Shapes service for video calls
  This package contains the Shapes Call Service, which provides
  video calls using the Telegram framework.
@@ -2326,21 +2326,21 @@ Description: Shapes service for video calls, client utility
 
 Package: shapes-call-service-dbgsym
 Source: shapes-call-service
-Version: 22.9.22.1-1
+Version: 22.9.29-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 13075
-Depends: shapes-call-service (= 22.9.22.1-1)
+Depends: shapes-call-service (= 22.9.29-1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/shapes-call-service/shapes-call-service-dbgsym_22.9.22.1-1_armhf.deb
-Size: 1684604
-SHA256: 0df105049fc59c029636a50af6ee8851c38599695a39e26ac6d62113af9d0f13
-SHA1: 06c6fe0c411deb1240e470bd6069cf1302a2b787
-MD5sum: dfc22dd82f72294a966fcaa538f9c459
+Filename: pool/main/s/shapes-call-service/shapes-call-service-dbgsym_22.9.29-1_armhf.deb
+Size: 1685144
+SHA256: 0c9f015443eac537b27574fd46dda7b7182d3f60b0a9f1279e103a350a9f8aa0
+SHA1: 66b8716ee422bdb7c732a2b724342a13ebe7bbbc
+MD5sum: 5d8552332441427ac808b3635c849bd2
 Description: debug symbols for shapes-call-service
-Build-Ids: b14717fc45d0c90d9e4c5f0f0b560eafffdd077b
+Build-Ids: 3530ec43d36ee924080a80d933d48aa445591a57
 
 Package: shapes-certs
 Version: 0.20201221-1
