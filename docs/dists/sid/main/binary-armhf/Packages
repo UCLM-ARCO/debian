@@ -1189,6 +1189,53 @@ Description: Citisim library to easy usage
  subscribe to Citisim channels, publish events, and so on. It provides
  implementations on the used languages for citisim.
 
+Package: libvpx-dev
+Source: libvpx
+Version: 1.12.0-1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2077
+Depends: libvpx7 (= 1.12.0-1)
+Multi-Arch: same
+Homepage: https://www.webmproject.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/libv/libvpx/libvpx-dev_1.12.0-1_armhf.deb
+Size: 658016
+SHA256: c83f48c42decedb58701b6f2b55acdc0451989c478b12da3a496b26f07f6af7c
+SHA1: 12ba78f78cefb8c600f42198cfb35a743f069d1a
+MD5sum: 88726aee936aca4ae81bc10c5f68dee4
+Description: VP8 and VP9 video codec (development files)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the development libraries, header files needed by
+ programs that want to compile with libvpx.
+
+Package: libvpx7
+Source: libvpx
+Version: 1.12.0-1
+Architecture: armhf
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 3485
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.5)
+Multi-Arch: same
+Homepage: https://www.webmproject.org
+Priority: optional
+Section: libs
+Filename: pool/main/libv/libvpx/libvpx7_1.12.0-1_armhf.deb
+Size: 1209852
+SHA256: 2c894d76b23752957f9c19ccb6118989b94a6e888c1082eecf39aaec1f6a315a
+SHA1: f22849dda304155430f8d2674539d774a17a461e
+MD5sum: a2cdcb76e2ab9df34fdab048a7e26773
+Description: VP8 and VP9 video codec (shared library)
+ VP8 and VP9 are open video codecs, originally developed by On2 and released
+ as open source by Google Inc. They are the successor of the VP3 codec,
+ on which the Theora codec was based.
+ .
+ This package contains the shared libraries.
+
 Package: lifelike
 Version: 0.20190305-1
 Architecture: all
