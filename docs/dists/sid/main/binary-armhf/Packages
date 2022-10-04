@@ -2337,18 +2337,18 @@ Description: Citisim SmartObject publisher (temperature)
  interface, provided by Citisim.
 
 Package: shapes-call-service
-Version: 22.9.29-1
+Version: 22.9.29-2
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 25622
-Depends: libatomic1 (>= 4.8), libavcodec58 (>= 7:4.2), libavformat58, libavutil56 (>= 7:4.0), libc6 (>= 2.29), libgcc-s1 (>= 3.5), libjpeg62-turbo (>= 1.3.1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.1), libstdc++6 (>= 9), libswscale5 (>= 7:4.0), libvpx7 (>= 1.12.0), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.5.0), libxtst6, libzeroc-ice3.7, zlib1g (>= 1:1.1.4), jq, pwgen, shapes-certs, tg-libcrl, tg-ffmpeg, tg-tgcalls
+Depends: libatomic1 (>= 4.8), libavcodec58 (>= 7:4.2), libavformat58, libavutil56 (>= 7:4.0), libc6 (>= 2.29), libgcc-s1 (>= 3.5), libjpeg62-turbo (>= 1.3.1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.1), libstdc++6 (>= 9), libswscale5 (>= 7:4.0), libvpx7 (>= 1.12.0), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.5.0), libxtst6, libzeroc-ice3.7, zlib1g (>= 1:1.1.4), jq, pwgen, shapes-certs, tg-libcrl (>= 22.9.14), tg-ffmpeg (>= 22.9.14), tg-tgcalls (>= 22.9.14)
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service_22.9.29-1_armhf.deb
-Size: 7351276
-SHA256: 4118152c7654903409913c9ff127ebc388440880cf76a81956562664c54bbe23
-SHA1: 41bd9a8b5c95cf37d5c8e937e00bc9e91804c02b
-MD5sum: 649b6c6be1f4e5d531b28f9cd2fd24b7
+Filename: pool/main/s/shapes-call-service/shapes-call-service_22.9.29-2_armhf.deb
+Size: 7351100
+SHA256: 1e73955660bd8971bf713efc3b48ef1d4a26d11435117bdf53139080a765f2c0
+SHA1: 3f92cfc09349ba460429291cdc1968239e5c262d
+MD5sum: 033f27daf8b90fd3678820516d4e0e4e
 Description: Shapes service for video calls
  This package contains the Shapes Call Service, which provides
  video calls using the Telegram framework.
@@ -2373,19 +2373,19 @@ Description: Shapes service for video calls, client utility
 
 Package: shapes-call-service-dbgsym
 Source: shapes-call-service
-Version: 22.9.29-1
+Version: 22.9.29-2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 13075
-Depends: shapes-call-service (= 22.9.29-1)
+Depends: shapes-call-service (= 22.9.29-2)
 Priority: optional
 Section: debug
-Filename: pool/main/s/shapes-call-service/shapes-call-service-dbgsym_22.9.29-1_armhf.deb
-Size: 1685144
-SHA256: 0c9f015443eac537b27574fd46dda7b7182d3f60b0a9f1279e103a350a9f8aa0
-SHA1: 66b8716ee422bdb7c732a2b724342a13ebe7bbbc
-MD5sum: 5d8552332441427ac808b3635c849bd2
+Filename: pool/main/s/shapes-call-service/shapes-call-service-dbgsym_22.9.29-2_armhf.deb
+Size: 1687576
+SHA256: df8d6ee68e9ae840e698f2269fec4aa65904fef3c9412d67a7a08026adac5f33
+SHA1: cc4e45a25335c22ae10ae6d7c576bc33892b6682
+MD5sum: 89c67962ecd75e6e17cf30405399416f
 Description: debug symbols for shapes-call-service
 Build-Ids: 3530ec43d36ee924080a80d933d48aa445591a57
 
