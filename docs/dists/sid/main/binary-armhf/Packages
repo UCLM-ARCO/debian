@@ -2718,17 +2718,17 @@ Description: This package provides a library for Telegram clients
  Telegram clients. See the source to know what it does.
 
 Package: tg-rnnoise
-Version: 0.20220920-1
+Version: 22.9.20-1
 Architecture: armhf
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 139
 Priority: optional
 Section: utils
-Filename: pool/main/t/tg-rnnoise/tg-rnnoise_0.20220920-1_armhf.deb
-Size: 102216
-SHA256: 226446383cf66e35b38aaf0127cc97984ff1903ad96dff787cd8a5869369708a
-SHA1: 85faa18e6db8c26976d6f4ae3aa973429add31fc
-MD5sum: e5dc4b57680bb620529d2e8e9f032ef4
+Filename: pool/main/t/tg-rnnoise/tg-rnnoise_22.9.20-1_armhf.deb
+Size: 102212
+SHA256: 388beae3d6d12122a8602907b8dd38c8bbc2045f25e143b88f17620634d06cd5
+SHA1: cdcf304642a6b21e5a0c356f1588d0b48c670dda
+MD5sum: 65c6006fb672991b09713f386dc96732
 Description: This package provides a library for Telegram clients
  Building Telegram clients require a lot of dependencies. This is one
  of that dependencies: tg-rnnoise. It provides some funcionality for building
