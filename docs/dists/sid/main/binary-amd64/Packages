@@ -2545,36 +2545,36 @@ Description: Citisim SmartObject publisher (temperature)
  interface, provided by Citisim.
 
 Package: shapes-call-service
-Version: 22.9.29-1
+Version: 22.9.29-2
 Architecture: amd64
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 32360
-Depends: libavcodec58 (>= 7:4.4), libavformat58, libavutil56 (>= 7:4.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libjpeg8 (>= 8c), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libswscale5 (>= 7:4.4), libvpx7 (>= 1.10.0), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.5.0), libxtst6, libzeroc-ice3.7 (>= 3.7.8), zlib1g (>= 1:1.1.4), jq, pwgen, shapes-certs, tg-libcrl, tg-ffmpeg, tg-tgcalls
+Depends: libavcodec58 (>= 7:4.4), libavformat58, libavutil56 (>= 7:4.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libjpeg8 (>= 8c), libopenal1 (>= 1.14), libopus0 (>= 1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libswscale5 (>= 7:4.4), libvpx7 (>= 1.10.0), libx11-6, libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrandr2 (>= 2:1.5.0), libxtst6, libzeroc-ice3.7 (>= 3.7.8), zlib1g (>= 1:1.1.4), jq, pwgen, shapes-certs, tg-libcrl (>= 22.9.14), tg-ffmpeg (>= 22.9.14), tg-tgcalls (>= 22.9.14)
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service_22.9.29-1_amd64.deb
-Size: 9304016
-SHA256: 20ee613eaebf0896887d565eea78c9ef095945cc2e383680acc20bf22e9d5a7d
-SHA1: 495f497553b0e0567b4200d6d83e4daea1a051aa
-MD5sum: fb4fc2e14e6f67faa74c805d744ca54b
+Filename: pool/main/s/shapes-call-service/shapes-call-service_22.9.29-2_amd64.deb
+Size: 9305488
+SHA256: 52741a20e9fa9a88ff03f75be3e6f094be48f3b82c2995beb68019148057af26
+SHA1: 9c88e29f65484035908e9e4653a91b9efdd197b4
+MD5sum: 1a23bf5487eb5d352c7cd0b4b9fd4b5a
 Description: Shapes service for video calls
  This package contains the Shapes Call Service, which provides
  video calls using the Telegram framework.
 
 Package: shapes-call-service-client
 Source: shapes-call-service
-Version: 22.9.29-1
+Version: 22.9.29-2
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 17
 Depends: python3, python3-zeroc-ice, shapes-slice
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.9.29-1_all.deb
-Size: 3668
-SHA256: 302de8129e29698918d70003fbc9d80ba3414ae6adc32c0e21f5907b6864f8e0
-SHA1: 09074952e390ca4f38162fb13223d68f619ffc02
-MD5sum: 701d7109eb281701d8b32a0f07d3f4a2
+Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.9.29-2_all.deb
+Size: 3704
+SHA256: 7300e92a7156bfa49197157af2e680a529c123e4e0aab90faa52abd4efdbf357
+SHA1: c167f214d192f2e8854a5952433498a803f201e6
+MD5sum: 3103d1dc53437a57d99d00990f20b8e4
 Description: Shapes service for video calls, client utility
  This package contains the client utility to manage the Shapes Call Service,
  which provides video calls using the Telegram framework.
