@@ -2355,18 +2355,18 @@ Description: Shapes service for video calls
 
 Package: shapes-call-service-client
 Source: shapes-call-service
-Version: 22.10.17-1
+Version: 22.10.17.2-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 17
-Depends: python3, python3-zeroc-ice, shapes-slice (>= 22.9.29)
+Installed-Size: 18
+Depends: python3, python3-zeroc-ice, shapes-slice (>= 22.10.17)
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.10.17-1_all.deb
-Size: 3868
-SHA256: e312258c063861cf1ce3f03364aaeee325e1c99e0eb3d927869d09abcd96ec41
-SHA1: 7b590c946d9a271da6201abe450667cc898358d6
-MD5sum: 72fc39da8bbd579d84665686653b05a0
+Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.10.17.2-1_all.deb
+Size: 3996
+SHA256: 315f61cdc033c5a0f12a41ba5a2a02b049157befa9515188d5b66c79f53439bf
+SHA1: 7d5e205d1eadfb89cf775c9a50579f237420d37a
+MD5sum: a6cd958fdbc4db9da6204473f3abd56f
 Description: Shapes service for video calls, client utility
  This package contains the client utility to manage the Shapes Call Service,
  which provides video calls using the Telegram framework.
