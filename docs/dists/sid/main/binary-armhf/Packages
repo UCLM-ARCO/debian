@@ -2460,17 +2460,17 @@ Description: SHAPES Service for reading RFID cards and tokens
  set used and provided in the Shapes project.
 
 Package: shapes-slice
-Version: 22.9.21.1-1
+Version: 22.10.17-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 13
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-slice/shapes-slice_22.9.21.1-1_all.deb
-Size: 2376
-SHA256: a050311a83ac614c44afe01e7e58ce0736088a477b0bc3d69451be0024feb4fe
-SHA1: d8326f56f5ff675820be154f5949101c78f8798d
-MD5sum: 392a437e0741457490810b3ddab2b965
+Filename: pool/main/s/shapes-slice/shapes-slice_22.10.17-1_all.deb
+Size: 2448
+SHA256: 7e3d0d47c1fc082475c42672793bfe4a8d27a3b344b63522b19a19ba144931b7
+SHA1: a40a2a44b8942e1a70f5385420a91d27421d14e9
+MD5sum: dab019054a244f5b6d0f9688fff20df0
 Description: Shapes ZeroC Slice files
  This package contains the Interface Definition file (using
  ZeroC Ice Slice IDL) for Shapes services.
