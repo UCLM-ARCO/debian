@@ -1331,18 +1331,18 @@ Description: ZeroC Ice module for Magic Mirror 2
  ZeroC Ice on Magic Mirror 2 package.
 
 Package: mm2-loginservice
-Version: 0.20220929-1
+Version: 0.20221020-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 94
+Installed-Size: 96
 Depends: magic-mirror-2, mm2-ice, shapes-rfid-service (>= 22.09.22-1)
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-loginservice/mm2-loginservice_0.20220929-1_all.deb
-Size: 16416
-SHA256: 6baa15500af9d2d61aefe229994b8c9df935d6f2c94528a8530918103da9a8d6
-SHA1: 348a61ee9ffa1445e56516a52562799c43077fc2
-MD5sum: 311839647b6ef8d99460133f44bb3e1f
+Filename: pool/main/m/mm2-loginservice/mm2-loginservice_0.20221020-1_all.deb
+Size: 16472
+SHA256: 9edc26dc86d93b84176f3b25913c92565badea6dd52be9884a6e61c4ec81b3a8
+SHA1: 00e853873a29d6ca6dc9150e9962e2a4481a782a
+MD5sum: 86b2332e3eef21404b85ff1260c1e421
 Description: Shapes Magic Mirror login module
  This package allows the user to log into the smartmirror
  using the Shapes RFID service.
