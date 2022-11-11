@@ -2057,6 +2057,26 @@ Description: Python 3 library to handle binarie files
  This is a Python 3 library which allows one to
  view/edit your binary with any text editor
 
+Package: python3-huami-token
+Source: huami-token
+Version: 0.20221111-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 48
+Depends: python3-requests, python3-rich, python3:any
+Priority: optional
+Section: python
+Filename: pool/main/h/huami-token/python3-huami-token_0.20221111-1_all.deb
+Size: 9476
+SHA256: 53fd27e3b7602dd8c49a2100f01cdc1b1763260e8ea6676cc5030de940c4f4a6
+SHA1: 466d3e822be9c854c3e663d0f6f6e0eb1f08f3fe
+MD5sum: 9f3a57bae5095313bb806551d145ccf6
+Description: Huami Token package
+ Script to obtain watch or band bluetooth
+ access token from Huami servers. It will
+ also download AGPS data packs
+ cep_alm_pak.zip and cep_7days.zip.
+
 Package: python3-ice-thing
 Source: ice-thing
 Version: 0.20160713-1
