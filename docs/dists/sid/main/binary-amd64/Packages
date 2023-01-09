@@ -2188,6 +2188,24 @@ Description: Python 3 library to handle binarie files
  This is a Python 3 library which allows one to
  view/edit your binary with any text editor
 
+Package: python3-hpose
+Source: hpose
+Version: 0.20230109-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 44006
+Depends: python3-numpy, python3-opencv, python3:any
+Priority: optional
+Section: python
+Filename: pool/main/h/hpose/python3-hpose_0.20230109-1_all.deb
+Size: 39789276
+SHA256: c203d1a6748fcb187ab3ad0f6b011f3bdd422d0063e52e75e84d6520a9f3a419
+SHA1: 3194902896a489850ec04a5f14082e89a6ca2d8d
+MD5sum: d924ffb05c9993f305810570cc7ddc14
+Description: Human pose detection library (Python3)
+ This is a Python3 library which allows one to
+ extract human joints position from a image.
+
 Package: python3-huami-token
 Source: huami-token
 Version: 0.20221111-1
