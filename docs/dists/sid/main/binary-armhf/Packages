@@ -2304,23 +2304,6 @@ MD5sum: a368ab4e6d1a0076f9a363800bf88de3
 Description: Python3 module to interact a scone-server.
  Python3 module to interact a running scone-server.
 
-Package: python3-tflite-runtime
-Version: 2.8.0-2
-Architecture: armhf
-Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 4119
-Depends: libc6 (>= 2.27), libgcc-s1 (>= 4.7), libstdc++6 (>= 4.1.1), python3, python3-numpy
-Priority: optional
-Section: python
-Filename: pool/main/p/python3-tflite-runtime/python3-tflite-runtime_2.8.0-2_armhf.deb
-Size: 1129684
-SHA256: e90e772509143ba169210a0bfe9e9ff83d96b66eb782a505f3f0fe217db0751c
-SHA1: a0b43d939eecaa5edfb8470526b6403cba09a5c5
-MD5sum: 115514cd7a129ec6cc3265e7effb8c37
-Description: TensorFlow Lite runtime for Python3
- TensorFlow Lite is a set of tools that enables on-device machine learning
- by helping developers run their models on mobile, embedded, and edge devices.
-
 Package: ripio
 Version: 0.20211110-1
 Architecture: all
