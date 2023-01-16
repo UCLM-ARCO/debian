@@ -2422,6 +2422,26 @@ Description: distutils package for Python 3.x
  Distutils package for Python 3.x.  This package contains the distutils module
  from the Python standard library.
 
+Package: python3.7-lib2to3
+Version: 3.7.3-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 359
+Depends: python3.7
+Priority: optional
+Section: python
+Filename: pool/main/p/python3.7-lib2to3/python3.7-lib2to3_3.7.3-1_all.deb
+Size: 72744
+SHA256: abafc0a17f9497f0100d2db13bbe4ff5c6a816134e743d511ecb1643b153074a
+SHA1: d873839d644267eafb0c0303bf4064c4fdfb9de2
+MD5sum: 21c0c119bf7aa452aa6db4b6c7f06c65
+Description: Interactive high-level object-oriented language (2to3, version 3.6)
+ Python is a high-level, interactive, object-oriented language. Its 3.6 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the lib2to3 library.
+
 Package: python3.7-minimal
 Source: python3.7
 Version: 3.7.16-1
