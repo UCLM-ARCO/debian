@@ -2440,6 +2440,23 @@ MD5sum: 0d8a56cd66162a15cfc39ae258c60d8d
 Description: Mediapipe library (Python3.10)
  This package contains Mediapipe solutions library (Python3.10).
 
+Package: python3.7-distutils
+Version: 3.7.3-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 693
+Depends: python3.7, python3.7-lib2to3
+Priority: optional
+Section: python
+Filename: pool/main/p/python3.7-distutils/python3.7-distutils_3.7.3-1_all.deb
+Size: 138064
+SHA256: 7630e0070b4e58648020332aa2b81cdf3f82c4a9a9f0dfda0d189a9b42770c19
+SHA1: cf1c2287780692a350fd9d9f6cca3a37ea90278a
+MD5sum: 6f1f7f90d68de314859eeeec03afbbf8
+Description: distutils package for Python 3.x
+ Distutils package for Python 3.x.  This package contains the distutils module
+ from the Python standard library.
+
 Package: python3.8-mediapipe
 Source: mediapipe
 Version: 0.8.9.1+ds.1-1
