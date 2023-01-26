@@ -1971,18 +1971,18 @@ Description: Tool to create Phyxio modules
  Provides a set of tools to easily create new runner modules.
 
 Package: phyxio-module-runner
-Version: 23.1.20-1
+Version: 23.1.26-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 6605
+Installed-Size: 6608
 Depends: adduser, v4l2loopback-dkms, v4l2loopback-utils, v4l-utils, python3, python3-zeroc-ice, python3-requests, python3-svgwrite, python3-numpy, python3-yaml, python3-gst-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-tools, mkcert, libnss3-tools
 Priority: optional
 Section: utils
-Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_23.1.20-1_all.deb
-Size: 2220028
-SHA256: 6d61352b5f4498ac8af9578ec79f33c50f81220251e5c5710233b178ef5511b3
-SHA1: d3e7aaaa6e5e986f9d1876879772911e78cfea54
-MD5sum: 2a5ad09ee3bfb52c9a68d9003cf1eafc
+Filename: pool/main/p/phyxio-module-runner/phyxio-module-runner_23.1.26-1_all.deb
+Size: 2221428
+SHA256: 0ab025ee67bfe5e00636f290cc232b7f3d13ffde9769957aa286067795d2bbe6
+SHA1: e7a2574639765e678d44a40652ce0abbc01331db
+MD5sum: fcbf0347285967541f98c29a41ceda93
 Description: Module runner of Phyxio service
  This package provides a service that will handle requests from phyxio. It
  coordinates the execution of exercise modules inside the host machine.
