@@ -1295,6 +1295,23 @@ Description: Python library for Mijia Smart Home
  attached to a Lumi Gateway, usually the Smart Home environment provided
  by Mijia (a partner of Xiaomi).
 
+Package: mm2-cognitive-tests
+Version: 0.20230120-1
+Architecture: all
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 20
+Depends: magic-mirror-2
+Priority: optional
+Section: utils
+Filename: pool/main/m/mm2-cognitive-tests/mm2-cognitive-tests_0.20230120-1_all.deb
+Size: 2788
+SHA256: c02094985abb7f87830ddd5370112fa23e4de3fa6762e8528e3d5bb03082264d
+SHA1: da0f71979b8f8f6b136486bd430704cac4bf3a69
+MD5sum: 3ee07c74387214ea3892057366e9681c
+Description: Shapes Magic Mirror Cognitive Tests module
+ This package allows the user access to the cognitive tests
+ through the smartmirror interface.
+
 Package: mm2-dynamic-modules
 Version: 0.20210412-1
 Architecture: all
