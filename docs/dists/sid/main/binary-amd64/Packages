@@ -92,24 +92,6 @@ Description: Arco devel tools
  Development tools for Arco group staff. It include GNU Make templates
  for projects and dependency checking.
 
-Package: arco-mirror
-Version: 0.20221028-1
-Architecture: all
-Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 28
-Depends: python3, magic-mirror-2 (>= 0.20221027-1), mm2-loginservice (>= 0.20221020-1), shapes-mm2-callservice (>= 22.9.23-1), mm2-phyxio-connect (>= 0.20220422-1), mm2-sound-selector (>= 0.20221020-1), miband-dc (>= 0.20221005-1)
-Replaces: magic-mirror-2 (<< 0.20221027-1)
-Priority: optional
-Section: utils
-Filename: pool/main/a/arco-mirror/arco-mirror_0.20221028-1_all.deb
-Size: 4524
-SHA256: 6c6c3c4747d3dae0fc4b98a8afb2a4ba5070101ce231ba6ff12ff8b9bc9d1775
-SHA1: 109f9e91ebd3c117c09b70052e1bfc1b79820684
-MD5sum: 4f6cdfca188c263fd7376aa81c97733c
-Description: ARCO Research SmartMirror package
- This package holds all ARCO SmartMirror dependencies, with their
- last available and supported version.
-
 Package: arco-tools
 Version: 0.20200707-1
 Architecture: all
