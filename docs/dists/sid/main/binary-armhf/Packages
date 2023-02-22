@@ -130,6 +130,42 @@ MD5sum: b513a3cefd46091d6f29c6fcf81a1c5d
 Description: Arco user and staff tools
  Tools for Arco user and staff. Utilities for remote authentication.
 
+Package: arcomirror-cognitive-tests
+Version: 0.20230222-1
+Architecture: armhf
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 681
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.15.1), libstdc++6 (>= 5)
+Priority: optional
+Section: utils
+Filename: pool/main/a/arcomirror-cognitive-tests/arcomirror-cognitive-tests_0.20230222-1_armhf.deb
+Size: 225744
+SHA256: 44166af4de3b1b2f17f9e6cdbfa7824a391fb005da36a4d94c46946fcf83ba34
+SHA1: 6f9fc83f4d5877b866e55fa75c81f99bc89c717c
+MD5sum: 605e603eca83820c4124d86b1353de9a
+Description: Cognitive tests for ARCO SmartMirror
+ This package contains the application for displaying
+ different cognitive tests for user cognitive evaluation
+ and diagnosis.
+
+Package: arcomirror-cognitive-tests-dbgsym
+Source: arcomirror-cognitive-tests
+Version: 0.20230222-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
+Installed-Size: 1323
+Depends: arcomirror-cognitive-tests (= 0.20230222-1)
+Priority: optional
+Section: debug
+Filename: pool/main/a/arcomirror-cognitive-tests/arcomirror-cognitive-tests-dbgsym_0.20230222-1_armhf.deb
+Size: 1238436
+SHA256: b458a185d9f3b40481cf93835792916e2b0d77f501f74a2817cdcd146bcd2067
+SHA1: 6facbe0685ca3f7cc5f5a4ae1107f91d0d904c21
+MD5sum: 4b9b2d6337cd89c9e74ef04eb66f32f2
+Description: debug symbols for arcomirror-cognitive-tests
+Build-Ids: ce459e36fc1bf63710c549c9df8cfc5060a97f13
+
 Package: authenticator
 Version: 0.20190827-1
 Architecture: all
