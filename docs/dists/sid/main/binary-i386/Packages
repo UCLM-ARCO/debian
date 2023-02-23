@@ -1296,18 +1296,18 @@ Description: Python library for Mijia Smart Home
  by Mijia (a partner of Xiaomi).
 
 Package: mm2-cognitive-tests
-Version: 0.20230120-1
+Version: 0.20230222-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
 Installed-Size: 20
-Depends: magic-mirror-2
+Depends: magic-mirror-2, arcomirror-cognitive-tests
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-cognitive-tests/mm2-cognitive-tests_0.20230120-1_all.deb
-Size: 2788
-SHA256: c02094985abb7f87830ddd5370112fa23e4de3fa6762e8528e3d5bb03082264d
-SHA1: da0f71979b8f8f6b136486bd430704cac4bf3a69
-MD5sum: 3ee07c74387214ea3892057366e9681c
+Filename: pool/main/m/mm2-cognitive-tests/mm2-cognitive-tests_0.20230222-1_all.deb
+Size: 2852
+SHA256: 5c632b6ade88959600ca89b87bb60fac6221288608be915a3c5eda606d08389a
+SHA1: b810211c270dd1b7e728f22e800eff89cdf6ce0b
+MD5sum: 459089912d7b2bf19375bfdf92b75011
 Description: Shapes Magic Mirror Cognitive Tests module
  This package allows the user access to the cognitive tests
  through the smartmirror interface.
