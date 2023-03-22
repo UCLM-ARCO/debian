@@ -2393,18 +2393,18 @@ Description: Citisim SmartObject publisher (temperature)
 
 Package: shapes-call-service-client
 Source: shapes-call-service
-Version: 22.11.21-1
+Version: 23.03.22-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 19
 Depends: python3, python3-zeroc-ice, shapes-slice (>= 22.10.17)
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-call-service/shapes-call-service-client_22.11.21-1_all.deb
-Size: 4432
-SHA256: cc5b42e8822f1be71456ef003d4e9c38d728da48f77dea8650e5326eaf4fddab
-SHA1: 4e5ea2e17c9f3911109f19665e0d4d88a429a758
-MD5sum: cc462fa41ff56270e329b297eefd1e7c
+Filename: pool/main/s/shapes-call-service/shapes-call-service-client_23.03.22-1_all.deb
+Size: 4468
+SHA256: 459965d93adcb175f01ccbe10821b3886b43e6d10997597d41e618e275d4ccc7
+SHA1: 8716079a248bb3050117ee5575f1cc6c06409c61
+MD5sum: 93c4182f2072a0089423293376882ca3
 Description: Shapes service for video calls, client utility
  This package contains the client utility to manage the Shapes Call Service,
  which provides video calls using the Telegram framework.
