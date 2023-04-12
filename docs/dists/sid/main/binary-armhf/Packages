@@ -2023,6 +2023,22 @@ Description: Module runner of Phyxio service
  This package provides a service that will handle requests from phyxio. It
  coordinates the execution of exercise modules inside the host machine.
 
+Package: phyxio-totem-setup
+Version: 23.04.12-1
+Architecture: armhf
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 71
+Depends: python3, python3-requests, python3-yaml, jq
+Priority: optional
+Section: utils
+Filename: pool/main/p/phyxio-totem-setup/phyxio-totem-setup_23.04.12-1_armhf.deb
+Size: 20616
+SHA256: ab0902a26edea762f6c0b5209a2380d4318abd2a4dce26c3a95873ebd786c137
+SHA1: 7085e3b0c3860ea8678221e5eb2093d0609f9c62
+MD5sum: 10297c1850de67a3ffee127a0a5361f2
+Description: Phyxio totem setup tool
+ Install this package on a totem to configure and register inside phyxio.
+
 Package: platino-dashboard
 Version: 0.20190603-1
 Architecture: all
