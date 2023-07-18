@@ -887,7 +887,7 @@ MD5sum: 1f9e4301bd6afcc45b483294bcc0bf7e
 Description: A GlobalProtect VPN client (GUI) based on OpenConnect.
 
 Package: go2
-Version: 2.20211126-1
+Version: 2.20230718-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 73
@@ -895,11 +895,11 @@ Depends: python3:any, tree, python3-gi
 Homepage: https://bitbucket.org/DavidVilla/go2
 Priority: optional
 Section: utils
-Filename: pool/main/g/go2/go2_2.20211126-1_all.deb
-Size: 17792
-SHA256: f531bf85d153ae7ec77a99b367f0cd8bec90d0e9cd469bcea6a5769be10dc8ce
-SHA1: e892a4e569a2991ccc15e79cc92622903084f943
-MD5sum: 4d0724b495c56fce78498206aa917d45
+Filename: pool/main/g/go2/go2_2.20230718-1_all.deb
+Size: 17764
+SHA256: ebcc7f91918da32df08408325ddb8295e762d1138baf0e2f5bb0cc44fd9cd0ba
+SHA1: b1d7504b62c9c448c5a9eba6d91cf1545fe4d353
+MD5sum: adc4aa4195406fdfc058a2680e281ecc
 Description: fast directory finder
  This package provides a mechanism for quickly changing directory on
  the commandline, in the style of the old Norton Change Directory for
