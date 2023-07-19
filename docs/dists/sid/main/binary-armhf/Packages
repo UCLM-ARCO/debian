@@ -1871,18 +1871,18 @@ Description: Magic Mirror module which displays an ARCO-SHAPES logos
  A Magic Mirror module for displaying logos for SHAPES project.
 
 Package: mm2-sound-selector
-Version: 0.20221020-1
+Version: 0.20230719-1
 Architecture: all
 Maintainer: Cristina Bolaños Peño <Cristina.Bolanos@uclm.es>
-Installed-Size: 24
+Installed-Size: 26
 Depends: magic-mirror-2
 Priority: optional
 Section: utils
-Filename: pool/main/m/mm2-sound-selector/mm2-sound-selector_0.20221020-1_all.deb
-Size: 4172
-SHA256: bc93e29d9708940e8ead9581d1ff5b8db985068cd5147642513f2565c4b00e88
-SHA1: 0d8bc110ab3dc6b352141eb71bfa1faa08b9664a
-MD5sum: da935a903bf0f86995a9cc99eeee4aef
+Filename: pool/main/m/mm2-sound-selector/mm2-sound-selector_0.20230719-1_all.deb
+Size: 4376
+SHA256: 833dce11d0387f399f5d825e2460d350cc1095f94681bcba0c99162710a78e9c
+SHA1: 37a52f8b50b918644171323fd161196a31e73265
+MD5sum: cee580aea1ce8b2839ae257c9a1172c1
 Description: Shapes Magic Mirror module for sound outputting
  This package allows the user to control sound outputting
  through the Magic Mirror interface.
