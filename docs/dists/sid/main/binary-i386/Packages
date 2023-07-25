@@ -2394,17 +2394,17 @@ Description: Shapes service for video calls, client utility
  which provides video calls using the Telegram framework.
 
 Package: shapes-certs
-Version: 23.6.26-1
+Version: 23.6.26-2
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 22
 Priority: optional
 Section: utils
-Filename: pool/main/s/shapes-certs/shapes-certs_23.6.26-1_all.deb
-Size: 6460
-SHA256: 2d58f4452d5dc764363939687f3ea372a3c7aa8ed16791586fc6c7b5083bd111
-SHA1: e95caa335afbad4d1c34c50b37591f4ef8759660
-MD5sum: 23c250b2cd61fe78c4c67bc5f32e0d99
+Filename: pool/main/s/shapes-certs/shapes-certs_23.6.26-2_all.deb
+Size: 6452
+SHA256: 434ad279c416dd0b7d75dc73ce92826b4766b14ead62a1e01c3a8ddf201f8914
+SHA1: 7a4afff5ab0fa9f804d48e072eb39dd9a7c92985
+MD5sum: af88de60c372a781db5721e0ac4845f4
 Description: Shapes certificates
  This package contains the private certificates used to serve HTTPS
  pages between backends and frontends, only in localhost
