@@ -1244,15 +1244,15 @@ Package: libavatar
 Version: 23.9.11-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 32
+Installed-Size: 38
 Depends: python3
 Priority: optional
 Section: python
 Filename: pool/main/liba/libavatar/libavatar_23.9.11-1_all.deb
-Size: 5096
-SHA256: ad0fcfc1212dc2f1fec596dc1b18c6f006717843450579e553baca078993f434
-SHA1: c1b6467ecba4e6e41afbdc426a252ccea7fc0081
-MD5sum: 25f131f6b5b01729caaed175575e9524
+Size: 8212
+SHA256: 06af4be9aa44f7786eeaf8739a797e298e47d9066826c6d861e08cfd716f2a31
+SHA1: 3f1909bb9af64855297848ae7d3f3026da29a656
+MD5sum: 4eab8f7a2d104be9ced43c53c67e5405
 Description: Library to control the Phyxio Avatar
  Includes a Python library and a command line client to control the Phyxio
  Avatar. It allows the user to send commands like talk and stop, along with

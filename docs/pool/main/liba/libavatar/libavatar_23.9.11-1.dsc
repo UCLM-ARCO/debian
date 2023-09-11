@@ -12,26 +12,26 @@ Build-Depends: debhelper (>= 7.0.50~), debhelper-compat (= 12), quilt, python3, 
 Package-List:
  libavatar deb python optional arch=all
 Checksums-Sha1:
- d67be5624edd0203ffc861cb5bff5949db0a44a4 3800 libavatar_23.9.11.orig.tar.gz
+ 209379f5770f9d7e575b5cb1400ddd3eba734225 3904 libavatar_23.9.11.orig.tar.gz
  051cd2d6c5f0b025915918f6a531ebfe682b9522 992 libavatar_23.9.11-1.debian.tar.xz
 Checksums-Sha256:
- 0c49bfefac4e931595c27e4f613b9d8c27ac243ee6727c31aefe3479cbb51756 3800 libavatar_23.9.11.orig.tar.gz
+ 2e699eb6426d4ef1edbf3ba10b4316750d8964ead7b03099a151d80fe945cf37 3904 libavatar_23.9.11.orig.tar.gz
  34a0833304f7b65714fc205fc92719ccc746563b3382fdd2a062aa8f78ad0fb4 992 libavatar_23.9.11-1.debian.tar.xz
 Files:
- e187d3d8c5d3fd11f7c0473e9bc44a64 3800 libavatar_23.9.11.orig.tar.gz
+ b20d479cfc71843b541d7664a5ff5aa5 3904 libavatar_23.9.11.orig.tar.gz
  106454e9ef39e665b0b269370931c9a5 992 libavatar_23.9.11-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE9ErUI4Wa/hLLczLeznIf4D1BTpoFAmT+6K4ACgkQznIf4D1B
-TpoEdAwAhsKfRGo1G/lZ+Q0mzsqwBQOJSZbRbwBGIPU8n4dX7wf0WSDjhWRx9Jm+
-ATQFxrMpOIkdPFAiY/h3347NlM2rRGXHioY5zVWzRsgUh5XY/2ye2silyRsQ+fV/
-Nyxb/9Y2mXPm9YijYBB6pwWd2lXlnGLw2YIYYJ18AplajgyqpOQ0yNBdoCtLf7lo
-QJ0pPbTbzojpOqgUsyzVH/mHUDrB/BiImTla+FYKcJrO+tbhCGB7qqsY2Rh79M32
-xhm8xGRYKAhmL63xPGhk+yWUrUw1vtlmTUfpVETCBi4jjPsa0anuNs5/01hlyyPc
-PSJebyrDfhvlM3OKoVv6cDDozgispvT0mwPrKCcJYaoGVkSEYNGCLgkD4J1yG295
-JpNP+b3be5vEbdbeUzgqjfTzKcBr2wITAeAJ0ecWpo2UrVNa61A53l6rCj/1WC91
-PU40LIChxby/61fF76ZCbjdvX6P1BSbjXspaqnU1zkTdPN/jKRzQ4wCURYnkbS41
-JvGrqd0X
-=Eh5E
+iQGzBAEBCgAdFiEE9ErUI4Wa/hLLczLeznIf4D1BTpoFAmT+7DgACgkQznIf4D1B
+TprajQwAnH7eCSAzpsk4TDUUQfB55dQ2tm6ZJiuavlRjSm+tnYLRyJ60g53K9Q15
+2Phf7gImqrXVr+wvusXGeNsmHRqi2TV3frmc8l1gn07+exBf8RQoXkEFk6SyImuv
+kwmbh2DBae4cbMjtMr+2Z44PqBZGzuGD8lFrWufnXRcdBeVcgASZ1YYUJn9w3uMQ
+rLHjblqTonR8qf7a9bZW7adxQy2m+UyBpheBSuhvpoRz8JEzBoDXcFRKM4pbYDlq
+a7h0uaho8kAbjho8PlXc9ekEA94xMs8HkDSNOpaFIDB1syf5ft769QMVQMWijTxR
+fM3uQfwFp1qI0ToPh3mTgbGSwZeSzy253ibMhu9uwhFI+sPMK5P88YHuwx3HVL/3
+WOpwEIVKJ7dn31Y9CuyKfo5PbIIHUjsU90eM+uuQjgq/DXQJ/GziAYkVfePIHhyh
+spWPXzMUFuiwainWYT8TPCMCQpwsjeQ9Ri8DvGiARYoc0nJrVuHDXtMGLQV4hjYd
+MzamvOYh
+=vgmM
 -----END PGP SIGNATURE-----
