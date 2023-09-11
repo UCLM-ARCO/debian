@@ -183,24 +183,6 @@ MD5sum: e519db8e94adb57a966a952462cd75c4
 Description: Cerberus Authenticator Service
  This service is responsible for checking if the identification of the person is authorized to execute a command.
 
-Package: avatar-cli
-Version: 23.9.11-1
-Architecture: all
-Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 32
-Depends: python3
-Priority: optional
-Section: python
-Filename: pool/main/a/avatar-cli/avatar-cli_23.9.11-1_all.deb
-Size: 5092
-SHA256: bd00fd4966e9f8a5ac2bb2d0424d4234e8d9331150b07f5070cbf571be6ca082
-SHA1: d848bbc59e0ba4eb84980a01cfb89a923a2cb236
-MD5sum: eb5918f0f99ff7725c9ea6bc567ff57c
-Description: Library to control the Phyxio Avatar
- Includes a Python library and a command line client to control the Phyxio
- Avatar. It allows the user to send commands like talk and stop, along with
- managing the session with the Avatar.
-
 Package: citisim-actuator-wirer
 Version: 0.20191121-1
 Architecture: all
@@ -1259,6 +1241,24 @@ MD5sum: 5a3b581542bb2390cb9ee23c36fe1a6c
 Description: Web interface to control nodes
  Intended for iot-node, this package provides a web interface and a
  server to comunicate with nodes, change its settings and so on.
+
+Package: libavatar
+Version: 23.9.11-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 32
+Depends: python3
+Priority: optional
+Section: python
+Filename: pool/main/liba/libavatar/libavatar_23.9.11-1_all.deb
+Size: 5096
+SHA256: ad0fcfc1212dc2f1fec596dc1b18c6f006717843450579e553baca078993f434
+SHA1: c1b6467ecba4e6e41afbdc426a252ccea7fc0081
+MD5sum: 25f131f6b5b01729caaed175575e9524
+Description: Library to control the Phyxio Avatar
+ Includes a Python library and a command line client to control the Phyxio
+ Avatar. It allows the user to send commands like talk and stop, along with
+ managing the session with the Avatar.
 
 Package: libcitisim
 Version: 1.20191121-1
