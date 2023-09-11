@@ -147,24 +147,6 @@ MD5sum: e519db8e94adb57a966a952462cd75c4
 Description: Cerberus Authenticator Service
  This service is responsible for checking if the identification of the person is authorized to execute a command.
 
-Package: avatar-cli
-Version: 0.20230911-1
-Architecture: all
-Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 32
-Depends: python3
-Priority: optional
-Section: python
-Filename: pool/main/a/avatar-cli/avatar-cli_0.20230911-1_all.deb
-Size: 5100
-SHA256: ef478efcdf1d350e5431d3e7b1107f129e17ec2ef9fbc4072febc5a6ee35ca77
-SHA1: 0340ddc3135391c01716776bb23f019768aa03a5
-MD5sum: 732a4ae79115a5487dcc2c26c4f8435c
-Description: Library to control the Phyxio Avatar
- Includes a Python library and a command line client to control the Phyxio
- Avatar. It allows the user to send commands like talk and stop, along with
- managing the session with the Avatar.
-
 Package: bidir-icestorm
 Version: 0.20170719.3-1
 Architecture: i386
