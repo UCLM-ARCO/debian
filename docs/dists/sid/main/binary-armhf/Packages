@@ -1243,18 +1243,18 @@ Description: Web interface to control nodes
  server to comunicate with nodes, change its settings and so on.
 
 Package: libavatar
-Version: 23.9.11-1
+Version: 23.9.12-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 38
+Installed-Size: 39
 Depends: python3
 Priority: optional
 Section: python
-Filename: pool/main/liba/libavatar/libavatar_23.9.11-1_all.deb
-Size: 8212
-SHA256: 06af4be9aa44f7786eeaf8739a797e298e47d9066826c6d861e08cfd716f2a31
-SHA1: 3f1909bb9af64855297848ae7d3f3026da29a656
-MD5sum: 4eab8f7a2d104be9ced43c53c67e5405
+Filename: pool/main/liba/libavatar/libavatar_23.9.12-1_all.deb
+Size: 8388
+SHA256: d481de9e7a8bd388db54b96f12dcceeeffa3ccb61e1bf6f19fa2f6ae07bfdaf6
+SHA1: 1bf380381d3408ceabc37173ff98b082a72ee905
+MD5sum: 6d4ee25ee94bdc9d97f8449d82ceca9f
 Description: Library to control the Phyxio Avatar
  Includes a Python library and a command line client to control the Phyxio
  Avatar. It allows the user to send commands like talk and stop, along with
