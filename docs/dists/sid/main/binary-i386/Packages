@@ -1170,24 +1170,6 @@ Description: Web interface to control nodes
  Intended for iot-node, this package provides a web interface and a
  server to comunicate with nodes, change its settings and so on.
 
-Package: libavatar
-Version: 23.9.12-1
-Architecture: all
-Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 41
-Depends: python3
-Priority: optional
-Section: python
-Filename: pool/main/liba/libavatar/libavatar_23.9.12-1_all.deb
-Size: 9104
-SHA256: b95ee1883fd0e61d721b1c8bfd95dff2214007dd3b687176473d33ae4a970094
-SHA1: d4afabeb733066e6a59132e74a789b7c1a296dfb
-MD5sum: 23de625ee52651d24a8dac882bf0f8ab
-Description: Library to control the Phyxio Avatar
- Includes a Python library and a command line client to control the Phyxio
- Avatar. It allows the user to send commands like talk and stop, along with
- managing the session with the Avatar.
-
 Package: libcitisim
 Version: 1.20191121-1
 Architecture: all
