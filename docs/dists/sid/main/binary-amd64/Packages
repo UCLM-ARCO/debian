@@ -1278,18 +1278,18 @@ Description: Citisim library to easy usage
  implementations on the used languages for citisim.
 
 Package: libphyxioctx
-Version: 23.9.19-1
+Version: 23.9.20-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Installed-Size: 38
 Depends: python3, python3-peewee
 Priority: optional
 Section: python
-Filename: pool/main/libp/libphyxioctx/libphyxioctx_23.9.19-1_all.deb
-Size: 7312
-SHA256: 26c2405b949eedfda493e3f54ada84452d06bfdc4219adcc7876b6ae95d90204
-SHA1: 7e75a64611ac6cc43194d8df4cc033410a4c0604
-MD5sum: 107c4ec698418e1598c23c87af208f4f
+Filename: pool/main/libp/libphyxioctx/libphyxioctx_23.9.20-1_all.deb
+Size: 7532
+SHA256: d72433b8dd952264cc1a6e2a2b1b9ae38153c1bc8f36e67378818f0e697ecf43
+SHA1: 341ce1c174630f1434cbfcce8e499d9daad2f0ab
+MD5sum: 41feafe8d8d1c80e475bcb55e13f6de9
 Description: Library to access the Phyxio Context
  Includes a Python library and a command line client to control the Phyxio
  context. It allows third-party applications to access and update the stored
