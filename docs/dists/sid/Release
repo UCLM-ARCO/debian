@@ -2,19 +2,19 @@ Origin: ARCO Research Group
 Label: ARCO
 Suite: unstable
 Codename: sid
-Date: Thu, 28 Sep 2023 10:30:53 UTC
+Date: Thu, 28 Sep 2023 11:44:39 UTC
 Architectures: i386 amd64 armhf
 Components: main non-free
 Description: ARCO repository
 MD5Sum:
- 26272afb0bd7a03a1421ba52394e9042 112648 main/binary-i386/Packages
- 328f5fe2c0d691bbee52aabaac124230 34094 main/binary-i386/Packages.gz
+ 7c94a4d7453e7b4ed14b4a8bd3f08a94 111989 main/binary-i386/Packages
+ c409072a6165fb3254047b81bc07a6ca 33923 main/binary-i386/Packages.gz
  9fff0296e2b5ec46cc19cac11e803f59 122 main/binary-i386/Release
- f4e43353d69e6c4a29f08802a6a6d1cf 129752 main/binary-amd64/Packages
- f7e95d1b1dc31e03cdff04728d7e027f 38708 main/binary-amd64/Packages.gz
+ 609d4249705765f191fa7bab539f27ba 129093 main/binary-amd64/Packages
+ 9d25b12a55946d8dd6ec9277b8dc9a58 38531 main/binary-amd64/Packages.gz
  b857bd6b35764f2f06526877fdf508f2 123 main/binary-amd64/Release
- 634e20ac63e7d67dc6ff7df44c5e61d8 141527 main/binary-armhf/Packages
- 8ecaabf43b15ed126c67180a10eec145 44414 main/binary-armhf/Packages.gz
+ b43474c05b53403450bef7eeb3a850de 140868 main/binary-armhf/Packages
+ 47dfc6b9a974d49b34e6824faa86f052 44227 main/binary-armhf/Packages.gz
  c651628a3815193503c47452d13db11a 123 main/binary-armhf/Release
  a2e50a909cb4ae02907c4607a12cfdbd 89908 main/source/Sources
  0a930fa435d46646f43f66a46cf0df3d 25664 main/source/Sources.gz
@@ -32,14 +32,14 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  a189bb2a50038188196f5b413fd960a4 128 non-free/source/Release
 SHA1:
- 8ed41e50f7b473fa34cc47581e2062c0923ae80a 112648 main/binary-i386/Packages
- fc98ca3ad7cf4c767793a6e3bfc652b54aed6f5e 34094 main/binary-i386/Packages.gz
+ 58ab3cac37d7473982110510803dbeb06538cf78 111989 main/binary-i386/Packages
+ 807befdeec557d693a8a80159e26a5d46bdb243e 33923 main/binary-i386/Packages.gz
  f73c852905e94d1be8052f6dcd1632c45991e869 122 main/binary-i386/Release
- a48aad0e16343bb0eda20fd8bc7c91cfecd1f04f 129752 main/binary-amd64/Packages
- 1fb0be2d4d16b73b76547c2cade82efd6322749d 38708 main/binary-amd64/Packages.gz
+ 5e51b63a6418dc7e06d9801d09b6b906d9180e8d 129093 main/binary-amd64/Packages
+ 16e989562bbaee37b544bd40f94c41ab252ab83d 38531 main/binary-amd64/Packages.gz
  dd009351f7593883478b917f7e5573d1b9c1097c 123 main/binary-amd64/Release
- b4e4fcf12a1e3608ea46beb5bc76b0f8d6ab08d5 141527 main/binary-armhf/Packages
- 2a630a6034e41e7b86fa8dfa2c1919010d7bbdb3 44414 main/binary-armhf/Packages.gz
+ 28221737041359e7eb8eb0d87a620b44f3da095f 140868 main/binary-armhf/Packages
+ b2fb39ad5c22e60f5845ea4a47cf54ae2b58ef6d 44227 main/binary-armhf/Packages.gz
  2a1f20328501b86ca4ba3c77a019e344ffc586ed 123 main/binary-armhf/Release
  b131c21d25975915e69b825a8521337121a6fe57 89908 main/source/Sources
  aa9c564439f527d75fdbf8ee3a67b0a17ca759df 25664 main/source/Sources.gz
@@ -57,14 +57,14 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  949270a23d1fb78efebde956635ec0c2dd7670d2 128 non-free/source/Release
 SHA256:
- e775fdf744bf52f70d0277ad97452d056bf75d0717eee709419d0d33719dfbe5 112648 main/binary-i386/Packages
- b086b258572ab93d0bb854909a9ec17a7b8bdad96399e0e58f60891c73ffe15d 34094 main/binary-i386/Packages.gz
+ 60f8368fd0ff4a19c6e5d32c9abf3b9bfa0e075ca9ce981d29ba5c5fb959cc81 111989 main/binary-i386/Packages
+ 845c236c91835e04a7631f2e8dbeaca620c231b40451bba46f07fd4133f6ddd4 33923 main/binary-i386/Packages.gz
  503217a79b1ca22183ed19016019536af50170d0e0beae24a22e4569b7be90dc 122 main/binary-i386/Release
- 3a158a35193ac7450c4a30c82c1970ab52e7a2020a8f0d91102a08042c4eef55 129752 main/binary-amd64/Packages
- b670b3410d64bec32c4157958f77eb44cab5290f5caa8e2392bd2c79d5a6489e 38708 main/binary-amd64/Packages.gz
+ ba3f7686043043947d5ad6bc130d29f38d5b97383225a5bdd98b68a7cbd31717 129093 main/binary-amd64/Packages
+ 9f96fd8d531fec1d8cdd99ead2b43c2e4a9ccc8bf5f5ab452048626ccbbb4966 38531 main/binary-amd64/Packages.gz
  f2e0ea11e2fd1feaf25d61bccd60a87e4f8cc3020b4975d98d62270262a7be83 123 main/binary-amd64/Release
- 155b3ea0a96daa393552d52173e07da5f655db82ac7d11a219f09584919478a5 141527 main/binary-armhf/Packages
- 05957b00a5ea331da9af3c8bdde10238901450d2e4958ef8f2da003aac762d35 44414 main/binary-armhf/Packages.gz
+ 6bbe7b4f9cb9a7b7e9924c7659ae2db79acf18a5d827d51da24e91994be7483f 140868 main/binary-armhf/Packages
+ 3268c3d400c00e28ee502cef80b00f78b05b277324c091250da5d9cf5ddd6ce3 44227 main/binary-armhf/Packages.gz
  eca113d3289f5ab01f5f05e46150bf631e3c4b3e87862722a42b2fd91062418a 123 main/binary-armhf/Release
  dc91f770c70ea7a57584805a15d5cf34661e6bf34947ab2e6c3b5eb64f82ef86 89908 main/source/Sources
  0907d72fa80195ee6ecef16d9deda7b7994dae3ca7f15552b333a8ec5019c26a 25664 main/source/Sources.gz
