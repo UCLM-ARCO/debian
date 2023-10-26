@@ -2690,6 +2690,43 @@ Description: Interactive high-level object-oriented language (pyvenv binary, ver
  .
  This package contains the pyvenv-3.7 binary.
 
+Package: python3.9-distutils
+Source: python3.9
+Version: 3.9.18-1+jammy1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 766
+Depends: python3.9-lib2to3 (>= 3.6.4)
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Filename: pool/main/p/python3.9/python3.9-distutils_3.9.18-1+jammy1_all.deb
+Size: 192510
+SHA256: 350030e904dc6491f95effc36316325724583256eb270cc6edf70cdc388009bb
+SHA1: 5a194704b6fb7cf540626a31f442043d4de025b5
+MD5sum: 5a7747042973bec9bd7ad2c7432eba8f
+Description: distutils package for Python (version 3.9)
+ Distutils package for Python (version 3.9).  This package contains the
+ distutils module from the Python standard library.
+
+Package: python3.9-lib2to3
+Source: python3.9
+Version: 3.9.18-1+jammy1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 439
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Filename: pool/main/p/python3.9/python3.9-lib2to3_3.9.18-1+jammy1_all.deb
+Size: 126702
+SHA256: 399c6306418a1274e886bc7b857af5b205d5ceafe80eac5cb7f185f40a97b6c3
+SHA1: 16c66e89c3423c656e69563f6db0079f2de687e2
+MD5sum: c5338d3aa44c6e7749c60d83460b915a
+Description: lib2to3 package for Python (version 3.9)
+  Lib2to3 package for Python (version 3.9).  This package contains the
+  lib2to3 module from the Python standard library.
+
 Package: ripio
 Version: 0.20211110-1
 Architecture: all
