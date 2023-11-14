@@ -56,20 +56,20 @@ Description: the ARCO debian repository gpg key
   the ARCO debian repository GPG key
 
 Package: arco-authors
-Version: 0.20210319-1
+Version: 0.20231114-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
-Installed-Size: 654
+Installed-Size: 668
 Depends: texlive-binaries, texlive-lang-spanish, texlive-latex-extra, texlive-latex-recommended, texlive-extra-utils, texlive-fonts-extra, texlive-fonts-recommended, texlive-bibtex-extra, cm-super, inkscape, netpbm, aspell-en, dblatex, dia
 Recommends: unoconv, noweb
 Homepage: https://bitbucket.org/arco_group/arco-authors
 Priority: extra
 Section: shells
-Filename: pool/main/a/arco-authors/arco-authors_0.20210319-1_all.deb
-Size: 175900
-SHA256: 1befe10a18ca1356a298afda6e40ea1ac05e5e4cfe3ff0a87a486ac0ae8a6031
-SHA1: 63ec5907eaf9cf9e5796d6b41617690043e7de2e
-MD5sum: 97b302f6d6ad2b144be1745fb6b1a933
+Filename: pool/main/a/arco-authors/arco-authors_0.20231114-1_all.deb
+Size: 189604
+SHA256: 306f0095ebc9b25a04194da3b0063101fa577f4220177db9c981144d0248e6e7
+SHA1: 7dd24a1187a28e3e01015a24d27eb8430af31827
+MD5sum: a1c80c7d64d8a8f6eab9b9d164ee3394
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
@@ -944,10 +944,10 @@ MD5sum: 7015cc4ca03d4db4053afdc0cf3ffbd5
 Description: Aplicacion web que muestra historicos de temperatura y humedad en la ESI de Ciudad Real
 
 Package: ian
-Version: 0.20220323-1
+Version: 0.20231114-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
-Installed-Size: 93
+Installed-Size: 92
 Depends: quilt, gnupg, dupload, build-essential, sudo, devscripts, equivs, libwww-perl, bc, unzip, xz-utils, openssh-client, expect, python3
 Suggests: vagrant, virtualbox, ansible, reprepro
 Breaks: arco-devel (<< 0.20141029-1)
@@ -955,11 +955,11 @@ Replaces: arco-devel (<< 0.20141029-1)
 Homepage: https://bitbucket.org/DavidVilla/ian
 Priority: optional
 Section: shells
-Filename: pool/main/i/ian/ian_0.20220323-1_all.deb
-Size: 22000
-SHA256: 9f81d32c95e43bae87ccdff582602d2c55f23f47c3b96d65f183fc5f966e32dd
-SHA1: dba438c92a92539095400a76861a9b9446cf7b30
-MD5sum: fab6d6d5d88e77d8fe960584c99312e1
+Filename: pool/main/i/ian/ian_0.20231114-1_all.deb
+Size: 21004
+SHA256: 58555597df946ef9eb9dad8fe4d13852ca44c1973bbfee003e3f3ebd293c2197
+SHA1: 7539d11dec25acffc0ed9939c02ce1430481b558
+MD5sum: 1ccbe15d405171e06e3a1457ac344f9d
 Description: command line helper to maintain Debian packages
  ian is a helper to simplify and assist to the maintainer in the using
  of Debian packaging  tools. It can create or get orig tarball, install
