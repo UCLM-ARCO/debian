@@ -2417,6 +2417,28 @@ MD5sum: 5f2b29490db07f9fece4379284109400
 Description: Read keystrokes from a gamepad
  Read strokes from a gamepad and sents to a observer class.
 
+Package: python3-gattlib-dbus
+Source: gattlib-dbus
+Version: 23.12.21-1
+Architecture: all
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Installed-Size: 65
+Depends: python3 (>= 3.7), python3-dasbus, bluez (>= 5.40)
+Breaks: python3-gattlib (<< 5.71)
+Replaces: python3-gattlib (<< 5.71)
+Homepage: https://github.com/oscaracena/pygattlib
+Priority: optional
+Section: python
+Filename: pool/main/g/gattlib-dbus/python3-gattlib-dbus_23.12.21-1_all.deb
+Size: 14524
+SHA256: 8385a11b3ec8526dc52b989bd04f0ec2487f30ed2d090a05177b3be4bc3628b8
+SHA1: 0d061c60ce6b80e3345a46a7edf834115ddb8139
+MD5sum: 8a198a1c1784131d166f98e8eabbc172
+Description: Bluetooth LE GATT library (Python 3, D-Bus version)
+ This is a Python library to use the GATT Protocol for Bluetooth LE
+ devices. It uses D-Bus to communicate with the bluetooth daemon and
+ give access to adapters, services, devices, characteristics, etc.
+
 Package: python3-hexdump
 Source: hexdump
 Version: 3.3+ds.1-1
