@@ -13,26 +13,26 @@ Build-Depends: debhelper (>= 12), quilt, dh-python, python3-all, python3-setupto
 Package-List:
  python3-miband deb python optional arch=all
 Checksums-Sha1:
- 49584817a22219729a16452f908e904fed020df9 26167 miband_24.1.8.orig.tar.gz
- c73566c0393c97cee073a255ead328c503e9d8d9 1756 miband_24.1.8-1.debian.tar.xz
+ e7f3450f288783d891b8c96ad955d7b73837e58a 26169 miband_24.1.8.orig.tar.gz
+ 2d386d5ec9ca9e08d7340a80d7b783852c7cac2c 1760 miband_24.1.8-1.debian.tar.xz
 Checksums-Sha256:
- 57f8f174cdfa4d5145c483128f186fe4329c3124dcb605c1c63aa8045e7cb527 26167 miband_24.1.8.orig.tar.gz
- f621539afff63ee3d6e0290b7a046265343a4d607258ccfcd8057dd10b456eb4 1756 miband_24.1.8-1.debian.tar.xz
+ 606ba9d87884bfec799c730fe6c84390d3f5be7504afba45f88c7cc46eb511a4 26169 miband_24.1.8.orig.tar.gz
+ 710c8babbff0df38f7b8186b6ef226a09553ed3b889335dc9e06d135bd343914 1760 miband_24.1.8-1.debian.tar.xz
 Files:
- a2005e13d557bb364cedb751fa4d7a23 26167 miband_24.1.8.orig.tar.gz
- 65cec2192bd2f57865cdf2b3b23ccf77 1756 miband_24.1.8-1.debian.tar.xz
+ a0432d6e245d5b863ce4c7b867b93123 26169 miband_24.1.8.orig.tar.gz
+ 3af62d2e2737cc5ed5cd4322fc936557 1760 miband_24.1.8-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE9ErUI4Wa/hLLczLeznIf4D1BTpoFAmWb8LAACgkQznIf4D1B
-TpoMpwwAhGXQzmbTaU5jMLTgOTXtSP+kBBjfMyAaFeK4xOs4EW04tEBGnB2dvcc3
-tuNCixGis8TaPT3zX0a8T7tH/WluBegWS154zhsOuu1+TyASe5/MJThic6RnhEyS
-UaZzJkyTacgfSgeaV1r2xb6v23zNd2Qchslfwwhy1EFh3NfIwjgpz440nH+7m8mA
-OKse17op99GIlJMRxafdo1Tr4pLwsq933xKiXq2KNtLU7VUjyjfCmBjzzHbcgtlz
-wQ/U8p8nQhBoFu1jiUs3FMfJMsQu7s7uZ93e3xJbP/yfy1t2U4tY9ASej3nzGhUF
-8kmVbifb5EmTo/m8aSKMfEMxjs7G80CSUqdAHCRjT2ceMf4EjF1mj7Z16ycdE7wg
-/w11Z4b7auvRIVL1P+EBZhEZqQ7Bcn0ZYJV5bT48YopOJweMfBftjgoPQbXvtDh/
-UwBiPCfyKGVba56A9mf+lCEZbLg96PO5QHl7OCLqYl16lF5F5NG2Xp7wSmoUhIoj
-1Wu0zp5N
-=qq3V
+iQGzBAEBCgAdFiEE9ErUI4Wa/hLLczLeznIf4D1BTpoFAmWeV4sACgkQznIf4D1B
+TprIzgv/TPz/Lm2KbZ8e77aQPZURSTw7PXbPJ7/vXWjjMqcVAPhZXjplqWmhoe5R
+6IrG/knalZ+2eYGadlQLKUcRm56RgOeGJqsiu1TgnVh4vzK9mnOrzfeBzfbHrYgw
+zU/fTbXvEQgRygWC5HIvZgIDklFyq+RY6bt+UA1vCNOjgdsIFlUecFoIsGgfFEp7
+zOB+N+BRD8BGy5Qyy1SaU5OOEVb2xU5QJ9ZXZFf5I7qAPozzDAkcp5AG2Ks27FGF
+vUu6XW6OSx+bCcfI21ae3Yl04dbDDjyxvGD8Y4GLFbQLLwLaXMOVR0XUos1PGWEj
+hS54DZenPQV6C8NF7zppA29AEXkgOW7fawcKIrM/mmOH/X7Cct3yhtuG+h4EUgVx
+qm/7jQAmZ/4iUSw6Dv80YVNROQK8TmzBAozTM0tTUyEbapOsHj9midtIiFkJWXmR
+qivIA1uuKrl4lJpbbE6iLkGVqDjVeWYIaqTVhLX2Dq42lEKWXEySuZBW87W874Bk
+hKJdqpOj
+=c2gn
 -----END PGP SIGNATURE-----
