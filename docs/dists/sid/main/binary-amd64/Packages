@@ -2258,10 +2258,10 @@ Homepage: https://github.com/oscaracena/pygattlib
 Priority: optional
 Section: python
 Filename: pool/main/g/gattlib-dbus/python3-gattlib-dbus_24.1.8-1_all.deb
-Size: 15080
-SHA256: 2029b58ed15b824b9bcf799806dd19740bd2c246efc24e09e9ae6a8bc342f88d
-SHA1: 78bf22bdddd96125d68545af60ae5d016cfcd515
-MD5sum: 41948f66e7b2d454fa3120561f618f86
+Size: 15082
+SHA256: 353fc48e035a458968c99bbbdaddf7a74d1cbc0fc8efb32139e1dde1e45c3961
+SHA1: 2f3288aa6aa3819e8eaafb9947a4bb3244b5ac80
+MD5sum: f69e3d7ad745cabe7838538212292a2a
 Description: Bluetooth LE GATT library (Python 3, D-Bus version)
  This is a Python library to use the GATT Protocol for Bluetooth LE
  devices. It uses D-Bus to communicate with the bluetooth daemon and
