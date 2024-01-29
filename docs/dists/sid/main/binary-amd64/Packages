@@ -3486,3 +3486,21 @@ Description: Virtual package to install ZeroC Ice 3.7.3
  virtual package that install Debian packages provided by ZeroC.
  Ice core services.
 
+Package: zigbee2mqtt
+Version: 1.35.1-1
+Architecture: all
+Maintainer: Cristina Bolaños <Cristina.Bolanos@uclm.es>
+Installed-Size: 1964
+Depends: nodejs (>= 20)
+Priority: optional
+Section: utils
+Filename: pool/main/z/zigbee2mqtt/zigbee2mqtt_1.35.1-1_all.deb
+Size: 442828
+SHA256: 496215a8f34345b5c0abe64c89797cfac543518cabb17b43c5c5dfa7b6bee964
+SHA1: f980aa0f10d50b3ec5f087cc4b755e1f552b24cb
+MD5sum: 4a90a378686144b85b788d83f6952819
+Description: Allows you to use your Zigbee devices without the vendor's bridge or gateway.
+ It bridges events and allows you to control your Zigbee devices via MQTT.
+ In this way you can integrate your Zigbee devices with
+ whatever smart home infrastructure you are using.
+
