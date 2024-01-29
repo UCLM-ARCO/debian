@@ -2422,7 +2422,7 @@ Source: gattlib-dbus
 Version: 24.1.8-1
 Architecture: all
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
-Installed-Size: 66
+Installed-Size: 84
 Depends: python3 (>= 3.7), python3-dasbus, bluez (>= 5.40)
 Breaks: python3-gattlib (<< 5.71)
 Replaces: python3-gattlib (<< 5.71)
@@ -2430,10 +2430,10 @@ Homepage: https://github.com/oscaracena/pygattlib
 Priority: optional
 Section: python
 Filename: pool/main/g/gattlib-dbus/python3-gattlib-dbus_24.1.8-1_all.deb
-Size: 15082
-SHA256: 353fc48e035a458968c99bbbdaddf7a74d1cbc0fc8efb32139e1dde1e45c3961
-SHA1: 2f3288aa6aa3819e8eaafb9947a4bb3244b5ac80
-MD5sum: f69e3d7ad745cabe7838538212292a2a
+Size: 29602
+SHA256: 86514cf3cbbe5891a6d15567537605d9d1760fc4bb6194175382b59ea26ee87f
+SHA1: ab46ed003cf9982da5f832c0ea3e1794e16fb98c
+MD5sum: 56115760aa1c9af5994e70af50946efc
 Description: Bluetooth LE GATT library (Python 3, D-Bus version)
  This is a Python library to use the GATT Protocol for Bluetooth LE
  devices. It uses D-Bus to communicate with the bluetooth daemon and
