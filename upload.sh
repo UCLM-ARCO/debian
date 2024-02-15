@@ -13,7 +13,7 @@ function pool-commit {
 function pool-sync {
     git add docs/*
 
-    package=$(git status -s | grep ^A | grep .dsc$ | head -1 | awk '{print $2}')
+    package=$(git status -s | grep ^A | grep .deb$ | head -1 | awk '{print $2}' | sed 's/_[^_]*$//')
 
     if [[ "$package" ]]; then
 	name=$(basename "$package" .dsc)
