@@ -2076,7 +2076,7 @@ Description: ASAPA authorization module for Python
 
 Package: python3-commodity
 Source: python-commodity
-Version: 0.20220221.1-2
+Version: 0.20240219-1
 Architecture: all
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 91
@@ -2084,11 +2084,11 @@ Depends: python3:any, python3-setuptools, python3-hamcrest, python3-configobj, i
 Homepage: https://bitbucket.org/arco_group/python-commodity
 Priority: optional
 Section: python
-Filename: pool/main/p/python-commodity/python3-commodity_0.20220221.1-2_all.deb
-Size: 20968
-SHA256: ee42683553d8887f905b2b69638ce0721b19b4f2bbb6fae366ea7f81a9458d41
-SHA1: bc7055fbabc9ea8db18dd0ffb578046fe986c551
-MD5sum: e986e7be121155ca6418c351638ab5ea
+Filename: pool/main/p/python-commodity/python3-commodity_0.20240219-1_all.deb
+Size: 20768
+SHA256: 8ce5a1877dd766b63127f568f6a8391921de581c1a20d0508024685442d2896f
+SHA1: 76ae330fa579b6acae39b9920cfeebee9d0e4b57
+MD5sum: 4f9413d7a2a46dbb020cb4b7ccf2ff15
 Description: Useful utilities library for Python 3 programmers
  python-commodity is a set of general purpose classes, functions and
  utilities (commodities) for Python 3 programming.
