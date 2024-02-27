@@ -9,8 +9,7 @@
           display: block;
           font-family: monospace;
           clear: left;
-
-    overflow-x: auto;
+          overflow-x: auto;
           white-space: pre-wrap;
           white-space: -pre-wrap;
           word-wrap: break-word;
@@ -22,14 +21,19 @@
           bottom:8px;
           color: #ddd;
           text-decoration: none;
-               }
+      }
+      .by-hand {
+          background-color: #f0f0f0;
+          padding: 10px 20px;
+          margin: 10px 20px;
+      }
     </style>
   </head>
 
   <body style="margin: 30px 10%; font-size: large; font-family: Helvetica, Sans-Serif">
   <h1>ARCO Debian package repository</h1>
 
-  To use this package repository:
+  To use this package repository, run:
 
 <pre class="console">
 $ curl -s  https://uclm-arco.github.io/debian/add-repo.sh | sudo bash
@@ -37,6 +41,7 @@ $ curl -s  https://uclm-arco.github.io/debian/add-repo.sh | sudo bash
 
   Or by hand:
 
+<div class="by-hand">
 <pre class="console">
 $ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc
 </pre>
@@ -60,5 +65,7 @@ $ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc
   <pre class="console">
 $ echo "deb https://uclm-arco.github.io/debian/ sid main" | sudo tee /etc/apt/sources.list.d/arco.list
 $ sudo apt update </pre>
+</div>
+
   </body>
 </html>
