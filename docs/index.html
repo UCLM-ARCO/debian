@@ -29,7 +29,13 @@
   <body style="margin: 30px 10%; font-size: large; font-family: Helvetica, Sans-Serif">
   <h1>ARCO Debian package repository</h1>
 
-  To use this package repository, get repo key:
+  To use this package repository:
+
+<pre class="console">
+$ curl -s  https://uclm-arco.github.io/debian/add-repo.sh | sudo bash
+</pre>
+
+  Or by hand:
 
 <pre class="console">
 $ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc
@@ -38,7 +44,7 @@ $ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-ar
   Alternatives:
 
 <pre class="console">
-$ wget -qO- https://uclm-arco.github.io/debian/uclm-arco.asc | sudo tee /etc/apt/trusted.gpg.d/uclm-arco.asc
+$ wget -qO- https://uclm-arco.github.io/debian/uclm-arco.asc | sudo tee /etc/apt/trusted.gpg.d/uclm-arco.gpg
 $ gpg --keyserver keyserver.ubuntu.com --recv-key D917ABDD28380433; gpg --export D917ABDD28380433 | sudo cat > /etc/apt/trusted.gpg.d/uclm-arco.gpg
 </pre>
 
