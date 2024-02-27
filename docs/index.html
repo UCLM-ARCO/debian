@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <title>ARCO Debian package repository</title>
     <style type="text/css">
       .console {
           font-size: 90%;
@@ -62,7 +64,7 @@ $ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc
 
   And add the repository:
 
-  <pre class="console">
+<pre class="console">
 $ echo "deb https://uclm-arco.github.io/debian/ sid main" | sudo tee /etc/apt/sources.list.d/arco.list
 $ sudo apt update </pre>
 </div>
