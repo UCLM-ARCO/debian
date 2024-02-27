@@ -10,7 +10,7 @@
           font-family: monospace;
           clear: left;
 
-	  overflow-x: auto;
+    overflow-x: auto;
           white-space: pre-wrap;
           white-space: -pre-wrap;
           word-wrap: break-word;
@@ -32,18 +32,16 @@
   To use this package repository, get repo key:
 
 <pre class="console">
-$ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D917ABDD28380433
+</pre>
 
-    Or:
+Legacy and deprecated alternative methods:
 
-<pre class="console">
-$ gpg --keyserver keyserver.ubuntu.com --recv-key D917ABDD28380433 | sudo tee /etc/apt/trusted.gpg.d/uclm-arco.asc</pre>
-
-    Or
-
-<pre class="console">
-$ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc</pre>
-  <div style="text-align:right">(warning: apt-2.1.8 deprecates apt-key command).</div>
+<pre>
+$ sudo wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc
+$ gpg --keyserver keyserver.ubuntu.com --recv-key D917ABDD28380433 | sudo tee /etc/apt/trusted.gpg.d/uclm-arco.asc
+$ sudo apt-key adv --fetch-keys https://uclm-arco.github.io/debian/uclm-arco.asc
+</pre>
 
 
   And add the repository:
