@@ -22,7 +22,7 @@ function pool-sync {
 	exit
     fi
 
-    package=$(git status -s | grep ^D | grep .dsc$ | head -1 | awk '{print $2}')
+    package=$(git status -s | grep ^D | grep .deb$ | head -1 | awk '{print $2}' | sed 's/_[^_]*$//')
 
     if [[ "$package" ]]; then
 	name=$(basename "$package" .dsc)
