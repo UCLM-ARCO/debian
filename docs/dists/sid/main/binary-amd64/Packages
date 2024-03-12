@@ -913,18 +913,18 @@ Description: fast directory finder
   * multiprocess execution.
 
 Package: graf
-Version: 0.20240112-1
+Version: 0.20240312-1
 Architecture: amd64
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Installed-Size: 36
 Depends: python3:any, python3-lxml, arco-authors (>= 0.20231121-1)
 Priority: optional
 Section: utils
-Filename: pool/main/g/graf/graf_0.20240112-1_amd64.deb
-Size: 6892
-SHA256: 739486ff159fa6fa14754c4bf145b927c372f98f3242762d39826fa0fc0d2f4f
-SHA1: e88ae118ddce68fdcac0a6f178f33894c4300634
-MD5sum: 65e635fd130cef3e5e828a492e718a7b
+Filename: pool/main/g/graf/graf_0.20240312-1_amd64.deb
+Size: 6920
+SHA256: 2899b94d32efb60b03a3b2683541b4f873dfeeb8775ebefce219de0c4b904021
+SHA1: 3ef0569548c46a9c66981f6cfaf8e94b73300098
+MD5sum: 6438b39dc00dfb6d9c42c03f13840e81
 Description: XML exam to LaTeX/PDF compiler
  XML exam to LaTeX/PDF compiler for the Grading Automation Framework (GRAF).
 
