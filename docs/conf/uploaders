@@ -15,10 +15,6 @@ allow * by key 11622BED
 allow * by key C5BC007C
 
 # cristina.bolaños
-allow * by key 9E47F816
-# allow * by key FF77D1A8
-# allow * by key 7DD8B083
-# allow * by key AF6E1722
-allow * by key 121CF947
+allow * by key 4774901C
 
 # end
