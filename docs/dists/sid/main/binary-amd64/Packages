@@ -56,7 +56,7 @@ Description: the ARCO debian repository gpg key
   the ARCO debian repository GPG key
 
 Package: arco-authors
-Version: 0.20250309-1
+Version: 0.20250309.1-1
 Architecture: all
 Maintainer: ARCO Research Group <sysadm@arco.esi.uclm.es>
 Installed-Size: 656
@@ -65,11 +65,11 @@ Recommends: unoconv, noweb
 Homepage: https://bitbucket.org/arco_group/arco-authors
 Priority: extra
 Section: shells
-Filename: pool/main/a/arco-authors/arco-authors_0.20250309-1_all.deb
-Size: 177540
-SHA256: e8adb564bebf40c9b7f3fbef921e6e4dbdf5297ef2368d02e81638544e43a61d
-SHA1: 975ab40e71a1bfc70fc3ed841759c677613591b4
-MD5sum: 75692e165467d368f0483fede939c1a8
+Filename: pool/main/a/arco-authors/arco-authors_0.20250309.1-1_all.deb
+Size: 177596
+SHA256: 63370bce0a1e04d27f48532e185943b2cd107729642bc92a52ccc1182edff2a9
+SHA1: ca4ce66f7c99ab1498380a2ea8c7b9f5ba0ac479
+MD5sum: d7bb85219fa0debec78ad61a6688369a
 Description: ARCO authors tools, styles and templates
  LaTeX and DocBook utilities and styles for Arco authors.
 
