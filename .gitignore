@@ -4,3 +4,7 @@
 private.key
 gnupg/.gpg-v21-migrated
 gnupg/private-keys-v1.d/
+docs/db/*
+*.cache
+docs/dists/*/main/
+docs/dists/*/non-free/
