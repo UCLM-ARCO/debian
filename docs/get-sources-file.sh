@@ -1,7 +1,7 @@
 #!/bin/bash -
 
 apt -y install wget
-wget -P /etc/apt/trusted.gpg.d https://uclm-arco.github.io/debian/uclm-arco.asc
+wget -O /etc/apt/trusted.gpg.d/uclm-arco.asc https://uclm-arco.github.io/debian/uclm-arco.asc
 
 cat > /etc/apt/sources.list.d/arco.sources <<'EOF'
 Types: deb
