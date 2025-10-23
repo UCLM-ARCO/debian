@@ -1,0 +1,29 @@
+Origin: ARCO Research Group
+Label: ARCO
+Suite: archive
+Codename: archive
+Date: Thu, 23 Oct 2025 18:38:31 UTC
+Architectures: i386 amd64
+Components: main
+Description: ARCO Debian repository for static packages
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ 24046b11e7354b8a5cb4dc335da2f7b6 148 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 77aed7d44272db913c2c102217b497ef 149 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ cb0fe7f8ac26c4da0054ae81a287e9ca93753a01 148 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 63d19dd89f3afda6dafbec2684c68e88d2e11743 149 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 9ab64303686faeb54eb0626d63c39d8e1033eda70e3a04c5ac257e2429dd4b3a 148 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ d72310ee724ce42bffdbaf80cfb139b818be5e65be71efeddf405408627fc5c1 149 main/binary-amd64/Release
