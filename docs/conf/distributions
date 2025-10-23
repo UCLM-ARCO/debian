@@ -4,8 +4,8 @@ Suite: stable
 Codename: stable
 Architectures: i386 amd64 armhf source
 Components: main non-free
-Description: ARCO repository
-SignWith: arco.uclm@gmail.com
+Description: ARCO Debian repository
+SignWith: 75CBD98B61DD4E1C
 Pull: stable-pull
 
 Origin: ARCO Research Group
@@ -14,8 +14,8 @@ Suite: unstable
 Codename: sid
 Architectures: i386 amd64 armhf source
 Components: main non-free
-Description: ARCO repository
-SignWith: arco.uclm@gmail.com
+Description: ARCO Debian repository
+SignWith: 75CBD98B61DD4E1C
 Uploaders: uploaders
 
 Origin: ARCO Research Group
@@ -24,8 +24,8 @@ Suite: experimental
 Codename: experimental
 Architectures: i386 amd64 armhf source
 Components: main non-free
-Description: ARCO repository
-SignWith: arco.uclm@gmail.com
+Description: ARCO Debian repository
+SignWith: 75CBD98B61DD4E1C
 
 Origin: ARCO Research Group
 Label: ARCO
@@ -33,4 +33,4 @@ Suite: archive
 Codename: archive
 Architectures: i386 amd64
 Components: main
-Description: ARCO repository for static packages
+Description: ARCO Debian repository for static packages
