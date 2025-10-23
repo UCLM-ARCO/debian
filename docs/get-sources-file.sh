@@ -13,4 +13,4 @@ EOF
 
 apt update
 
-echo "file /etc/apt/sources.list.d/arco.sources was created."
+echo "** File '/etc/apt/sources.list.d/arco.sources' was created."
